@@ -38,7 +38,7 @@ img, svg, video, canvas, audio, iframe, embed, object { display: block; vertical
 img, video { max-width: 100%; height: auto; }
 [hidden] { display: none; }
 /* Variables */
-:where(html) { --aspect-1x1: 1; --aspect-4x3: 4/3; --aspect-3x4: 3/4; --aspect-16x9: 16/9; --aspect-18x5: 18/5; --aspect-golden: 1.618/1; }
+:where(html) { --aspect-1x1: 1; --aspect-4x3: 4/3; --aspect-3x4: 3/4; --aspect-16x9: 16/9; --aspect-18x5: 18/5; --aspect-golden: 1.618/1; --content-xs: 20rem; --content-sm: 24rem; --content-md: 28rem; --content-lg: 32rem; --content-xl: 40rem; --content-2xl: 48rem; --content-3xl: 56rem; --content-4xl: 64rem; --content-5xl: 72rem; --content-6xl: 80rem; --content-prose-sm: 24ch; --content-prose-md: 32ch; --content-prose-lg: 40ch; --content-prose-xl: 48ch; --content-prose-2xl: 56ch; --size-0: 0; --size-px: 1px; --size-1: .125rem; --size-2: .25rem; --size-3: .5rem; --size-4: 1rem; --size-5: 1.5rem; --size-6: 2rem; --size-7: 3rem; --size-8: 4rem; --size-9: 5rem; --size-10: 7.5rem; --size-11: 10rem; --size-12: 15rem; }
 /* Aspect Ratio */
 .aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
 .aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -64,6 +64,8 @@ img, video { max-width: 100%; height: auto; }
 .columns-4 { -moz-columns: 4; columns: 4; }
 .columns-5 { -moz-columns: 5; columns: 5; }
 .columns-6 { -moz-columns: 6; columns: 6; }
+/* Container */
+.container { margin-left: auto; margin-right: auto; padding-left: var( --size-4 ); padding-right: var( --size-4 ); width: 100%; }
 @media (min-width: 40em) {
  .sm\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .sm\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -84,7 +86,8 @@ img, video { max-width: 100%; height: auto; }
  .sm\:columns-3 { -moz-columns: 3; columns: 3; }
  .sm\:columns-4 { -moz-columns: 4; columns: 4; }
  .sm\:columns-5 { -moz-columns: 5; columns: 5; }
- .sm\:columns-6 { -moz-columns: 6; columns: 6; } }
+ .sm\:columns-6 { -moz-columns: 6; columns: 6; }
+ .container { max-width: var( --content-xl ); } }
 @media (min-width: 48em) {
  .md\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .md\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -105,7 +108,8 @@ img, video { max-width: 100%; height: auto; }
  .md\:columns-3 { -moz-columns: 3; columns: 3; }
  .md\:columns-4 { -moz-columns: 4; columns: 4; }
  .md\:columns-5 { -moz-columns: 5; columns: 5; }
- .md\:columns-6 { -moz-columns: 6; columns: 6; } }
+ .md\:columns-6 { -moz-columns: 6; columns: 6; }
+ .container { max-width: var( --content-2xl ); } }
 @media (min-width: 64em) {
  .lg\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .lg\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -126,7 +130,8 @@ img, video { max-width: 100%; height: auto; }
  .lg\:columns-3 { -moz-columns: 3; columns: 3; }
  .lg\:columns-4 { -moz-columns: 4; columns: 4; }
  .lg\:columns-5 { -moz-columns: 5; columns: 5; }
- .lg\:columns-6 { -moz-columns: 6; columns: 6; } }
+ .lg\:columns-6 { -moz-columns: 6; columns: 6; }
+ .container { max-width: var( --content-4xl ); } }
 @media (min-width: 80em) {
  .xl\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .xl\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -147,4 +152,5 @@ img, video { max-width: 100%; height: auto; }
  .xl\:columns-3 { -moz-columns: 3; columns: 3; }
  .xl\:columns-4 { -moz-columns: 4; columns: 4; }
  .xl\:columns-5 { -moz-columns: 5; columns: 5; }
- .xl\:columns-6 { -moz-columns: 6; columns: 6; } }
+ .xl\:columns-6 { -moz-columns: 6; columns: 6; }
+ .container { max-width: var( --content-6xl ); } }
