@@ -57,6 +57,7 @@
 @import "sizing/max-height.css";
 @import "sizing/max-width.css";
 @import "sizing/min-height.css";
+@import "sizing/min-width.css";
 
 @custom-media --sm (min-width: 40em);
 @custom-media --md (min-width: 48em);
