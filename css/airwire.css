@@ -49,6 +49,9 @@ img, video { max-width: 100%; height: auto; }
 /* Box Decoration Break */
 .box-decoration-clone { -webkit-box-decoration-break: clone; box-decoration-break: clone; }
 .box-decoration-slice { -webkit-box-decoration-break: slice; box-decoration-break: slice; }
+/* Box Sizing */
+.box-border { box-sizing: border-box; }
+.box-content { box-sizing: content-box; }
 @media (min-width: 40em) {
  .sm\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .sm\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -57,7 +60,9 @@ img, video { max-width: 100%; height: auto; }
  .sm\:aspect-18x5 { aspect-ratio: var( --aspect-18x5 ); }
  .sm\:aspect-golden { aspect-ratio: var( --aspect-golden ); }
  .sm\:box-decoration-clone { -webkit-box-decoration-break: clone; box-decoration-break: clone; }
- .sm\:box-decoration-slice { -webkit-box-decoration-break: slice; box-decoration-break: slice; } }
+ .sm\:box-decoration-slice { -webkit-box-decoration-break: slice; box-decoration-break: slice; }
+ .sm\:box-border { box-sizing: border-box; }
+ .sm\:box-content { box-sizing: content-box; } }
 @media (min-width: 48em) {
  .md\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .md\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -66,7 +71,9 @@ img, video { max-width: 100%; height: auto; }
  .md\:aspect-18x5 { aspect-ratio: var( --aspect-18x5 ); }
  .md\:aspect-golden { aspect-ratio: var( --aspect-golden ); }
  .md\:box-decoration-clone { -webkit-box-decoration-break: clone; box-decoration-break: clone; }
- .md\:box-decoration-slice { -webkit-box-decoration-break: slice; box-decoration-break: slice; } }
+ .md\:box-decoration-slice { -webkit-box-decoration-break: slice; box-decoration-break: slice; }
+ .md\:box-border { box-sizing: border-box; }
+ .md\:box-content { box-sizing: content-box; } }
 @media (min-width: 64em) {
  .lg\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .lg\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -75,7 +82,9 @@ img, video { max-width: 100%; height: auto; }
  .lg\:aspect-18x5 { aspect-ratio: var( --aspect-18x5 ); }
  .lg\:aspect-golden { aspect-ratio: var( --aspect-golden ); }
  .lg\:box-decoration-clone { -webkit-box-decoration-break: clone; box-decoration-break: clone; }
- .lg\:box-decoration-slice { -webkit-box-decoration-break: slice; box-decoration-break: slice; } }
+ .lg\:box-decoration-slice { -webkit-box-decoration-break: slice; box-decoration-break: slice; }
+ .lg\:box-border { box-sizing: border-box; }
+ .lg\:box-content { box-sizing: content-box; } }
 @media (min-width: 80em) {
  .xl\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .xl\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -84,4 +93,6 @@ img, video { max-width: 100%; height: auto; }
  .xl\:aspect-18x5 { aspect-ratio: var( --aspect-18x5 ); }
  .xl\:aspect-golden { aspect-ratio: var( --aspect-golden ); }
  .xl\:box-decoration-clone { -webkit-box-decoration-break: clone; box-decoration-break: clone; }
- .xl\:box-decoration-slice { -webkit-box-decoration-break: slice; box-decoration-break: slice; } }
+ .xl\:box-decoration-slice { -webkit-box-decoration-break: slice; box-decoration-break: slice; }
+ .xl\:box-border { box-sizing: border-box; }
+ .xl\:box-content { box-sizing: content-box; } }
