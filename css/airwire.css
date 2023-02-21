@@ -1078,6 +1078,13 @@ img, video { max-width: 100%; height: auto; }
 .lowercase { text-transform: lowercase; }
 .capitalize { text-transform: capitalize; }
 .normal-case { text-transform: none; }
+/* Text Underline Offset */
+.underline-0 { text-underline-offset: var( --size-0 ); }
+.underline-px { text-underline-offset: var( --size-px ); }
+.underline-1 { text-underline-offset: var( --size-1 ); }
+.underline-2 { text-underline-offset: var( --size-2 ); }
+.underline-3 { text-underline-offset: var( --size-3 ); }
+.underline-4 { text-underline-offset: var( --size-4 ); }
 @media (min-width: 40em) {
  .sm\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .sm\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -2045,7 +2052,13 @@ img, video { max-width: 100%; height: auto; }
  .sm\:uppercase { text-transform: uppercase; }
  .sm\:lowercase { text-transform: lowercase; }
  .sm\:capitalize { text-transform: capitalize; }
- .sm\:normal-case { text-transform: none; } }
+ .sm\:normal-case { text-transform: none; }
+ .sm\:underline-0 { text-underline-offset: var( --size-0 ); }
+ .sm\:underline-px { text-underline-offset: var( --size-px ); }
+ .sm\:underline-1 { text-underline-offset: var( --size-1 ); }
+ .sm\:underline-2 { text-underline-offset: var( --size-2 ); }
+ .sm\:underline-3 { text-underline-offset: var( --size-3 ); }
+ .sm\:underline-4 { text-underline-offset: var( --size-4 ); } }
 @media (min-width: 48em) {
  .md\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .md\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -3013,7 +3026,13 @@ img, video { max-width: 100%; height: auto; }
  .md\:uppercase { text-transform: uppercase; }
  .md\:lowercase { text-transform: lowercase; }
  .md\:capitalize { text-transform: capitalize; }
- .md\:normal-case { text-transform: none; } }
+ .md\:normal-case { text-transform: none; }
+ .md\:underline-0 { text-underline-offset: var( --size-0 ); }
+ .md\:underline-px { text-underline-offset: var( --size-px ); }
+ .md\:underline-1 { text-underline-offset: var( --size-1 ); }
+ .md\:underline-2 { text-underline-offset: var( --size-2 ); }
+ .md\:underline-3 { text-underline-offset: var( --size-3 ); }
+ .md\:underline-4 { text-underline-offset: var( --size-4 ); } }
 @media (min-width: 64em) {
  .lg\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .lg\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -3981,7 +4000,13 @@ img, video { max-width: 100%; height: auto; }
  .lg\:uppercase { text-transform: uppercase; }
  .lg\:lowercase { text-transform: lowercase; }
  .lg\:capitalize { text-transform: capitalize; }
- .lg\:normal-case { text-transform: none; } }
+ .lg\:normal-case { text-transform: none; }
+ .lg\:underline-0 { text-underline-offset: var( --size-0 ); }
+ .lg\:underline-px { text-underline-offset: var( --size-px ); }
+ .lg\:underline-1 { text-underline-offset: var( --size-1 ); }
+ .lg\:underline-2 { text-underline-offset: var( --size-2 ); }
+ .lg\:underline-3 { text-underline-offset: var( --size-3 ); }
+ .lg\:underline-4 { text-underline-offset: var( --size-4 ); } }
 @media (min-width: 80em) {
  .xl\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .xl\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -4949,4 +4974,10 @@ img, video { max-width: 100%; height: auto; }
  .xl\:uppercase { text-transform: uppercase; }
  .xl\:lowercase { text-transform: lowercase; }
  .xl\:capitalize { text-transform: capitalize; }
- .xl\:normal-case { text-transform: none; } }
+ .xl\:normal-case { text-transform: none; }
+ .xl\:underline-0 { text-underline-offset: var( --size-0 ); }
+ .xl\:underline-px { text-underline-offset: var( --size-px ); }
+ .xl\:underline-1 { text-underline-offset: var( --size-1 ); }
+ .xl\:underline-2 { text-underline-offset: var( --size-2 ); }
+ .xl\:underline-3 { text-underline-offset: var( --size-3 ); }
+ .xl\:underline-4 { text-underline-offset: var( --size-4 ); } }
