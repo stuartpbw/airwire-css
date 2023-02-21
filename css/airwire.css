@@ -141,6 +141,12 @@ img, video { max-width: 100%; height: auto; }
 .overscroll-x-auto { overscroll-behavior-x: auto; }
 .overscroll-x-contain { overscroll-behavior-x: contain; }
 .overscroll-x-none { overscroll-behavior-x: none; }
+/* Position */
+.static { position: static; }
+.relative { position: relative; }
+.absolute { position: absolute; }
+.fixed { position: fixed; }
+.sticky { position: sticky; }
 @media (min-width: 40em) {
  .sm\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .sm\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -225,7 +231,12 @@ img, video { max-width: 100%; height: auto; }
  .sm\:overscroll-y-none { overscroll-behavior-y: none; }
  .sm\:overscroll-x-auto { overscroll-behavior-x: auto; }
  .sm\:overscroll-x-contain { overscroll-behavior-x: contain; }
- .sm\:overscroll-x-none { overscroll-behavior-x: none; } }
+ .sm\:overscroll-x-none { overscroll-behavior-x: none; }
+ .sm\:static { position: static; }
+ .sm\:relative { position: relative; }
+ .sm\:absolute { position: absolute; }
+ .sm\:fixed { position: fixed; }
+ .sm\:sticky { position: sticky; } }
 @media (min-width: 48em) {
  .md\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .md\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -310,7 +321,12 @@ img, video { max-width: 100%; height: auto; }
  .md\:overscroll-y-none { overscroll-behavior-y: none; }
  .md\:overscroll-x-auto { overscroll-behavior-x: auto; }
  .md\:overscroll-x-contain { overscroll-behavior-x: contain; }
- .md\:overscroll-x-none { overscroll-behavior-x: none; } }
+ .md\:overscroll-x-none { overscroll-behavior-x: none; }
+ .md\:static { position: static; }
+ .md\:relative { position: relative; }
+ .md\:absolute { position: absolute; }
+ .md\:fixed { position: fixed; }
+ .md\:sticky { position: sticky; } }
 @media (min-width: 64em) {
  .lg\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .lg\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -395,7 +411,12 @@ img, video { max-width: 100%; height: auto; }
  .lg\:overscroll-y-none { overscroll-behavior-y: none; }
  .lg\:overscroll-x-auto { overscroll-behavior-x: auto; }
  .lg\:overscroll-x-contain { overscroll-behavior-x: contain; }
- .lg\:overscroll-x-none { overscroll-behavior-x: none; } }
+ .lg\:overscroll-x-none { overscroll-behavior-x: none; }
+ .lg\:static { position: static; }
+ .lg\:relative { position: relative; }
+ .lg\:absolute { position: absolute; }
+ .lg\:fixed { position: fixed; }
+ .lg\:sticky { position: sticky; } }
 @media (min-width: 80em) {
  .xl\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .xl\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -480,4 +501,9 @@ img, video { max-width: 100%; height: auto; }
  .xl\:overscroll-y-none { overscroll-behavior-y: none; }
  .xl\:overscroll-x-auto { overscroll-behavior-x: auto; }
  .xl\:overscroll-x-contain { overscroll-behavior-x: contain; }
- .xl\:overscroll-x-none { overscroll-behavior-x: none; } }
+ .xl\:overscroll-x-none { overscroll-behavior-x: none; }
+ .xl\:static { position: static; }
+ .xl\:relative { position: relative; }
+ .xl\:absolute { position: absolute; }
+ .xl\:fixed { position: fixed; }
+ .xl\:sticky { position: sticky; } }
