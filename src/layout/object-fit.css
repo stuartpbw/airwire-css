@@ -10,10 +10,10 @@
   .object-fill {
     object-fit: fill;
   }
-  .object-none {
-    object-fit: none;
-  }
   .object-scale-down {
     object-fit: scale-down;
+  }
+  .object-none {
+    object-fit: none;
   }
 }

@@ -90,8 +90,8 @@ img, video { max-width: 100%; height: auto; }
 .object-contain { object-fit: contain; }
 .object-cover { object-fit: cover; }
 .object-fill { object-fit: fill; }
-.object-none { object-fit: none; }
 .object-scale-down { object-fit: scale-down; }
+.object-none { object-fit: none; }
 /* Object Position */
 .object-bottom { object-position: bottom; }
 .object-center { object-position: center; }
@@ -881,8 +881,8 @@ img, video { max-width: 100%; height: auto; }
  .sm\:object-contain { object-fit: contain; }
  .sm\:object-cover { object-fit: cover; }
  .sm\:object-fill { object-fit: fill; }
- .sm\:object-none { object-fit: none; }
  .sm\:object-scale-down { object-fit: scale-down; }
+ .sm\:object-none { object-fit: none; }
  .sm\:object-bottom { object-position: bottom; }
  .sm\:object-center { object-position: center; }
  .sm\:object-left { object-position: left; }
@@ -1636,8 +1636,8 @@ img, video { max-width: 100%; height: auto; }
  .md\:object-contain { object-fit: contain; }
  .md\:object-cover { object-fit: cover; }
  .md\:object-fill { object-fit: fill; }
- .md\:object-none { object-fit: none; }
  .md\:object-scale-down { object-fit: scale-down; }
+ .md\:object-none { object-fit: none; }
  .md\:object-bottom { object-position: bottom; }
  .md\:object-center { object-position: center; }
  .md\:object-left { object-position: left; }
@@ -2391,8 +2391,8 @@ img, video { max-width: 100%; height: auto; }
  .lg\:object-contain { object-fit: contain; }
  .lg\:object-cover { object-fit: cover; }
  .lg\:object-fill { object-fit: fill; }
- .lg\:object-none { object-fit: none; }
  .lg\:object-scale-down { object-fit: scale-down; }
+ .lg\:object-none { object-fit: none; }
  .lg\:object-bottom { object-position: bottom; }
  .lg\:object-center { object-position: center; }
  .lg\:object-left { object-position: left; }
@@ -3146,8 +3146,8 @@ img, video { max-width: 100%; height: auto; }
  .xl\:object-contain { object-fit: contain; }
  .xl\:object-cover { object-fit: cover; }
  .xl\:object-fill { object-fit: fill; }
- .xl\:object-none { object-fit: none; }
  .xl\:object-scale-down { object-fit: scale-down; }
+ .xl\:object-none { object-fit: none; }
  .xl\:object-bottom { object-position: bottom; }
  .xl\:object-center { object-position: center; }
  .xl\:object-left { object-position: left; }
