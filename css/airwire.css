@@ -526,6 +526,15 @@ img, video { max-width: 100%; height: auto; }
 .order-first { order: -9999; }
 .order-last { order: 9999; }
 .order-none { order: 0; }
+/* Place Content */
+.place-content-center { align-content: center; justify-content: center; place-content: center; }
+.place-content-start { align-content: start; justify-content: start; place-content: start; }
+.place-content-end { align-content: end; justify-content: end; place-content: end; }
+.place-content-between { align-content: space-between; justify-content: space-between; place-content: space-between; }
+.place-content-around { align-content: space-around; justify-content: space-around; place-content: space-around; }
+.place-content-evenly { align-content: space-evenly; justify-content: space-evenly; place-content: space-evenly; }
+.place-content-baseline { align-content: baseline; justify-content: baseline; place-content: baseline; }
+.place-content-stretch { align-content: stretch; justify-content: stretch; place-content: stretch; }
 @media (min-width: 40em) {
  .sm\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .sm\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -968,7 +977,15 @@ img, video { max-width: 100%; height: auto; }
  .sm\:order-12 { order: 12; }
  .sm\:order-first { order: -9999; }
  .sm\:order-last { order: 9999; }
- .sm\:order-none { order: 0; } }
+ .sm\:order-none { order: 0; }
+ .sm\:place-content-center { align-content: center; justify-content: center; place-content: center; }
+ .sm\:place-content-start { align-content: start; justify-content: start; place-content: start; }
+ .sm\:place-content-end { align-content: end; justify-content: end; place-content: end; }
+ .sm\:place-content-between { align-content: space-between; justify-content: space-between; place-content: space-between; }
+ .sm\:place-content-around { align-content: space-around; justify-content: space-around; place-content: space-around; }
+ .sm\:place-content-evenly { align-content: space-evenly; justify-content: space-evenly; place-content: space-evenly; }
+ .sm\:place-content-baseline { align-content: baseline; justify-content: baseline; place-content: baseline; }
+ .sm\:place-content-stretch { align-content: stretch; justify-content: stretch; place-content: stretch; } }
 @media (min-width: 48em) {
  .md\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .md\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -1411,7 +1428,15 @@ img, video { max-width: 100%; height: auto; }
  .md\:order-12 { order: 12; }
  .md\:order-first { order: -9999; }
  .md\:order-last { order: 9999; }
- .md\:order-none { order: 0; } }
+ .md\:order-none { order: 0; }
+ .md\:place-content-center { align-content: center; justify-content: center; place-content: center; }
+ .md\:place-content-start { align-content: start; justify-content: start; place-content: start; }
+ .md\:place-content-end { align-content: end; justify-content: end; place-content: end; }
+ .md\:place-content-between { align-content: space-between; justify-content: space-between; place-content: space-between; }
+ .md\:place-content-around { align-content: space-around; justify-content: space-around; place-content: space-around; }
+ .md\:place-content-evenly { align-content: space-evenly; justify-content: space-evenly; place-content: space-evenly; }
+ .md\:place-content-baseline { align-content: baseline; justify-content: baseline; place-content: baseline; }
+ .md\:place-content-stretch { align-content: stretch; justify-content: stretch; place-content: stretch; } }
 @media (min-width: 64em) {
  .lg\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .lg\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -1854,7 +1879,15 @@ img, video { max-width: 100%; height: auto; }
  .lg\:order-12 { order: 12; }
  .lg\:order-first { order: -9999; }
  .lg\:order-last { order: 9999; }
- .lg\:order-none { order: 0; } }
+ .lg\:order-none { order: 0; }
+ .lg\:place-content-center { align-content: center; justify-content: center; place-content: center; }
+ .lg\:place-content-start { align-content: start; justify-content: start; place-content: start; }
+ .lg\:place-content-end { align-content: end; justify-content: end; place-content: end; }
+ .lg\:place-content-between { align-content: space-between; justify-content: space-between; place-content: space-between; }
+ .lg\:place-content-around { align-content: space-around; justify-content: space-around; place-content: space-around; }
+ .lg\:place-content-evenly { align-content: space-evenly; justify-content: space-evenly; place-content: space-evenly; }
+ .lg\:place-content-baseline { align-content: baseline; justify-content: baseline; place-content: baseline; }
+ .lg\:place-content-stretch { align-content: stretch; justify-content: stretch; place-content: stretch; } }
 @media (min-width: 80em) {
  .xl\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .xl\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -2297,4 +2330,12 @@ img, video { max-width: 100%; height: auto; }
  .xl\:order-12 { order: 12; }
  .xl\:order-first { order: -9999; }
  .xl\:order-last { order: 9999; }
- .xl\:order-none { order: 0; } }
+ .xl\:order-none { order: 0; }
+ .xl\:place-content-center { align-content: center; justify-content: center; place-content: center; }
+ .xl\:place-content-start { align-content: start; justify-content: start; place-content: start; }
+ .xl\:place-content-end { align-content: end; justify-content: end; place-content: end; }
+ .xl\:place-content-between { align-content: space-between; justify-content: space-between; place-content: space-between; }
+ .xl\:place-content-around { align-content: space-around; justify-content: space-around; place-content: space-around; }
+ .xl\:place-content-evenly { align-content: space-evenly; justify-content: space-evenly; place-content: space-evenly; }
+ .xl\:place-content-baseline { align-content: baseline; justify-content: baseline; place-content: baseline; }
+ .xl\:place-content-stretch { align-content: stretch; justify-content: stretch; place-content: stretch; } }
