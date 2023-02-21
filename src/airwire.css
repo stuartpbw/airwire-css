@@ -103,6 +103,7 @@
 
 @import "theme/background-colors.css";
 @import "theme/border-colors.css";
+@import "theme/box-shadow.css";
 
 @custom-media --sm (min-width: 40em);
 @custom-media --md (min-width: 48em);
