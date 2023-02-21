@@ -8,6 +8,7 @@ A CSS library for designing in the browser.
 
    - Reset
    - Variables
+   - Debug
 
 2. **Layout**
 
@@ -17,7 +18,6 @@ A CSS library for designing in the browser.
    - Clear
    - Columns
    - Container
-   - Debug
    - Display
    - Float
    - Isolation
