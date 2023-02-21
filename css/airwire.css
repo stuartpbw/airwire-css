@@ -1222,6 +1222,17 @@ img, video { max-width: 100%; height: auto; }
 .-rotate-225 { transform: rotate( calc( 225deg * -1 ) ); }
 .-rotate-270 { transform: rotate( calc( 270deg * -1 ) ); }
 .-rotate-315 { transform: rotate( calc( 315deg * -1 ) ); }
+/* Scale */
+.scale-0 { transform: scale( 0 ); }
+.scale-50 { transform: scale( .5 ); }
+.scale-75 { transform: scale( .75 ); }
+.scale-90 { transform: scale( .9 ); }
+.scale-95 { transform: scale( .95 ); }
+.scale-100 { transform: scale( 1 ); }
+.scale-105 { transform: scale( 1.05 ); }
+.scale-110 { transform: scale( 1.1 ); }
+.scale-125 { transform: scale( 1.25 ); }
+.scale-150 { transform: scale( 1.5 ); }
 @media (min-width: 40em) {
  .sm\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .sm\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -2315,7 +2326,17 @@ img, video { max-width: 100%; height: auto; }
  .sm\:-rotate-180 { transform: rotate( calc( 180deg * -1 ) ); }
  .sm\:-rotate-225 { transform: rotate( calc( 225deg * -1 ) ); }
  .sm\:-rotate-270 { transform: rotate( calc( 270deg * -1 ) ); }
- .sm\:-rotate-315 { transform: rotate( calc( 315deg * -1 ) ); } }
+ .sm\:-rotate-315 { transform: rotate( calc( 315deg * -1 ) ); }
+ .sm\:scale-0 { transform: scale( 0 ); }
+ .sm\:scale-50 { transform: scale( .5 ); }
+ .sm\:scale-75 { transform: scale( .75 ); }
+ .sm\:scale-90 { transform: scale( .9 ); }
+ .sm\:scale-95 { transform: scale( .95 ); }
+ .sm\:scale-100 { transform: scale( 1 ); }
+ .sm\:scale-105 { transform: scale( 1.05 ); }
+ .sm\:scale-110 { transform: scale( 1.1 ); }
+ .sm\:scale-125 { transform: scale( 1.25 ); }
+ .sm\:scale-150 { transform: scale( 1.5 ); } }
 @media (min-width: 48em) {
  .md\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .md\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -3409,7 +3430,17 @@ img, video { max-width: 100%; height: auto; }
  .md\:-rotate-180 { transform: rotate( calc( 180deg * -1 ) ); }
  .md\:-rotate-225 { transform: rotate( calc( 225deg * -1 ) ); }
  .md\:-rotate-270 { transform: rotate( calc( 270deg * -1 ) ); }
- .md\:-rotate-315 { transform: rotate( calc( 315deg * -1 ) ); } }
+ .md\:-rotate-315 { transform: rotate( calc( 315deg * -1 ) ); }
+ .md\:scale-0 { transform: scale( 0 ); }
+ .md\:scale-50 { transform: scale( .5 ); }
+ .md\:scale-75 { transform: scale( .75 ); }
+ .md\:scale-90 { transform: scale( .9 ); }
+ .md\:scale-95 { transform: scale( .95 ); }
+ .md\:scale-100 { transform: scale( 1 ); }
+ .md\:scale-105 { transform: scale( 1.05 ); }
+ .md\:scale-110 { transform: scale( 1.1 ); }
+ .md\:scale-125 { transform: scale( 1.25 ); }
+ .md\:scale-150 { transform: scale( 1.5 ); } }
 @media (min-width: 64em) {
  .lg\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .lg\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -4503,7 +4534,17 @@ img, video { max-width: 100%; height: auto; }
  .lg\:-rotate-180 { transform: rotate( calc( 180deg * -1 ) ); }
  .lg\:-rotate-225 { transform: rotate( calc( 225deg * -1 ) ); }
  .lg\:-rotate-270 { transform: rotate( calc( 270deg * -1 ) ); }
- .lg\:-rotate-315 { transform: rotate( calc( 315deg * -1 ) ); } }
+ .lg\:-rotate-315 { transform: rotate( calc( 315deg * -1 ) ); }
+ .lg\:scale-0 { transform: scale( 0 ); }
+ .lg\:scale-50 { transform: scale( .5 ); }
+ .lg\:scale-75 { transform: scale( .75 ); }
+ .lg\:scale-90 { transform: scale( .9 ); }
+ .lg\:scale-95 { transform: scale( .95 ); }
+ .lg\:scale-100 { transform: scale( 1 ); }
+ .lg\:scale-105 { transform: scale( 1.05 ); }
+ .lg\:scale-110 { transform: scale( 1.1 ); }
+ .lg\:scale-125 { transform: scale( 1.25 ); }
+ .lg\:scale-150 { transform: scale( 1.5 ); } }
 @media (min-width: 80em) {
  .xl\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .xl\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -5597,4 +5638,14 @@ img, video { max-width: 100%; height: auto; }
  .xl\:-rotate-180 { transform: rotate( calc( 180deg * -1 ) ); }
  .xl\:-rotate-225 { transform: rotate( calc( 225deg * -1 ) ); }
  .xl\:-rotate-270 { transform: rotate( calc( 270deg * -1 ) ); }
- .xl\:-rotate-315 { transform: rotate( calc( 315deg * -1 ) ); } }
+ .xl\:-rotate-315 { transform: rotate( calc( 315deg * -1 ) ); }
+ .xl\:scale-0 { transform: scale( 0 ); }
+ .xl\:scale-50 { transform: scale( .5 ); }
+ .xl\:scale-75 { transform: scale( .75 ); }
+ .xl\:scale-90 { transform: scale( .9 ); }
+ .xl\:scale-95 { transform: scale( .95 ); }
+ .xl\:scale-100 { transform: scale( 1 ); }
+ .xl\:scale-105 { transform: scale( 1.05 ); }
+ .xl\:scale-110 { transform: scale( 1.1 ); }
+ .xl\:scale-125 { transform: scale( 1.25 ); }
+ .xl\:scale-150 { transform: scale( 1.5 ); } }
