@@ -504,6 +504,12 @@ img, video { max-width: 100%; height: auto; }
 .justify-items-end { justify-items: end; }
 .justify-items-center { justify-items: center; }
 .justify-items-stretch { justify-items: stretch; }
+/* Justify Self */
+.justify-self-auto { justify-self: auto; }
+.justify-self-start { justify-self: start; }
+.justify-self-end { justify-self: end; }
+.justify-self-center { justify-self: center; }
+.justify-self-stretch { justify-self: stretch; }
 @media (min-width: 40em) {
  .sm\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .sm\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -926,7 +932,12 @@ img, video { max-width: 100%; height: auto; }
  .sm\:justify-items-start { justify-items: start; }
  .sm\:justify-items-end { justify-items: end; }
  .sm\:justify-items-center { justify-items: center; }
- .sm\:justify-items-stretch { justify-items: stretch; } }
+ .sm\:justify-items-stretch { justify-items: stretch; }
+ .sm\:justify-self-auto { justify-self: auto; }
+ .sm\:justify-self-start { justify-self: start; }
+ .sm\:justify-self-end { justify-self: end; }
+ .sm\:justify-self-center { justify-self: center; }
+ .sm\:justify-self-stretch { justify-self: stretch; } }
 @media (min-width: 48em) {
  .md\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .md\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -1349,7 +1360,12 @@ img, video { max-width: 100%; height: auto; }
  .md\:justify-items-start { justify-items: start; }
  .md\:justify-items-end { justify-items: end; }
  .md\:justify-items-center { justify-items: center; }
- .md\:justify-items-stretch { justify-items: stretch; } }
+ .md\:justify-items-stretch { justify-items: stretch; }
+ .md\:justify-self-auto { justify-self: auto; }
+ .md\:justify-self-start { justify-self: start; }
+ .md\:justify-self-end { justify-self: end; }
+ .md\:justify-self-center { justify-self: center; }
+ .md\:justify-self-stretch { justify-self: stretch; } }
 @media (min-width: 64em) {
  .lg\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .lg\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -1772,7 +1788,12 @@ img, video { max-width: 100%; height: auto; }
  .lg\:justify-items-start { justify-items: start; }
  .lg\:justify-items-end { justify-items: end; }
  .lg\:justify-items-center { justify-items: center; }
- .lg\:justify-items-stretch { justify-items: stretch; } }
+ .lg\:justify-items-stretch { justify-items: stretch; }
+ .lg\:justify-self-auto { justify-self: auto; }
+ .lg\:justify-self-start { justify-self: start; }
+ .lg\:justify-self-end { justify-self: end; }
+ .lg\:justify-self-center { justify-self: center; }
+ .lg\:justify-self-stretch { justify-self: stretch; } }
 @media (min-width: 80em) {
  .xl\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .xl\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -2195,4 +2216,9 @@ img, video { max-width: 100%; height: auto; }
  .xl\:justify-items-start { justify-items: start; }
  .xl\:justify-items-end { justify-items: end; }
  .xl\:justify-items-center { justify-items: center; }
- .xl\:justify-items-stretch { justify-items: stretch; } }
+ .xl\:justify-items-stretch { justify-items: stretch; }
+ .xl\:justify-self-auto { justify-self: auto; }
+ .xl\:justify-self-start { justify-self: start; }
+ .xl\:justify-self-end { justify-self: end; }
+ .xl\:justify-self-center { justify-self: center; }
+ .xl\:justify-self-stretch { justify-self: stretch; } }
