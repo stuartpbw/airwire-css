@@ -1,0 +1,28 @@
+/* Text Decoration Thickness */
+
+@responsive {
+  .decoration-0 {
+    text-decoration-thickness: var(--size-0);
+  }
+  .decoration-px {
+    text-decoration-thickness: var(--size-px);
+  }
+  .decoration-1 {
+    text-decoration-thickness: var(--size-1);
+  }
+  .decoration-2 {
+    text-decoration-thickness: var(--size-2);
+  }
+  .decoration-3 {
+    text-decoration-thickness: var(--size-3);
+  }
+  .decoration-4 {
+    text-decoration-thickness: var(--size-4);
+  }
+  .decoration-auto {
+    text-decoration-thickness: auto;
+  }
+  .decoration-from-font {
+    text-decoration-thickness: from-font;
+  }
+}

@@ -71,6 +71,7 @@
 @import "typography/text-align.css";
 @import "typography/text-decoration.css";
 @import "typography/text-decoration-style.css";
+@import "typography/text-decoration-thickness.css";
 
 @custom-media --sm (min-width: 40em);
 @custom-media --md (min-width: 48em);
