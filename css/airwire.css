@@ -1001,6 +1001,9 @@ img, video { max-width: 100%; height: auto; }
 .text-6xl { font-size: var( --text-6xl ); line-height: var( --line-height-none ); }
 .text-7xl { font-size: var( --text-7xl ); line-height: var( --line-height-none ); }
 .text-8xl { font-size: var( --text-8xl ); line-height: var( --line-height-none ); }
+/* Font Style */
+.italic { font-style: italic; }
+.not-italic { font-style: normal; }
 @media (min-width: 40em) {
  .sm\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .sm\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -1904,7 +1907,9 @@ img, video { max-width: 100%; height: auto; }
  .sm\:text-5xl { font-size: var( --text-5xl ); line-height: var( --line-height-8 ); }
  .sm\:text-6xl { font-size: var( --text-6xl ); line-height: var( --line-height-none ); }
  .sm\:text-7xl { font-size: var( --text-7xl ); line-height: var( --line-height-none ); }
- .sm\:text-8xl { font-size: var( --text-8xl ); line-height: var( --line-height-none ); } }
+ .sm\:text-8xl { font-size: var( --text-8xl ); line-height: var( --line-height-none ); }
+ .sm\:italic { font-style: italic; }
+ .sm\:not-italic { font-style: normal; } }
 @media (min-width: 48em) {
  .md\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .md\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -2808,7 +2813,9 @@ img, video { max-width: 100%; height: auto; }
  .md\:text-5xl { font-size: var( --text-5xl ); line-height: var( --line-height-8 ); }
  .md\:text-6xl { font-size: var( --text-6xl ); line-height: var( --line-height-none ); }
  .md\:text-7xl { font-size: var( --text-7xl ); line-height: var( --line-height-none ); }
- .md\:text-8xl { font-size: var( --text-8xl ); line-height: var( --line-height-none ); } }
+ .md\:text-8xl { font-size: var( --text-8xl ); line-height: var( --line-height-none ); }
+ .md\:italic { font-style: italic; }
+ .md\:not-italic { font-style: normal; } }
 @media (min-width: 64em) {
  .lg\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .lg\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -3712,7 +3719,9 @@ img, video { max-width: 100%; height: auto; }
  .lg\:text-5xl { font-size: var( --text-5xl ); line-height: var( --line-height-8 ); }
  .lg\:text-6xl { font-size: var( --text-6xl ); line-height: var( --line-height-none ); }
  .lg\:text-7xl { font-size: var( --text-7xl ); line-height: var( --line-height-none ); }
- .lg\:text-8xl { font-size: var( --text-8xl ); line-height: var( --line-height-none ); } }
+ .lg\:text-8xl { font-size: var( --text-8xl ); line-height: var( --line-height-none ); }
+ .lg\:italic { font-style: italic; }
+ .lg\:not-italic { font-style: normal; } }
 @media (min-width: 80em) {
  .xl\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .xl\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -4616,4 +4625,6 @@ img, video { max-width: 100%; height: auto; }
  .xl\:text-5xl { font-size: var( --text-5xl ); line-height: var( --line-height-8 ); }
  .xl\:text-6xl { font-size: var( --text-6xl ); line-height: var( --line-height-none ); }
  .xl\:text-7xl { font-size: var( --text-7xl ); line-height: var( --line-height-none ); }
- .xl\:text-8xl { font-size: var( --text-8xl ); line-height: var( --line-height-none ); } }
+ .xl\:text-8xl { font-size: var( --text-8xl ); line-height: var( --line-height-none ); }
+ .xl\:italic { font-style: italic; }
+ .xl\:not-italic { font-style: normal; } }
