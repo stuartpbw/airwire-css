@@ -28,6 +28,13 @@
   --content-prose-xl: 48ch;
   --content-prose-2xl: 56ch;
 
+  --letter-spacing-tighter: -0.05em;
+  --letter-spacing-tight: -0.025em;
+  --letter-spacing-normal: 0em;
+  --letter-spacing-wide: 0.025em;
+  --letter-spacing-wider: 0.05em;
+  --letter-spacing-widest: 0.1em;
+
   --line-height-1: 1rem;
   --line-height-2: 1.25rem;
   --line-height-3: 1.5rem;
