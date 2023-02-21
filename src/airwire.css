@@ -38,6 +38,7 @@
 @import "grid/grid-auto-flow.css";
 @import "grid/grid-auto-rows.css";
 @import "grid/grid-column-start-end.css";
+@import "grid/grid-row-start-end.css";
 
 @custom-media --sm (min-width: 40em);
 @custom-media --md (min-width: 48em);
