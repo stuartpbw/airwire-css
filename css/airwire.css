@@ -1063,6 +1063,12 @@ img, video { max-width: 100%; height: auto; }
 .decoration-4 { text-decoration-thickness: var( --size-4 ); }
 .decoration-auto { text-decoration-thickness: auto; }
 .decoration-from-font { text-decoration-thickness: from-font; }
+/* Text Indent */
+.indent-0 { text-indent: var( --size-0 ); }
+.indent-1 { text-indent: var( --size-1 ); }
+.indent-2 { text-indent: var( --size-2 ); }
+.indent-3 { text-indent: var( --size-3 ); }
+.indent-4 { text-indent: var( --size-4 ); }
 @media (min-width: 40em) {
  .sm\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .sm\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -2018,7 +2024,12 @@ img, video { max-width: 100%; height: auto; }
  .sm\:decoration-3 { text-decoration-thickness: var( --size-3 ); }
  .sm\:decoration-4 { text-decoration-thickness: var( --size-4 ); }
  .sm\:decoration-auto { text-decoration-thickness: auto; }
- .sm\:decoration-from-font { text-decoration-thickness: from-font; } }
+ .sm\:decoration-from-font { text-decoration-thickness: from-font; }
+ .sm\:indent-0 { text-indent: var( --size-0 ); }
+ .sm\:indent-1 { text-indent: var( --size-1 ); }
+ .sm\:indent-2 { text-indent: var( --size-2 ); }
+ .sm\:indent-3 { text-indent: var( --size-3 ); }
+ .sm\:indent-4 { text-indent: var( --size-4 ); } }
 @media (min-width: 48em) {
  .md\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .md\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -2974,7 +2985,12 @@ img, video { max-width: 100%; height: auto; }
  .md\:decoration-3 { text-decoration-thickness: var( --size-3 ); }
  .md\:decoration-4 { text-decoration-thickness: var( --size-4 ); }
  .md\:decoration-auto { text-decoration-thickness: auto; }
- .md\:decoration-from-font { text-decoration-thickness: from-font; } }
+ .md\:decoration-from-font { text-decoration-thickness: from-font; }
+ .md\:indent-0 { text-indent: var( --size-0 ); }
+ .md\:indent-1 { text-indent: var( --size-1 ); }
+ .md\:indent-2 { text-indent: var( --size-2 ); }
+ .md\:indent-3 { text-indent: var( --size-3 ); }
+ .md\:indent-4 { text-indent: var( --size-4 ); } }
 @media (min-width: 64em) {
  .lg\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .lg\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -3930,7 +3946,12 @@ img, video { max-width: 100%; height: auto; }
  .lg\:decoration-3 { text-decoration-thickness: var( --size-3 ); }
  .lg\:decoration-4 { text-decoration-thickness: var( --size-4 ); }
  .lg\:decoration-auto { text-decoration-thickness: auto; }
- .lg\:decoration-from-font { text-decoration-thickness: from-font; } }
+ .lg\:decoration-from-font { text-decoration-thickness: from-font; }
+ .lg\:indent-0 { text-indent: var( --size-0 ); }
+ .lg\:indent-1 { text-indent: var( --size-1 ); }
+ .lg\:indent-2 { text-indent: var( --size-2 ); }
+ .lg\:indent-3 { text-indent: var( --size-3 ); }
+ .lg\:indent-4 { text-indent: var( --size-4 ); } }
 @media (min-width: 80em) {
  .xl\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .xl\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -4886,4 +4907,9 @@ img, video { max-width: 100%; height: auto; }
  .xl\:decoration-3 { text-decoration-thickness: var( --size-3 ); }
  .xl\:decoration-4 { text-decoration-thickness: var( --size-4 ); }
  .xl\:decoration-auto { text-decoration-thickness: auto; }
- .xl\:decoration-from-font { text-decoration-thickness: from-font; } }
+ .xl\:decoration-from-font { text-decoration-thickness: from-font; }
+ .xl\:indent-0 { text-indent: var( --size-0 ); }
+ .xl\:indent-1 { text-indent: var( --size-1 ); }
+ .xl\:indent-2 { text-indent: var( --size-2 ); }
+ .xl\:indent-3 { text-indent: var( --size-3 ); }
+ .xl\:indent-4 { text-indent: var( --size-4 ); } }
