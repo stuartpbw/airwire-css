@@ -1,0 +1,22 @@
+/* LETTER SPACING */
+
+@responsive {
+  .tracking-tighter {
+    letter-spacing: var(--letter-spacing-tighter);
+  }
+  .tracking-tight {
+    letter-spacing: var(--letter-spacing-tight);
+  }
+  .tracking-normal {
+    letter-spacing: var(--letter-spacing-normal);
+  }
+  .tracking-wide {
+    letter-spacing: var(--letter-spacing-wide);
+  }
+  .tracking-wider {
+    letter-spacing: var(--letter-spacing-wider);
+  }
+  .tracking-widest {
+    letter-spacing: var(--letter-spacing-widest);
+  }
+}
