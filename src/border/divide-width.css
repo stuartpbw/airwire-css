@@ -1,0 +1,52 @@
+/* Divide Width */
+
+@responsive {
+  .divide-x-0 > * + * {
+    border-right-width: var(--size-0);
+    border-left-width: var(--size-0);
+  }
+  .divide-x-px > * + * {
+    border-right-width: var(--size-px);
+    border-left-width: var(--size-px);
+  }
+  .divide-x-1 > * + * {
+    border-right-width: var(--size-1);
+    border-left-width: var(--size-1);
+  }
+  .divide-x-2 > * + * {
+    border-right-width: var(--size-2);
+    border-left-width: var(--size-2);
+  }
+  .divide-x-3 > * + * {
+    border-right-width: var(--size-3);
+    border-left-width: var(--size-3);
+  }
+  .divide-x-4 > * + * {
+    border-right-width: var(--size-4);
+    border-left-width: var(--size-4);
+  }
+  .divide-y-0 > * + * {
+    border-top-width: var(--size-0);
+    border-bottom-width: var(--size-0);
+  }
+  .divide-y-px > * + * {
+    border-top-width: var(--size-px);
+    border-bottom-width: var(--size-px);
+  }
+  .divide-y-1 > * + * {
+    border-top-width: var(--size-1);
+    border-bottom-width: var(--size-1);
+  }
+  .divide-y-2 > * + * {
+    border-top-width: var(--size-2);
+    border-bottom-width: var(--size-2);
+  }
+  .divide-y-3 > * + * {
+    border-top-width: var(--size-3);
+    border-bottom-width: var(--size-3);
+  }
+  .divide-y-4 > * + * {
+    border-top-width: var(--size-4);
+    border-bottom-width: var(--size-4);
+  }
+}

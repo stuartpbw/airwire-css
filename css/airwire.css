@@ -1182,6 +1182,19 @@ img, video { max-width: 100%; height: auto; }
 .divide-dotted > * + * { border-style: dotted; }
 .divide-double > * + * { border-style: double; }
 .divide-none > * + * { border-style: none; }
+/* Divide Width */
+.divide-x-0 > * + * { border-right-width: var( --size-0 ); border-left-width: var( --size-0 ); }
+.divide-x-px > * + * { border-right-width: var( --size-px ); border-left-width: var( --size-px ); }
+.divide-x-1 > * + * { border-right-width: var( --size-1 ); border-left-width: var( --size-1 ); }
+.divide-x-2 > * + * { border-right-width: var( --size-2 ); border-left-width: var( --size-2 ); }
+.divide-x-3 > * + * { border-right-width: var( --size-3 ); border-left-width: var( --size-3 ); }
+.divide-x-4 > * + * { border-right-width: var( --size-4 ); border-left-width: var( --size-4 ); }
+.divide-y-0 > * + * { border-top-width: var( --size-0 ); border-bottom-width: var( --size-0 ); }
+.divide-y-px > * + * { border-top-width: var( --size-px ); border-bottom-width: var( --size-px ); }
+.divide-y-1 > * + * { border-top-width: var( --size-1 ); border-bottom-width: var( --size-1 ); }
+.divide-y-2 > * + * { border-top-width: var( --size-2 ); border-bottom-width: var( --size-2 ); }
+.divide-y-3 > * + * { border-top-width: var( --size-3 ); border-bottom-width: var( --size-3 ); }
+.divide-y-4 > * + * { border-top-width: var( --size-4 ); border-bottom-width: var( --size-4 ); }
 @media (min-width: 40em) {
  .sm\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .sm\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -2237,7 +2250,19 @@ img, video { max-width: 100%; height: auto; }
  .sm\:divide-dashed > * + * { border-style: dashed; }
  .sm\:divide-dotted > * + * { border-style: dotted; }
  .sm\:divide-double > * + * { border-style: double; }
- .sm\:divide-none > * + * { border-style: none; } }
+ .sm\:divide-none > * + * { border-style: none; }
+ .sm\:divide-x-0 > * + * { border-right-width: var( --size-0 ); border-left-width: var( --size-0 ); }
+ .sm\:divide-x-px > * + * { border-right-width: var( --size-px ); border-left-width: var( --size-px ); }
+ .sm\:divide-x-1 > * + * { border-right-width: var( --size-1 ); border-left-width: var( --size-1 ); }
+ .sm\:divide-x-2 > * + * { border-right-width: var( --size-2 ); border-left-width: var( --size-2 ); }
+ .sm\:divide-x-3 > * + * { border-right-width: var( --size-3 ); border-left-width: var( --size-3 ); }
+ .sm\:divide-x-4 > * + * { border-right-width: var( --size-4 ); border-left-width: var( --size-4 ); }
+ .sm\:divide-y-0 > * + * { border-top-width: var( --size-0 ); border-bottom-width: var( --size-0 ); }
+ .sm\:divide-y-px > * + * { border-top-width: var( --size-px ); border-bottom-width: var( --size-px ); }
+ .sm\:divide-y-1 > * + * { border-top-width: var( --size-1 ); border-bottom-width: var( --size-1 ); }
+ .sm\:divide-y-2 > * + * { border-top-width: var( --size-2 ); border-bottom-width: var( --size-2 ); }
+ .sm\:divide-y-3 > * + * { border-top-width: var( --size-3 ); border-bottom-width: var( --size-3 ); }
+ .sm\:divide-y-4 > * + * { border-top-width: var( --size-4 ); border-bottom-width: var( --size-4 ); } }
 @media (min-width: 48em) {
  .md\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .md\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -3293,7 +3318,19 @@ img, video { max-width: 100%; height: auto; }
  .md\:divide-dashed > * + * { border-style: dashed; }
  .md\:divide-dotted > * + * { border-style: dotted; }
  .md\:divide-double > * + * { border-style: double; }
- .md\:divide-none > * + * { border-style: none; } }
+ .md\:divide-none > * + * { border-style: none; }
+ .md\:divide-x-0 > * + * { border-right-width: var( --size-0 ); border-left-width: var( --size-0 ); }
+ .md\:divide-x-px > * + * { border-right-width: var( --size-px ); border-left-width: var( --size-px ); }
+ .md\:divide-x-1 > * + * { border-right-width: var( --size-1 ); border-left-width: var( --size-1 ); }
+ .md\:divide-x-2 > * + * { border-right-width: var( --size-2 ); border-left-width: var( --size-2 ); }
+ .md\:divide-x-3 > * + * { border-right-width: var( --size-3 ); border-left-width: var( --size-3 ); }
+ .md\:divide-x-4 > * + * { border-right-width: var( --size-4 ); border-left-width: var( --size-4 ); }
+ .md\:divide-y-0 > * + * { border-top-width: var( --size-0 ); border-bottom-width: var( --size-0 ); }
+ .md\:divide-y-px > * + * { border-top-width: var( --size-px ); border-bottom-width: var( --size-px ); }
+ .md\:divide-y-1 > * + * { border-top-width: var( --size-1 ); border-bottom-width: var( --size-1 ); }
+ .md\:divide-y-2 > * + * { border-top-width: var( --size-2 ); border-bottom-width: var( --size-2 ); }
+ .md\:divide-y-3 > * + * { border-top-width: var( --size-3 ); border-bottom-width: var( --size-3 ); }
+ .md\:divide-y-4 > * + * { border-top-width: var( --size-4 ); border-bottom-width: var( --size-4 ); } }
 @media (min-width: 64em) {
  .lg\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .lg\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -4349,7 +4386,19 @@ img, video { max-width: 100%; height: auto; }
  .lg\:divide-dashed > * + * { border-style: dashed; }
  .lg\:divide-dotted > * + * { border-style: dotted; }
  .lg\:divide-double > * + * { border-style: double; }
- .lg\:divide-none > * + * { border-style: none; } }
+ .lg\:divide-none > * + * { border-style: none; }
+ .lg\:divide-x-0 > * + * { border-right-width: var( --size-0 ); border-left-width: var( --size-0 ); }
+ .lg\:divide-x-px > * + * { border-right-width: var( --size-px ); border-left-width: var( --size-px ); }
+ .lg\:divide-x-1 > * + * { border-right-width: var( --size-1 ); border-left-width: var( --size-1 ); }
+ .lg\:divide-x-2 > * + * { border-right-width: var( --size-2 ); border-left-width: var( --size-2 ); }
+ .lg\:divide-x-3 > * + * { border-right-width: var( --size-3 ); border-left-width: var( --size-3 ); }
+ .lg\:divide-x-4 > * + * { border-right-width: var( --size-4 ); border-left-width: var( --size-4 ); }
+ .lg\:divide-y-0 > * + * { border-top-width: var( --size-0 ); border-bottom-width: var( --size-0 ); }
+ .lg\:divide-y-px > * + * { border-top-width: var( --size-px ); border-bottom-width: var( --size-px ); }
+ .lg\:divide-y-1 > * + * { border-top-width: var( --size-1 ); border-bottom-width: var( --size-1 ); }
+ .lg\:divide-y-2 > * + * { border-top-width: var( --size-2 ); border-bottom-width: var( --size-2 ); }
+ .lg\:divide-y-3 > * + * { border-top-width: var( --size-3 ); border-bottom-width: var( --size-3 ); }
+ .lg\:divide-y-4 > * + * { border-top-width: var( --size-4 ); border-bottom-width: var( --size-4 ); } }
 @media (min-width: 80em) {
  .xl\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .xl\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -5405,4 +5454,16 @@ img, video { max-width: 100%; height: auto; }
  .xl\:divide-dashed > * + * { border-style: dashed; }
  .xl\:divide-dotted > * + * { border-style: dotted; }
  .xl\:divide-double > * + * { border-style: double; }
- .xl\:divide-none > * + * { border-style: none; } }
+ .xl\:divide-none > * + * { border-style: none; }
+ .xl\:divide-x-0 > * + * { border-right-width: var( --size-0 ); border-left-width: var( --size-0 ); }
+ .xl\:divide-x-px > * + * { border-right-width: var( --size-px ); border-left-width: var( --size-px ); }
+ .xl\:divide-x-1 > * + * { border-right-width: var( --size-1 ); border-left-width: var( --size-1 ); }
+ .xl\:divide-x-2 > * + * { border-right-width: var( --size-2 ); border-left-width: var( --size-2 ); }
+ .xl\:divide-x-3 > * + * { border-right-width: var( --size-3 ); border-left-width: var( --size-3 ); }
+ .xl\:divide-x-4 > * + * { border-right-width: var( --size-4 ); border-left-width: var( --size-4 ); }
+ .xl\:divide-y-0 > * + * { border-top-width: var( --size-0 ); border-bottom-width: var( --size-0 ); }
+ .xl\:divide-y-px > * + * { border-top-width: var( --size-px ); border-bottom-width: var( --size-px ); }
+ .xl\:divide-y-1 > * + * { border-top-width: var( --size-1 ); border-bottom-width: var( --size-1 ); }
+ .xl\:divide-y-2 > * + * { border-top-width: var( --size-2 ); border-bottom-width: var( --size-2 ); }
+ .xl\:divide-y-3 > * + * { border-top-width: var( --size-3 ); border-bottom-width: var( --size-3 ); }
+ .xl\:divide-y-4 > * + * { border-top-width: var( --size-4 ); border-bottom-width: var( --size-4 ); } }
