@@ -391,6 +391,12 @@ img, video { max-width: 100%; height: auto; }
 .auto-cols-min { grid-auto-columns: min-content; }
 .auto-cols-max { grid-auto-columns: max-content; }
 .auto-cols-fr { grid-auto-columns: minmax( 0, 1fr ); }
+/* Grid Auto Flow */
+.grid-flow-row { grid-auto-flow: row; }
+.grid-flow-col { grid-auto-flow: column; }
+.grid-flow-dense { grid-auto-flow: dense; }
+.grid-flow-row-dense { grid-auto-flow: row dense; }
+.grid-flow-col-dense { grid-auto-flow: column dense; }
 @media (min-width: 40em) {
  .sm\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .sm\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -708,7 +714,12 @@ img, video { max-width: 100%; height: auto; }
  .sm\:auto-cols-auto { grid-auto-columns: auto; }
  .sm\:auto-cols-min { grid-auto-columns: min-content; }
  .sm\:auto-cols-max { grid-auto-columns: max-content; }
- .sm\:auto-cols-fr { grid-auto-columns: minmax( 0, 1fr ); } }
+ .sm\:auto-cols-fr { grid-auto-columns: minmax( 0, 1fr ); }
+ .sm\:grid-flow-row { grid-auto-flow: row; }
+ .sm\:grid-flow-col { grid-auto-flow: column; }
+ .sm\:grid-flow-dense { grid-auto-flow: dense; }
+ .sm\:grid-flow-row-dense { grid-auto-flow: row dense; }
+ .sm\:grid-flow-col-dense { grid-auto-flow: column dense; } }
 @media (min-width: 48em) {
  .md\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .md\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -1026,7 +1037,12 @@ img, video { max-width: 100%; height: auto; }
  .md\:auto-cols-auto { grid-auto-columns: auto; }
  .md\:auto-cols-min { grid-auto-columns: min-content; }
  .md\:auto-cols-max { grid-auto-columns: max-content; }
- .md\:auto-cols-fr { grid-auto-columns: minmax( 0, 1fr ); } }
+ .md\:auto-cols-fr { grid-auto-columns: minmax( 0, 1fr ); }
+ .md\:grid-flow-row { grid-auto-flow: row; }
+ .md\:grid-flow-col { grid-auto-flow: column; }
+ .md\:grid-flow-dense { grid-auto-flow: dense; }
+ .md\:grid-flow-row-dense { grid-auto-flow: row dense; }
+ .md\:grid-flow-col-dense { grid-auto-flow: column dense; } }
 @media (min-width: 64em) {
  .lg\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .lg\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -1344,7 +1360,12 @@ img, video { max-width: 100%; height: auto; }
  .lg\:auto-cols-auto { grid-auto-columns: auto; }
  .lg\:auto-cols-min { grid-auto-columns: min-content; }
  .lg\:auto-cols-max { grid-auto-columns: max-content; }
- .lg\:auto-cols-fr { grid-auto-columns: minmax( 0, 1fr ); } }
+ .lg\:auto-cols-fr { grid-auto-columns: minmax( 0, 1fr ); }
+ .lg\:grid-flow-row { grid-auto-flow: row; }
+ .lg\:grid-flow-col { grid-auto-flow: column; }
+ .lg\:grid-flow-dense { grid-auto-flow: dense; }
+ .lg\:grid-flow-row-dense { grid-auto-flow: row dense; }
+ .lg\:grid-flow-col-dense { grid-auto-flow: column dense; } }
 @media (min-width: 80em) {
  .xl\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .xl\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -1662,4 +1683,9 @@ img, video { max-width: 100%; height: auto; }
  .xl\:auto-cols-auto { grid-auto-columns: auto; }
  .xl\:auto-cols-min { grid-auto-columns: min-content; }
  .xl\:auto-cols-max { grid-auto-columns: max-content; }
- .xl\:auto-cols-fr { grid-auto-columns: minmax( 0, 1fr ); } }
+ .xl\:auto-cols-fr { grid-auto-columns: minmax( 0, 1fr ); }
+ .xl\:grid-flow-row { grid-auto-flow: row; }
+ .xl\:grid-flow-col { grid-auto-flow: column; }
+ .xl\:grid-flow-dense { grid-auto-flow: dense; }
+ .xl\:grid-flow-row-dense { grid-auto-flow: row dense; }
+ .xl\:grid-flow-col-dense { grid-auto-flow: column dense; } }
