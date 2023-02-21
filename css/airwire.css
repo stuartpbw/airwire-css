@@ -492,6 +492,13 @@ img, video { max-width: 100%; height: auto; }
 .grid-rows-5 { grid-template-rows: repeat( 5, minmax( 0, 1fr ) ); }
 .grid-rows-6 { grid-template-rows: repeat( 6, minmax( 0, 1fr ) ); }
 .grid-rows-none { grid-template-rows: none; }
+/* Justify Content */
+.justify-start { justify-content: flex-start; }
+.justify-end { justify-content: flex-end; }
+.justify-center { justify-content: center; }
+.justify-between { justify-content: space-between; }
+.justify-around { justify-content: space-around; }
+.justify-evenly { justify-content: space-evenly; }
 @media (min-width: 40em) {
  .sm\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .sm\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -904,7 +911,13 @@ img, video { max-width: 100%; height: auto; }
  .sm\:grid-rows-4 { grid-template-rows: repeat( 4, minmax( 0, 1fr ) ); }
  .sm\:grid-rows-5 { grid-template-rows: repeat( 5, minmax( 0, 1fr ) ); }
  .sm\:grid-rows-6 { grid-template-rows: repeat( 6, minmax( 0, 1fr ) ); }
- .sm\:grid-rows-none { grid-template-rows: none; } }
+ .sm\:grid-rows-none { grid-template-rows: none; }
+ .sm\:justify-start { justify-content: flex-start; }
+ .sm\:justify-end { justify-content: flex-end; }
+ .sm\:justify-center { justify-content: center; }
+ .sm\:justify-between { justify-content: space-between; }
+ .sm\:justify-around { justify-content: space-around; }
+ .sm\:justify-evenly { justify-content: space-evenly; } }
 @media (min-width: 48em) {
  .md\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .md\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -1317,7 +1330,13 @@ img, video { max-width: 100%; height: auto; }
  .md\:grid-rows-4 { grid-template-rows: repeat( 4, minmax( 0, 1fr ) ); }
  .md\:grid-rows-5 { grid-template-rows: repeat( 5, minmax( 0, 1fr ) ); }
  .md\:grid-rows-6 { grid-template-rows: repeat( 6, minmax( 0, 1fr ) ); }
- .md\:grid-rows-none { grid-template-rows: none; } }
+ .md\:grid-rows-none { grid-template-rows: none; }
+ .md\:justify-start { justify-content: flex-start; }
+ .md\:justify-end { justify-content: flex-end; }
+ .md\:justify-center { justify-content: center; }
+ .md\:justify-between { justify-content: space-between; }
+ .md\:justify-around { justify-content: space-around; }
+ .md\:justify-evenly { justify-content: space-evenly; } }
 @media (min-width: 64em) {
  .lg\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .lg\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -1730,7 +1749,13 @@ img, video { max-width: 100%; height: auto; }
  .lg\:grid-rows-4 { grid-template-rows: repeat( 4, minmax( 0, 1fr ) ); }
  .lg\:grid-rows-5 { grid-template-rows: repeat( 5, minmax( 0, 1fr ) ); }
  .lg\:grid-rows-6 { grid-template-rows: repeat( 6, minmax( 0, 1fr ) ); }
- .lg\:grid-rows-none { grid-template-rows: none; } }
+ .lg\:grid-rows-none { grid-template-rows: none; }
+ .lg\:justify-start { justify-content: flex-start; }
+ .lg\:justify-end { justify-content: flex-end; }
+ .lg\:justify-center { justify-content: center; }
+ .lg\:justify-between { justify-content: space-between; }
+ .lg\:justify-around { justify-content: space-around; }
+ .lg\:justify-evenly { justify-content: space-evenly; } }
 @media (min-width: 80em) {
  .xl\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .xl\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -2143,4 +2168,10 @@ img, video { max-width: 100%; height: auto; }
  .xl\:grid-rows-4 { grid-template-rows: repeat( 4, minmax( 0, 1fr ) ); }
  .xl\:grid-rows-5 { grid-template-rows: repeat( 5, minmax( 0, 1fr ) ); }
  .xl\:grid-rows-6 { grid-template-rows: repeat( 6, minmax( 0, 1fr ) ); }
- .xl\:grid-rows-none { grid-template-rows: none; } }
+ .xl\:grid-rows-none { grid-template-rows: none; }
+ .xl\:justify-start { justify-content: flex-start; }
+ .xl\:justify-end { justify-content: flex-end; }
+ .xl\:justify-center { justify-content: center; }
+ .xl\:justify-between { justify-content: space-between; }
+ .xl\:justify-around { justify-content: space-around; }
+ .xl\:justify-evenly { justify-content: space-evenly; } }
