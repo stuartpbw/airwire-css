@@ -50,6 +50,7 @@
 @import "grid/place-self.css";
 
 @import "sizing/margin.css";
+@import "sizing/padding.css";
 
 @custom-media --sm (min-width: 40em);
 @custom-media --md (min-width: 48em);
