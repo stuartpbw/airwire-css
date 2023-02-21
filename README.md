@@ -29,7 +29,7 @@ A CSS library for designing in the browser.
    - Position
    - Positioning
    - Screen Readers
-   - Tables
+   - Table Layout
    - Visibility
    - Z-Index
 
