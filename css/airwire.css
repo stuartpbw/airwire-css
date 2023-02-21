@@ -1176,6 +1176,12 @@ img, video { max-width: 100%; height: auto; }
 .border-l-0 { border-left-width: var( --size-0 ); }
 .border-x-0 { border-left-width: var( --size-0 ); border-right-width: var( --size-0 ); }
 .border-y-0 { border-top-width: var( --size-0 ); border-bottom-width: var( --size-0 ); }
+/* Divide Style */
+.divide-solid > * + * { border-style: solid; }
+.divide-dashed > * + * { border-style: dashed; }
+.divide-dotted > * + * { border-style: dotted; }
+.divide-double > * + * { border-style: double; }
+.divide-none > * + * { border-style: none; }
 @media (min-width: 40em) {
  .sm\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .sm\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -2226,7 +2232,12 @@ img, video { max-width: 100%; height: auto; }
  .sm\:border-b-0 { border-bottom-width: var( --size-0 ); }
  .sm\:border-l-0 { border-left-width: var( --size-0 ); }
  .sm\:border-x-0 { border-left-width: var( --size-0 ); border-right-width: var( --size-0 ); }
- .sm\:border-y-0 { border-top-width: var( --size-0 ); border-bottom-width: var( --size-0 ); } }
+ .sm\:border-y-0 { border-top-width: var( --size-0 ); border-bottom-width: var( --size-0 ); }
+ .sm\:divide-solid > * + * { border-style: solid; }
+ .sm\:divide-dashed > * + * { border-style: dashed; }
+ .sm\:divide-dotted > * + * { border-style: dotted; }
+ .sm\:divide-double > * + * { border-style: double; }
+ .sm\:divide-none > * + * { border-style: none; } }
 @media (min-width: 48em) {
  .md\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .md\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -3277,7 +3288,12 @@ img, video { max-width: 100%; height: auto; }
  .md\:border-b-0 { border-bottom-width: var( --size-0 ); }
  .md\:border-l-0 { border-left-width: var( --size-0 ); }
  .md\:border-x-0 { border-left-width: var( --size-0 ); border-right-width: var( --size-0 ); }
- .md\:border-y-0 { border-top-width: var( --size-0 ); border-bottom-width: var( --size-0 ); } }
+ .md\:border-y-0 { border-top-width: var( --size-0 ); border-bottom-width: var( --size-0 ); }
+ .md\:divide-solid > * + * { border-style: solid; }
+ .md\:divide-dashed > * + * { border-style: dashed; }
+ .md\:divide-dotted > * + * { border-style: dotted; }
+ .md\:divide-double > * + * { border-style: double; }
+ .md\:divide-none > * + * { border-style: none; } }
 @media (min-width: 64em) {
  .lg\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .lg\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -4328,7 +4344,12 @@ img, video { max-width: 100%; height: auto; }
  .lg\:border-b-0 { border-bottom-width: var( --size-0 ); }
  .lg\:border-l-0 { border-left-width: var( --size-0 ); }
  .lg\:border-x-0 { border-left-width: var( --size-0 ); border-right-width: var( --size-0 ); }
- .lg\:border-y-0 { border-top-width: var( --size-0 ); border-bottom-width: var( --size-0 ); } }
+ .lg\:border-y-0 { border-top-width: var( --size-0 ); border-bottom-width: var( --size-0 ); }
+ .lg\:divide-solid > * + * { border-style: solid; }
+ .lg\:divide-dashed > * + * { border-style: dashed; }
+ .lg\:divide-dotted > * + * { border-style: dotted; }
+ .lg\:divide-double > * + * { border-style: double; }
+ .lg\:divide-none > * + * { border-style: none; } }
 @media (min-width: 80em) {
  .xl\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .xl\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -5379,4 +5400,9 @@ img, video { max-width: 100%; height: auto; }
  .xl\:border-b-0 { border-bottom-width: var( --size-0 ); }
  .xl\:border-l-0 { border-left-width: var( --size-0 ); }
  .xl\:border-x-0 { border-left-width: var( --size-0 ); border-right-width: var( --size-0 ); }
- .xl\:border-y-0 { border-top-width: var( --size-0 ); border-bottom-width: var( --size-0 ); } }
+ .xl\:border-y-0 { border-top-width: var( --size-0 ); border-bottom-width: var( --size-0 ); }
+ .xl\:divide-solid > * + * { border-style: solid; }
+ .xl\:divide-dashed > * + * { border-style: dashed; }
+ .xl\:divide-dotted > * + * { border-style: dotted; }
+ .xl\:divide-double > * + * { border-style: double; }
+ .xl\:divide-none > * + * { border-style: none; } }
