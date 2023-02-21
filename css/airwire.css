@@ -284,6 +284,9 @@ img, video { max-width: 100%; height: auto; }
 .-inset-10 { top: calc( var( --size-10 ) * -1 ); right: calc( var( --size-10 ) * -1 ); bottom: calc( var( --size-10 ) * -1 ); left: calc( var( --size-10 ) * -1 ); }
 .-inset-11 { top: calc( var( --size-11 ) * -1 ); right: calc( var( --size-11 ) * -1 ); bottom: calc( var( --size-11 ) * -1 ); left: calc( var( --size-11 ) * -1 ); }
 .-inset-12 { top: calc( var( --size-12 ) * -1 ); right: calc( var( --size-12 ) * -1 ); bottom: calc( var( --size-12 ) * -1 ); left: calc( var( --size-12 ) * -1 ); }
+/* Screen Readers */
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect( 0, 0, 0, 0 ); white-space: nowrap; border-width: 0; }
+.not-sr-only { position: static; width: auto; height: auto; padding: 0; margin: 0; overflow: visible; clip: auto; white-space: normal; }
 @media (min-width: 40em) {
  .sm\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .sm\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -508,7 +511,9 @@ img, video { max-width: 100%; height: auto; }
  .sm\:-inset-9 { top: calc( var( --size-9 ) * -1 ); right: calc( var( --size-9 ) * -1 ); bottom: calc( var( --size-9 ) * -1 ); left: calc( var( --size-9 ) * -1 ); }
  .sm\:-inset-10 { top: calc( var( --size-10 ) * -1 ); right: calc( var( --size-10 ) * -1 ); bottom: calc( var( --size-10 ) * -1 ); left: calc( var( --size-10 ) * -1 ); }
  .sm\:-inset-11 { top: calc( var( --size-11 ) * -1 ); right: calc( var( --size-11 ) * -1 ); bottom: calc( var( --size-11 ) * -1 ); left: calc( var( --size-11 ) * -1 ); }
- .sm\:-inset-12 { top: calc( var( --size-12 ) * -1 ); right: calc( var( --size-12 ) * -1 ); bottom: calc( var( --size-12 ) * -1 ); left: calc( var( --size-12 ) * -1 ); } }
+ .sm\:-inset-12 { top: calc( var( --size-12 ) * -1 ); right: calc( var( --size-12 ) * -1 ); bottom: calc( var( --size-12 ) * -1 ); left: calc( var( --size-12 ) * -1 ); }
+ .sm\:sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect( 0, 0, 0, 0 ); white-space: nowrap; border-width: 0; }
+ .sm\:not-sr-only { position: static; width: auto; height: auto; padding: 0; margin: 0; overflow: visible; clip: auto; white-space: normal; } }
 @media (min-width: 48em) {
  .md\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .md\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -733,7 +738,9 @@ img, video { max-width: 100%; height: auto; }
  .md\:-inset-9 { top: calc( var( --size-9 ) * -1 ); right: calc( var( --size-9 ) * -1 ); bottom: calc( var( --size-9 ) * -1 ); left: calc( var( --size-9 ) * -1 ); }
  .md\:-inset-10 { top: calc( var( --size-10 ) * -1 ); right: calc( var( --size-10 ) * -1 ); bottom: calc( var( --size-10 ) * -1 ); left: calc( var( --size-10 ) * -1 ); }
  .md\:-inset-11 { top: calc( var( --size-11 ) * -1 ); right: calc( var( --size-11 ) * -1 ); bottom: calc( var( --size-11 ) * -1 ); left: calc( var( --size-11 ) * -1 ); }
- .md\:-inset-12 { top: calc( var( --size-12 ) * -1 ); right: calc( var( --size-12 ) * -1 ); bottom: calc( var( --size-12 ) * -1 ); left: calc( var( --size-12 ) * -1 ); } }
+ .md\:-inset-12 { top: calc( var( --size-12 ) * -1 ); right: calc( var( --size-12 ) * -1 ); bottom: calc( var( --size-12 ) * -1 ); left: calc( var( --size-12 ) * -1 ); }
+ .md\:sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect( 0, 0, 0, 0 ); white-space: nowrap; border-width: 0; }
+ .md\:not-sr-only { position: static; width: auto; height: auto; padding: 0; margin: 0; overflow: visible; clip: auto; white-space: normal; } }
 @media (min-width: 64em) {
  .lg\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .lg\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -958,7 +965,9 @@ img, video { max-width: 100%; height: auto; }
  .lg\:-inset-9 { top: calc( var( --size-9 ) * -1 ); right: calc( var( --size-9 ) * -1 ); bottom: calc( var( --size-9 ) * -1 ); left: calc( var( --size-9 ) * -1 ); }
  .lg\:-inset-10 { top: calc( var( --size-10 ) * -1 ); right: calc( var( --size-10 ) * -1 ); bottom: calc( var( --size-10 ) * -1 ); left: calc( var( --size-10 ) * -1 ); }
  .lg\:-inset-11 { top: calc( var( --size-11 ) * -1 ); right: calc( var( --size-11 ) * -1 ); bottom: calc( var( --size-11 ) * -1 ); left: calc( var( --size-11 ) * -1 ); }
- .lg\:-inset-12 { top: calc( var( --size-12 ) * -1 ); right: calc( var( --size-12 ) * -1 ); bottom: calc( var( --size-12 ) * -1 ); left: calc( var( --size-12 ) * -1 ); } }
+ .lg\:-inset-12 { top: calc( var( --size-12 ) * -1 ); right: calc( var( --size-12 ) * -1 ); bottom: calc( var( --size-12 ) * -1 ); left: calc( var( --size-12 ) * -1 ); }
+ .lg\:sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect( 0, 0, 0, 0 ); white-space: nowrap; border-width: 0; }
+ .lg\:not-sr-only { position: static; width: auto; height: auto; padding: 0; margin: 0; overflow: visible; clip: auto; white-space: normal; } }
 @media (min-width: 80em) {
  .xl\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .xl\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -1183,4 +1192,6 @@ img, video { max-width: 100%; height: auto; }
  .xl\:-inset-9 { top: calc( var( --size-9 ) * -1 ); right: calc( var( --size-9 ) * -1 ); bottom: calc( var( --size-9 ) * -1 ); left: calc( var( --size-9 ) * -1 ); }
  .xl\:-inset-10 { top: calc( var( --size-10 ) * -1 ); right: calc( var( --size-10 ) * -1 ); bottom: calc( var( --size-10 ) * -1 ); left: calc( var( --size-10 ) * -1 ); }
  .xl\:-inset-11 { top: calc( var( --size-11 ) * -1 ); right: calc( var( --size-11 ) * -1 ); bottom: calc( var( --size-11 ) * -1 ); left: calc( var( --size-11 ) * -1 ); }
- .xl\:-inset-12 { top: calc( var( --size-12 ) * -1 ); right: calc( var( --size-12 ) * -1 ); bottom: calc( var( --size-12 ) * -1 ); left: calc( var( --size-12 ) * -1 ); } }
+ .xl\:-inset-12 { top: calc( var( --size-12 ) * -1 ); right: calc( var( --size-12 ) * -1 ); bottom: calc( var( --size-12 ) * -1 ); left: calc( var( --size-12 ) * -1 ); }
+ .xl\:sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect( 0, 0, 0, 0 ); white-space: nowrap; border-width: 0; }
+ .xl\:not-sr-only { position: static; width: auto; height: auto; padding: 0; margin: 0; overflow: visible; clip: auto; white-space: normal; } }
