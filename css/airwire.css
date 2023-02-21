@@ -1036,6 +1036,13 @@ img, video { max-width: 100%; height: auto; }
 .list-disc { list-style-type: disc; }
 .list-decimal { list-style-type: decimal; }
 .list-none { list-style-type: none; }
+/* Text Align */
+.text-left { text-align: left; }
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+.text-justify { text-align: justify; }
+.text-start { text-align: left; }
+.text-end { text-align: right; }
 @media (min-width: 40em) {
  .sm\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .sm\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -1968,7 +1975,13 @@ img, video { max-width: 100%; height: auto; }
  .sm\:list-outside { list-style-position: outside; }
  .sm\:list-disc { list-style-type: disc; }
  .sm\:list-decimal { list-style-type: decimal; }
- .sm\:list-none { list-style-type: none; } }
+ .sm\:list-none { list-style-type: none; }
+ .sm\:text-left { text-align: left; }
+ .sm\:text-center { text-align: center; }
+ .sm\:text-right { text-align: right; }
+ .sm\:text-justify { text-align: justify; }
+ .sm\:text-start { text-align: left; }
+ .sm\:text-end { text-align: right; } }
 @media (min-width: 48em) {
  .md\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .md\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -2901,7 +2914,13 @@ img, video { max-width: 100%; height: auto; }
  .md\:list-outside { list-style-position: outside; }
  .md\:list-disc { list-style-type: disc; }
  .md\:list-decimal { list-style-type: decimal; }
- .md\:list-none { list-style-type: none; } }
+ .md\:list-none { list-style-type: none; }
+ .md\:text-left { text-align: left; }
+ .md\:text-center { text-align: center; }
+ .md\:text-right { text-align: right; }
+ .md\:text-justify { text-align: justify; }
+ .md\:text-start { text-align: left; }
+ .md\:text-end { text-align: right; } }
 @media (min-width: 64em) {
  .lg\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .lg\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -3834,7 +3853,13 @@ img, video { max-width: 100%; height: auto; }
  .lg\:list-outside { list-style-position: outside; }
  .lg\:list-disc { list-style-type: disc; }
  .lg\:list-decimal { list-style-type: decimal; }
- .lg\:list-none { list-style-type: none; } }
+ .lg\:list-none { list-style-type: none; }
+ .lg\:text-left { text-align: left; }
+ .lg\:text-center { text-align: center; }
+ .lg\:text-right { text-align: right; }
+ .lg\:text-justify { text-align: justify; }
+ .lg\:text-start { text-align: left; }
+ .lg\:text-end { text-align: right; } }
 @media (min-width: 80em) {
  .xl\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .xl\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -4767,4 +4792,10 @@ img, video { max-width: 100%; height: auto; }
  .xl\:list-outside { list-style-position: outside; }
  .xl\:list-disc { list-style-type: disc; }
  .xl\:list-decimal { list-style-type: decimal; }
- .xl\:list-none { list-style-type: none; } }
+ .xl\:list-none { list-style-type: none; }
+ .xl\:text-left { text-align: left; }
+ .xl\:text-center { text-align: center; }
+ .xl\:text-right { text-align: right; }
+ .xl\:text-justify { text-align: justify; }
+ .xl\:text-start { text-align: left; }
+ .xl\:text-end { text-align: right; } }
