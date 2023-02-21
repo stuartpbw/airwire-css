@@ -46,6 +46,7 @@
 @import "grid/justify-self.css";
 @import "grid/order.css";
 @import "grid/place-content.css";
+@import "grid/place-items.css";
 
 @custom-media --sm (min-width: 40em);
 @custom-media --md (min-width: 48em);
