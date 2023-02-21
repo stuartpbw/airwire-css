@@ -131,6 +131,16 @@ img, video { max-width: 100%; height: auto; }
 .overflow-y-hidden { overflow-y: hidden; }
 .overflow-y-scroll { overflow-y: scroll; }
 .overflow-y-auto { overflow-y: auto; }
+/* Overscroll */
+.overscroll-auto { overscroll-behavior: auto; }
+.overscroll-contain { overscroll-behavior: contain; }
+.overscroll-none { overscroll-behavior: none; }
+.overscroll-y-auto { overscroll-behavior-y: auto; }
+.overscroll-y-contain { overscroll-behavior-y: contain; }
+.overscroll-y-none { overscroll-behavior-y: none; }
+.overscroll-x-auto { overscroll-behavior-x: auto; }
+.overscroll-x-contain { overscroll-behavior-x: contain; }
+.overscroll-x-none { overscroll-behavior-x: none; }
 @media (min-width: 40em) {
  .sm\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .sm\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -206,7 +216,16 @@ img, video { max-width: 100%; height: auto; }
  .sm\:overflow-y-visible { overflow-y: visible; }
  .sm\:overflow-y-hidden { overflow-y: hidden; }
  .sm\:overflow-y-scroll { overflow-y: scroll; }
- .sm\:overflow-y-auto { overflow-y: auto; } }
+ .sm\:overflow-y-auto { overflow-y: auto; }
+ .sm\:overscroll-auto { overscroll-behavior: auto; }
+ .sm\:overscroll-contain { overscroll-behavior: contain; }
+ .sm\:overscroll-none { overscroll-behavior: none; }
+ .sm\:overscroll-y-auto { overscroll-behavior-y: auto; }
+ .sm\:overscroll-y-contain { overscroll-behavior-y: contain; }
+ .sm\:overscroll-y-none { overscroll-behavior-y: none; }
+ .sm\:overscroll-x-auto { overscroll-behavior-x: auto; }
+ .sm\:overscroll-x-contain { overscroll-behavior-x: contain; }
+ .sm\:overscroll-x-none { overscroll-behavior-x: none; } }
 @media (min-width: 48em) {
  .md\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .md\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -282,7 +301,16 @@ img, video { max-width: 100%; height: auto; }
  .md\:overflow-y-visible { overflow-y: visible; }
  .md\:overflow-y-hidden { overflow-y: hidden; }
  .md\:overflow-y-scroll { overflow-y: scroll; }
- .md\:overflow-y-auto { overflow-y: auto; } }
+ .md\:overflow-y-auto { overflow-y: auto; }
+ .md\:overscroll-auto { overscroll-behavior: auto; }
+ .md\:overscroll-contain { overscroll-behavior: contain; }
+ .md\:overscroll-none { overscroll-behavior: none; }
+ .md\:overscroll-y-auto { overscroll-behavior-y: auto; }
+ .md\:overscroll-y-contain { overscroll-behavior-y: contain; }
+ .md\:overscroll-y-none { overscroll-behavior-y: none; }
+ .md\:overscroll-x-auto { overscroll-behavior-x: auto; }
+ .md\:overscroll-x-contain { overscroll-behavior-x: contain; }
+ .md\:overscroll-x-none { overscroll-behavior-x: none; } }
 @media (min-width: 64em) {
  .lg\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .lg\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -358,7 +386,16 @@ img, video { max-width: 100%; height: auto; }
  .lg\:overflow-y-visible { overflow-y: visible; }
  .lg\:overflow-y-hidden { overflow-y: hidden; }
  .lg\:overflow-y-scroll { overflow-y: scroll; }
- .lg\:overflow-y-auto { overflow-y: auto; } }
+ .lg\:overflow-y-auto { overflow-y: auto; }
+ .lg\:overscroll-auto { overscroll-behavior: auto; }
+ .lg\:overscroll-contain { overscroll-behavior: contain; }
+ .lg\:overscroll-none { overscroll-behavior: none; }
+ .lg\:overscroll-y-auto { overscroll-behavior-y: auto; }
+ .lg\:overscroll-y-contain { overscroll-behavior-y: contain; }
+ .lg\:overscroll-y-none { overscroll-behavior-y: none; }
+ .lg\:overscroll-x-auto { overscroll-behavior-x: auto; }
+ .lg\:overscroll-x-contain { overscroll-behavior-x: contain; }
+ .lg\:overscroll-x-none { overscroll-behavior-x: none; } }
 @media (min-width: 80em) {
  .xl\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .xl\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -434,4 +471,13 @@ img, video { max-width: 100%; height: auto; }
  .xl\:overflow-y-visible { overflow-y: visible; }
  .xl\:overflow-y-hidden { overflow-y: hidden; }
  .xl\:overflow-y-scroll { overflow-y: scroll; }
- .xl\:overflow-y-auto { overflow-y: auto; } }
+ .xl\:overflow-y-auto { overflow-y: auto; }
+ .xl\:overscroll-auto { overscroll-behavior: auto; }
+ .xl\:overscroll-contain { overscroll-behavior: contain; }
+ .xl\:overscroll-none { overscroll-behavior: none; }
+ .xl\:overscroll-y-auto { overscroll-behavior-y: auto; }
+ .xl\:overscroll-y-contain { overscroll-behavior-y: contain; }
+ .xl\:overscroll-y-none { overscroll-behavior-y: none; }
+ .xl\:overscroll-x-auto { overscroll-behavior-x: auto; }
+ .xl\:overscroll-x-contain { overscroll-behavior-x: contain; }
+ .xl\:overscroll-x-none { overscroll-behavior-x: none; } }

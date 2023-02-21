@@ -17,6 +17,7 @@
 @import "layout/object-position.css";
 @import "layout/opacity.css";
 @import "layout/overflow.css";
+@import "layout/overscroll.css";
 
 @custom-media --sm (min-width: 40em);
 @custom-media --md (min-width: 48em);
