@@ -1,0 +1,22 @@
+/* Min-Height */
+
+@responsive {
+  .min-h-0 {
+    min-height: var(--size-0);
+  }
+  .min-h-full {
+    min-height: 100%;
+  }
+  .min-h-vh {
+    min-height: 100vh;
+  }
+  .min-h-min {
+    min-height: min-content;
+  }
+  .min-h-max {
+    min-height: max-content;
+  }
+  .min-h-fit {
+    min-height: fit-content;
+  }
+}
