@@ -336,6 +336,9 @@ img, video { max-width: 100%; height: auto; }
 /* Flex Grow */
 .grow { flex-grow: 1; }
 .grow-0 { flex-grow: 0; }
+/* Flex Shrink */
+.shrink { flex-shrink: 1; }
+.shrink-0 { flex-shrink: 0; }
 @media (min-width: 40em) {
  .sm\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .sm\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -602,7 +605,9 @@ img, video { max-width: 100%; height: auto; }
  .sm\:flex-col { flex-direction: column; }
  .sm\:flex-col-reverse { flex-direction: column-reverse; }
  .sm\:grow { flex-grow: 1; }
- .sm\:grow-0 { flex-grow: 0; } }
+ .sm\:grow-0 { flex-grow: 0; }
+ .sm\:shrink { flex-shrink: 1; }
+ .sm\:shrink-0 { flex-shrink: 0; } }
 @media (min-width: 48em) {
  .md\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .md\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -869,7 +874,9 @@ img, video { max-width: 100%; height: auto; }
  .md\:flex-col { flex-direction: column; }
  .md\:flex-col-reverse { flex-direction: column-reverse; }
  .md\:grow { flex-grow: 1; }
- .md\:grow-0 { flex-grow: 0; } }
+ .md\:grow-0 { flex-grow: 0; }
+ .md\:shrink { flex-shrink: 1; }
+ .md\:shrink-0 { flex-shrink: 0; } }
 @media (min-width: 64em) {
  .lg\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .lg\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -1136,7 +1143,9 @@ img, video { max-width: 100%; height: auto; }
  .lg\:flex-col { flex-direction: column; }
  .lg\:flex-col-reverse { flex-direction: column-reverse; }
  .lg\:grow { flex-grow: 1; }
- .lg\:grow-0 { flex-grow: 0; } }
+ .lg\:grow-0 { flex-grow: 0; }
+ .lg\:shrink { flex-shrink: 1; }
+ .lg\:shrink-0 { flex-shrink: 0; } }
 @media (min-width: 80em) {
  .xl\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .xl\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -1403,4 +1412,6 @@ img, video { max-width: 100%; height: auto; }
  .xl\:flex-col { flex-direction: column; }
  .xl\:flex-col-reverse { flex-direction: column-reverse; }
  .xl\:grow { flex-grow: 1; }
- .xl\:grow-0 { flex-grow: 0; } }
+ .xl\:grow-0 { flex-grow: 0; }
+ .xl\:shrink { flex-shrink: 1; }
+ .xl\:shrink-0 { flex-shrink: 0; } }
