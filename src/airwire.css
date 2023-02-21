@@ -23,6 +23,7 @@
 @import "layout/screen-readers.css";
 @import "layout/table-layout.css";
 @import "layout/visibility.css";
+@import "layout/z-index.css";
 
 @custom-media --sm (min-width: 40em);
 @custom-media --md (min-width: 48em);
