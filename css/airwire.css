@@ -386,6 +386,11 @@ img, video { max-width: 100%; height: auto; }
 .gap-y-10 { row-gap: var( --size-10 ); }
 .gap-y-11 { row-gap: var( --size-11 ); }
 .gap-y-12 { row-gap: var( --size-12 ); }
+/* Grid Auto Columns */
+.auto-cols-auto { grid-auto-columns: auto; }
+.auto-cols-min { grid-auto-columns: min-content; }
+.auto-cols-max { grid-auto-columns: max-content; }
+.auto-cols-fr { grid-auto-columns: minmax( 0, 1fr ); }
 @media (min-width: 40em) {
  .sm\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .sm\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -699,7 +704,11 @@ img, video { max-width: 100%; height: auto; }
  .sm\:gap-y-9 { row-gap: var( --size-9 ); }
  .sm\:gap-y-10 { row-gap: var( --size-10 ); }
  .sm\:gap-y-11 { row-gap: var( --size-11 ); }
- .sm\:gap-y-12 { row-gap: var( --size-12 ); } }
+ .sm\:gap-y-12 { row-gap: var( --size-12 ); }
+ .sm\:auto-cols-auto { grid-auto-columns: auto; }
+ .sm\:auto-cols-min { grid-auto-columns: min-content; }
+ .sm\:auto-cols-max { grid-auto-columns: max-content; }
+ .sm\:auto-cols-fr { grid-auto-columns: minmax( 0, 1fr ); } }
 @media (min-width: 48em) {
  .md\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .md\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -1013,7 +1022,11 @@ img, video { max-width: 100%; height: auto; }
  .md\:gap-y-9 { row-gap: var( --size-9 ); }
  .md\:gap-y-10 { row-gap: var( --size-10 ); }
  .md\:gap-y-11 { row-gap: var( --size-11 ); }
- .md\:gap-y-12 { row-gap: var( --size-12 ); } }
+ .md\:gap-y-12 { row-gap: var( --size-12 ); }
+ .md\:auto-cols-auto { grid-auto-columns: auto; }
+ .md\:auto-cols-min { grid-auto-columns: min-content; }
+ .md\:auto-cols-max { grid-auto-columns: max-content; }
+ .md\:auto-cols-fr { grid-auto-columns: minmax( 0, 1fr ); } }
 @media (min-width: 64em) {
  .lg\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .lg\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -1327,7 +1340,11 @@ img, video { max-width: 100%; height: auto; }
  .lg\:gap-y-9 { row-gap: var( --size-9 ); }
  .lg\:gap-y-10 { row-gap: var( --size-10 ); }
  .lg\:gap-y-11 { row-gap: var( --size-11 ); }
- .lg\:gap-y-12 { row-gap: var( --size-12 ); } }
+ .lg\:gap-y-12 { row-gap: var( --size-12 ); }
+ .lg\:auto-cols-auto { grid-auto-columns: auto; }
+ .lg\:auto-cols-min { grid-auto-columns: min-content; }
+ .lg\:auto-cols-max { grid-auto-columns: max-content; }
+ .lg\:auto-cols-fr { grid-auto-columns: minmax( 0, 1fr ); } }
 @media (min-width: 80em) {
  .xl\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .xl\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -1641,4 +1658,8 @@ img, video { max-width: 100%; height: auto; }
  .xl\:gap-y-9 { row-gap: var( --size-9 ); }
  .xl\:gap-y-10 { row-gap: var( --size-10 ); }
  .xl\:gap-y-11 { row-gap: var( --size-11 ); }
- .xl\:gap-y-12 { row-gap: var( --size-12 ); } }
+ .xl\:gap-y-12 { row-gap: var( --size-12 ); }
+ .xl\:auto-cols-auto { grid-auto-columns: auto; }
+ .xl\:auto-cols-min { grid-auto-columns: min-content; }
+ .xl\:auto-cols-max { grid-auto-columns: max-content; }
+ .xl\:auto-cols-fr { grid-auto-columns: minmax( 0, 1fr ); } }

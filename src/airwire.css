@@ -34,6 +34,7 @@
 @import "grid/flex-shrink.css";
 @import "grid/flex-wrap.css";
 @import "grid/gap.css";
+@import "grid/grid-auto-columns.css";
 
 @custom-media --sm (min-width: 40em);
 @custom-media --md (min-width: 48em);
