@@ -1029,6 +1029,9 @@ img, video { max-width: 100%; height: auto; }
 .leading-normal { line-height: var( --line-height-normal ); }
 .leading-relaxed { line-height: var( --line-height-relaxed ); }
 .leading-loose { line-height: var( --line-height-loose ); }
+/* List Style Position */
+.list-inside { list-style-position: inside; }
+.list-outside { list-style-position: outside; }
 @media (min-width: 40em) {
  .sm\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .sm\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -1956,7 +1959,9 @@ img, video { max-width: 100%; height: auto; }
  .sm\:leading-snug { line-height: var( --line-height-snug ); }
  .sm\:leading-normal { line-height: var( --line-height-normal ); }
  .sm\:leading-relaxed { line-height: var( --line-height-relaxed ); }
- .sm\:leading-loose { line-height: var( --line-height-loose ); } }
+ .sm\:leading-loose { line-height: var( --line-height-loose ); }
+ .sm\:list-inside { list-style-position: inside; }
+ .sm\:list-outside { list-style-position: outside; } }
 @media (min-width: 48em) {
  .md\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .md\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -2884,7 +2889,9 @@ img, video { max-width: 100%; height: auto; }
  .md\:leading-snug { line-height: var( --line-height-snug ); }
  .md\:leading-normal { line-height: var( --line-height-normal ); }
  .md\:leading-relaxed { line-height: var( --line-height-relaxed ); }
- .md\:leading-loose { line-height: var( --line-height-loose ); } }
+ .md\:leading-loose { line-height: var( --line-height-loose ); }
+ .md\:list-inside { list-style-position: inside; }
+ .md\:list-outside { list-style-position: outside; } }
 @media (min-width: 64em) {
  .lg\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .lg\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -3812,7 +3819,9 @@ img, video { max-width: 100%; height: auto; }
  .lg\:leading-snug { line-height: var( --line-height-snug ); }
  .lg\:leading-normal { line-height: var( --line-height-normal ); }
  .lg\:leading-relaxed { line-height: var( --line-height-relaxed ); }
- .lg\:leading-loose { line-height: var( --line-height-loose ); } }
+ .lg\:leading-loose { line-height: var( --line-height-loose ); }
+ .lg\:list-inside { list-style-position: inside; }
+ .lg\:list-outside { list-style-position: outside; } }
 @media (min-width: 80em) {
  .xl\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .xl\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -4740,4 +4749,6 @@ img, video { max-width: 100%; height: auto; }
  .xl\:leading-snug { line-height: var( --line-height-snug ); }
  .xl\:leading-normal { line-height: var( --line-height-normal ); }
  .xl\:leading-relaxed { line-height: var( --line-height-relaxed ); }
- .xl\:leading-loose { line-height: var( --line-height-loose ); } }
+ .xl\:leading-loose { line-height: var( --line-height-loose ); }
+ .xl\:list-inside { list-style-position: inside; }
+ .xl\:list-outside { list-style-position: outside; } }
