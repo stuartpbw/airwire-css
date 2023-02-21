@@ -86,6 +86,12 @@ img, video { max-width: 100%; height: auto; }
 /* Isolation */
 .isolate { isolation: isolate; }
 .isolation-auto { isolation: auto; }
+/* Object Fit */
+.object-contain { object-fit: contain; }
+.object-cover { object-fit: cover; }
+.object-fill { object-fit: fill; }
+.object-none { object-fit: none; }
+.object-scale-down { object-fit: scale-down; }
 @media (min-width: 40em) {
  .sm\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .sm\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -120,7 +126,12 @@ img, video { max-width: 100%; height: auto; }
  .sm\:float-left { float: left; }
  .sm\:float-none { float: none; }
  .sm\:isolate { isolation: isolate; }
- .sm\:isolation-auto { isolation: auto; } }
+ .sm\:isolation-auto { isolation: auto; }
+ .sm\:object-contain { object-fit: contain; }
+ .sm\:object-cover { object-fit: cover; }
+ .sm\:object-fill { object-fit: fill; }
+ .sm\:object-none { object-fit: none; }
+ .sm\:object-scale-down { object-fit: scale-down; } }
 @media (min-width: 48em) {
  .md\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .md\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -155,7 +166,12 @@ img, video { max-width: 100%; height: auto; }
  .md\:float-left { float: left; }
  .md\:float-none { float: none; }
  .md\:isolate { isolation: isolate; }
- .md\:isolation-auto { isolation: auto; } }
+ .md\:isolation-auto { isolation: auto; }
+ .md\:object-contain { object-fit: contain; }
+ .md\:object-cover { object-fit: cover; }
+ .md\:object-fill { object-fit: fill; }
+ .md\:object-none { object-fit: none; }
+ .md\:object-scale-down { object-fit: scale-down; } }
 @media (min-width: 64em) {
  .lg\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .lg\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -190,7 +206,12 @@ img, video { max-width: 100%; height: auto; }
  .lg\:float-left { float: left; }
  .lg\:float-none { float: none; }
  .lg\:isolate { isolation: isolate; }
- .lg\:isolation-auto { isolation: auto; } }
+ .lg\:isolation-auto { isolation: auto; }
+ .lg\:object-contain { object-fit: contain; }
+ .lg\:object-cover { object-fit: cover; }
+ .lg\:object-fill { object-fit: fill; }
+ .lg\:object-none { object-fit: none; }
+ .lg\:object-scale-down { object-fit: scale-down; } }
 @media (min-width: 80em) {
  .xl\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .xl\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -225,4 +246,9 @@ img, video { max-width: 100%; height: auto; }
  .xl\:float-left { float: left; }
  .xl\:float-none { float: none; }
  .xl\:isolate { isolation: isolate; }
- .xl\:isolation-auto { isolation: auto; } }
+ .xl\:isolation-auto { isolation: auto; }
+ .xl\:object-contain { object-fit: contain; }
+ .xl\:object-cover { object-fit: cover; }
+ .xl\:object-fill { object-fit: fill; }
+ .xl\:object-none { object-fit: none; }
+ .xl\:object-scale-down { object-fit: scale-down; } }
