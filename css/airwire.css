@@ -1116,6 +1116,10 @@ img, video { max-width: 100%; height: auto; }
 .bg-clip-text { -webkit-background-clip: text; background-clip: text; }
 /* Background Image */
 .bg-none { background-image: none !important; }
+/* Background Origin */
+.bg-origin-border { background-origin: border-box; }
+.bg-origin-padding { background-origin: padding-box; }
+.bg-origin-content { background-origin: content-box; }
 @media (min-width: 40em) {
  .sm\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .sm\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -2114,7 +2118,10 @@ img, video { max-width: 100%; height: auto; }
  .sm\:bg-clip-padding { background-clip: padding-box; }
  .sm\:bg-clip-content { background-clip: content-box; }
  .sm\:bg-clip-text { -webkit-background-clip: text; background-clip: text; }
- .sm\:bg-none { background-image: none !important; } }
+ .sm\:bg-none { background-image: none !important; }
+ .sm\:bg-origin-border { background-origin: border-box; }
+ .sm\:bg-origin-padding { background-origin: padding-box; }
+ .sm\:bg-origin-content { background-origin: content-box; } }
 @media (min-width: 48em) {
  .md\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .md\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -3113,7 +3120,10 @@ img, video { max-width: 100%; height: auto; }
  .md\:bg-clip-padding { background-clip: padding-box; }
  .md\:bg-clip-content { background-clip: content-box; }
  .md\:bg-clip-text { -webkit-background-clip: text; background-clip: text; }
- .md\:bg-none { background-image: none !important; } }
+ .md\:bg-none { background-image: none !important; }
+ .md\:bg-origin-border { background-origin: border-box; }
+ .md\:bg-origin-padding { background-origin: padding-box; }
+ .md\:bg-origin-content { background-origin: content-box; } }
 @media (min-width: 64em) {
  .lg\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .lg\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -4112,7 +4122,10 @@ img, video { max-width: 100%; height: auto; }
  .lg\:bg-clip-padding { background-clip: padding-box; }
  .lg\:bg-clip-content { background-clip: content-box; }
  .lg\:bg-clip-text { -webkit-background-clip: text; background-clip: text; }
- .lg\:bg-none { background-image: none !important; } }
+ .lg\:bg-none { background-image: none !important; }
+ .lg\:bg-origin-border { background-origin: border-box; }
+ .lg\:bg-origin-padding { background-origin: padding-box; }
+ .lg\:bg-origin-content { background-origin: content-box; } }
 @media (min-width: 80em) {
  .xl\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .xl\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -5111,4 +5124,7 @@ img, video { max-width: 100%; height: auto; }
  .xl\:bg-clip-padding { background-clip: padding-box; }
  .xl\:bg-clip-content { background-clip: content-box; }
  .xl\:bg-clip-text { -webkit-background-clip: text; background-clip: text; }
- .xl\:bg-none { background-image: none !important; } }
+ .xl\:bg-none { background-image: none !important; }
+ .xl\:bg-origin-border { background-origin: border-box; }
+ .xl\:bg-origin-padding { background-origin: padding-box; }
+ .xl\:bg-origin-content { background-origin: content-box; } }
