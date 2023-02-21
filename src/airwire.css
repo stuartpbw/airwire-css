@@ -28,6 +28,7 @@
 @import "grid/align-content.css";
 @import "grid/align-items.css";
 @import "grid/align-self.css";
+@import "grid/flex.css";
 
 @custom-media --sm (min-width: 40em);
 @custom-media --md (min-width: 48em);
