@@ -1171,11 +1171,41 @@ img, video { max-width: 100%; height: auto; }
 .border-3 { border-width: var( --size-3 ); }
 .border-4 { border-width: var( --size-4 ); }
 .border-t-0 { border-top-width: var( --size-0 ); }
+.border-t-px { border-top-width: var( --size-px ); }
+.border-t-1 { border-top-width: var( --size-1 ); }
+.border-t-2 { border-top-width: var( --size-2 ); }
+.border-t-3 { border-top-width: var( --size-3 ); }
+.border-t-4 { border-top-width: var( --size-4 ); }
 .border-r-0 { border-right-width: var( --size-0 ); }
+.border-r-px { border-right-width: var( --size-px ); }
+.border-r-1 { border-right-width: var( --size-1 ); }
+.border-r-2 { border-right-width: var( --size-2 ); }
+.border-r-3 { border-right-width: var( --size-3 ); }
+.border-r-4 { border-right-width: var( --size-4 ); }
 .border-b-0 { border-bottom-width: var( --size-0 ); }
+.border-b-px { border-bottom-width: var( --size-px ); }
+.border-b-1 { border-bottom-width: var( --size-1 ); }
+.border-b-2 { border-bottom-width: var( --size-2 ); }
+.border-b-3 { border-bottom-width: var( --size-3 ); }
+.border-b-4 { border-bottom-width: var( --size-4 ); }
 .border-l-0 { border-left-width: var( --size-0 ); }
+.border-l-px { border-left-width: var( --size-px ); }
+.border-l-1 { border-left-width: var( --size-1 ); }
+.border-l-2 { border-left-width: var( --size-2 ); }
+.border-l-3 { border-left-width: var( --size-3 ); }
+.border-l-4 { border-left-width: var( --size-4 ); }
 .border-x-0 { border-left-width: var( --size-0 ); border-right-width: var( --size-0 ); }
+.border-x-px { border-left-width: var( --size-px ); border-right-width: var( --size-px ); }
+.border-x-1 { border-left-width: var( --size-1 ); border-right-width: var( --size-1 ); }
+.border-x-2 { border-left-width: var( --size-2 ); border-right-width: var( --size-2 ); }
+.border-x-3 { border-left-width: var( --size-3 ); border-right-width: var( --size-3 ); }
+.border-x-4 { border-left-width: var( --size-4 ); border-right-width: var( --size-4 ); }
 .border-y-0 { border-top-width: var( --size-0 ); border-bottom-width: var( --size-0 ); }
+.border-y-px { border-top-width: var( --size-px ); border-bottom-width: var( --size-px ); }
+.border-y-1 { border-top-width: var( --size-1 ); border-bottom-width: var( --size-1 ); }
+.border-y-2 { border-top-width: var( --size-2 ); border-bottom-width: var( --size-2 ); }
+.border-y-3 { border-top-width: var( --size-3 ); border-bottom-width: var( --size-3 ); }
+.border-y-4 { border-top-width: var( --size-4 ); border-bottom-width: var( --size-4 ); }
 /* Divide Style */
 .divide-solid > * + * { border-style: solid; }
 .divide-dashed > * + * { border-style: dashed; }
@@ -2739,11 +2769,41 @@ img, video { max-width: 100%; height: auto; }
  .sm\:border-3 { border-width: var( --size-3 ); }
  .sm\:border-4 { border-width: var( --size-4 ); }
  .sm\:border-t-0 { border-top-width: var( --size-0 ); }
+ .sm\:border-t-px { border-top-width: var( --size-px ); }
+ .sm\:border-t-1 { border-top-width: var( --size-1 ); }
+ .sm\:border-t-2 { border-top-width: var( --size-2 ); }
+ .sm\:border-t-3 { border-top-width: var( --size-3 ); }
+ .sm\:border-t-4 { border-top-width: var( --size-4 ); }
  .sm\:border-r-0 { border-right-width: var( --size-0 ); }
+ .sm\:border-r-px { border-right-width: var( --size-px ); }
+ .sm\:border-r-1 { border-right-width: var( --size-1 ); }
+ .sm\:border-r-2 { border-right-width: var( --size-2 ); }
+ .sm\:border-r-3 { border-right-width: var( --size-3 ); }
+ .sm\:border-r-4 { border-right-width: var( --size-4 ); }
  .sm\:border-b-0 { border-bottom-width: var( --size-0 ); }
+ .sm\:border-b-px { border-bottom-width: var( --size-px ); }
+ .sm\:border-b-1 { border-bottom-width: var( --size-1 ); }
+ .sm\:border-b-2 { border-bottom-width: var( --size-2 ); }
+ .sm\:border-b-3 { border-bottom-width: var( --size-3 ); }
+ .sm\:border-b-4 { border-bottom-width: var( --size-4 ); }
  .sm\:border-l-0 { border-left-width: var( --size-0 ); }
+ .sm\:border-l-px { border-left-width: var( --size-px ); }
+ .sm\:border-l-1 { border-left-width: var( --size-1 ); }
+ .sm\:border-l-2 { border-left-width: var( --size-2 ); }
+ .sm\:border-l-3 { border-left-width: var( --size-3 ); }
+ .sm\:border-l-4 { border-left-width: var( --size-4 ); }
  .sm\:border-x-0 { border-left-width: var( --size-0 ); border-right-width: var( --size-0 ); }
+ .sm\:border-x-px { border-left-width: var( --size-px ); border-right-width: var( --size-px ); }
+ .sm\:border-x-1 { border-left-width: var( --size-1 ); border-right-width: var( --size-1 ); }
+ .sm\:border-x-2 { border-left-width: var( --size-2 ); border-right-width: var( --size-2 ); }
+ .sm\:border-x-3 { border-left-width: var( --size-3 ); border-right-width: var( --size-3 ); }
+ .sm\:border-x-4 { border-left-width: var( --size-4 ); border-right-width: var( --size-4 ); }
  .sm\:border-y-0 { border-top-width: var( --size-0 ); border-bottom-width: var( --size-0 ); }
+ .sm\:border-y-px { border-top-width: var( --size-px ); border-bottom-width: var( --size-px ); }
+ .sm\:border-y-1 { border-top-width: var( --size-1 ); border-bottom-width: var( --size-1 ); }
+ .sm\:border-y-2 { border-top-width: var( --size-2 ); border-bottom-width: var( --size-2 ); }
+ .sm\:border-y-3 { border-top-width: var( --size-3 ); border-bottom-width: var( --size-3 ); }
+ .sm\:border-y-4 { border-top-width: var( --size-4 ); border-bottom-width: var( --size-4 ); }
  .sm\:divide-solid > * + * { border-style: solid; }
  .sm\:divide-dashed > * + * { border-style: dashed; }
  .sm\:divide-dotted > * + * { border-style: dotted; }
@@ -3934,11 +3994,41 @@ img, video { max-width: 100%; height: auto; }
  .md\:border-3 { border-width: var( --size-3 ); }
  .md\:border-4 { border-width: var( --size-4 ); }
  .md\:border-t-0 { border-top-width: var( --size-0 ); }
+ .md\:border-t-px { border-top-width: var( --size-px ); }
+ .md\:border-t-1 { border-top-width: var( --size-1 ); }
+ .md\:border-t-2 { border-top-width: var( --size-2 ); }
+ .md\:border-t-3 { border-top-width: var( --size-3 ); }
+ .md\:border-t-4 { border-top-width: var( --size-4 ); }
  .md\:border-r-0 { border-right-width: var( --size-0 ); }
+ .md\:border-r-px { border-right-width: var( --size-px ); }
+ .md\:border-r-1 { border-right-width: var( --size-1 ); }
+ .md\:border-r-2 { border-right-width: var( --size-2 ); }
+ .md\:border-r-3 { border-right-width: var( --size-3 ); }
+ .md\:border-r-4 { border-right-width: var( --size-4 ); }
  .md\:border-b-0 { border-bottom-width: var( --size-0 ); }
+ .md\:border-b-px { border-bottom-width: var( --size-px ); }
+ .md\:border-b-1 { border-bottom-width: var( --size-1 ); }
+ .md\:border-b-2 { border-bottom-width: var( --size-2 ); }
+ .md\:border-b-3 { border-bottom-width: var( --size-3 ); }
+ .md\:border-b-4 { border-bottom-width: var( --size-4 ); }
  .md\:border-l-0 { border-left-width: var( --size-0 ); }
+ .md\:border-l-px { border-left-width: var( --size-px ); }
+ .md\:border-l-1 { border-left-width: var( --size-1 ); }
+ .md\:border-l-2 { border-left-width: var( --size-2 ); }
+ .md\:border-l-3 { border-left-width: var( --size-3 ); }
+ .md\:border-l-4 { border-left-width: var( --size-4 ); }
  .md\:border-x-0 { border-left-width: var( --size-0 ); border-right-width: var( --size-0 ); }
+ .md\:border-x-px { border-left-width: var( --size-px ); border-right-width: var( --size-px ); }
+ .md\:border-x-1 { border-left-width: var( --size-1 ); border-right-width: var( --size-1 ); }
+ .md\:border-x-2 { border-left-width: var( --size-2 ); border-right-width: var( --size-2 ); }
+ .md\:border-x-3 { border-left-width: var( --size-3 ); border-right-width: var( --size-3 ); }
+ .md\:border-x-4 { border-left-width: var( --size-4 ); border-right-width: var( --size-4 ); }
  .md\:border-y-0 { border-top-width: var( --size-0 ); border-bottom-width: var( --size-0 ); }
+ .md\:border-y-px { border-top-width: var( --size-px ); border-bottom-width: var( --size-px ); }
+ .md\:border-y-1 { border-top-width: var( --size-1 ); border-bottom-width: var( --size-1 ); }
+ .md\:border-y-2 { border-top-width: var( --size-2 ); border-bottom-width: var( --size-2 ); }
+ .md\:border-y-3 { border-top-width: var( --size-3 ); border-bottom-width: var( --size-3 ); }
+ .md\:border-y-4 { border-top-width: var( --size-4 ); border-bottom-width: var( --size-4 ); }
  .md\:divide-solid > * + * { border-style: solid; }
  .md\:divide-dashed > * + * { border-style: dashed; }
  .md\:divide-dotted > * + * { border-style: dotted; }
@@ -5129,11 +5219,41 @@ img, video { max-width: 100%; height: auto; }
  .lg\:border-3 { border-width: var( --size-3 ); }
  .lg\:border-4 { border-width: var( --size-4 ); }
  .lg\:border-t-0 { border-top-width: var( --size-0 ); }
+ .lg\:border-t-px { border-top-width: var( --size-px ); }
+ .lg\:border-t-1 { border-top-width: var( --size-1 ); }
+ .lg\:border-t-2 { border-top-width: var( --size-2 ); }
+ .lg\:border-t-3 { border-top-width: var( --size-3 ); }
+ .lg\:border-t-4 { border-top-width: var( --size-4 ); }
  .lg\:border-r-0 { border-right-width: var( --size-0 ); }
+ .lg\:border-r-px { border-right-width: var( --size-px ); }
+ .lg\:border-r-1 { border-right-width: var( --size-1 ); }
+ .lg\:border-r-2 { border-right-width: var( --size-2 ); }
+ .lg\:border-r-3 { border-right-width: var( --size-3 ); }
+ .lg\:border-r-4 { border-right-width: var( --size-4 ); }
  .lg\:border-b-0 { border-bottom-width: var( --size-0 ); }
+ .lg\:border-b-px { border-bottom-width: var( --size-px ); }
+ .lg\:border-b-1 { border-bottom-width: var( --size-1 ); }
+ .lg\:border-b-2 { border-bottom-width: var( --size-2 ); }
+ .lg\:border-b-3 { border-bottom-width: var( --size-3 ); }
+ .lg\:border-b-4 { border-bottom-width: var( --size-4 ); }
  .lg\:border-l-0 { border-left-width: var( --size-0 ); }
+ .lg\:border-l-px { border-left-width: var( --size-px ); }
+ .lg\:border-l-1 { border-left-width: var( --size-1 ); }
+ .lg\:border-l-2 { border-left-width: var( --size-2 ); }
+ .lg\:border-l-3 { border-left-width: var( --size-3 ); }
+ .lg\:border-l-4 { border-left-width: var( --size-4 ); }
  .lg\:border-x-0 { border-left-width: var( --size-0 ); border-right-width: var( --size-0 ); }
+ .lg\:border-x-px { border-left-width: var( --size-px ); border-right-width: var( --size-px ); }
+ .lg\:border-x-1 { border-left-width: var( --size-1 ); border-right-width: var( --size-1 ); }
+ .lg\:border-x-2 { border-left-width: var( --size-2 ); border-right-width: var( --size-2 ); }
+ .lg\:border-x-3 { border-left-width: var( --size-3 ); border-right-width: var( --size-3 ); }
+ .lg\:border-x-4 { border-left-width: var( --size-4 ); border-right-width: var( --size-4 ); }
  .lg\:border-y-0 { border-top-width: var( --size-0 ); border-bottom-width: var( --size-0 ); }
+ .lg\:border-y-px { border-top-width: var( --size-px ); border-bottom-width: var( --size-px ); }
+ .lg\:border-y-1 { border-top-width: var( --size-1 ); border-bottom-width: var( --size-1 ); }
+ .lg\:border-y-2 { border-top-width: var( --size-2 ); border-bottom-width: var( --size-2 ); }
+ .lg\:border-y-3 { border-top-width: var( --size-3 ); border-bottom-width: var( --size-3 ); }
+ .lg\:border-y-4 { border-top-width: var( --size-4 ); border-bottom-width: var( --size-4 ); }
  .lg\:divide-solid > * + * { border-style: solid; }
  .lg\:divide-dashed > * + * { border-style: dashed; }
  .lg\:divide-dotted > * + * { border-style: dotted; }
@@ -6324,11 +6444,41 @@ img, video { max-width: 100%; height: auto; }
  .xl\:border-3 { border-width: var( --size-3 ); }
  .xl\:border-4 { border-width: var( --size-4 ); }
  .xl\:border-t-0 { border-top-width: var( --size-0 ); }
+ .xl\:border-t-px { border-top-width: var( --size-px ); }
+ .xl\:border-t-1 { border-top-width: var( --size-1 ); }
+ .xl\:border-t-2 { border-top-width: var( --size-2 ); }
+ .xl\:border-t-3 { border-top-width: var( --size-3 ); }
+ .xl\:border-t-4 { border-top-width: var( --size-4 ); }
  .xl\:border-r-0 { border-right-width: var( --size-0 ); }
+ .xl\:border-r-px { border-right-width: var( --size-px ); }
+ .xl\:border-r-1 { border-right-width: var( --size-1 ); }
+ .xl\:border-r-2 { border-right-width: var( --size-2 ); }
+ .xl\:border-r-3 { border-right-width: var( --size-3 ); }
+ .xl\:border-r-4 { border-right-width: var( --size-4 ); }
  .xl\:border-b-0 { border-bottom-width: var( --size-0 ); }
+ .xl\:border-b-px { border-bottom-width: var( --size-px ); }
+ .xl\:border-b-1 { border-bottom-width: var( --size-1 ); }
+ .xl\:border-b-2 { border-bottom-width: var( --size-2 ); }
+ .xl\:border-b-3 { border-bottom-width: var( --size-3 ); }
+ .xl\:border-b-4 { border-bottom-width: var( --size-4 ); }
  .xl\:border-l-0 { border-left-width: var( --size-0 ); }
+ .xl\:border-l-px { border-left-width: var( --size-px ); }
+ .xl\:border-l-1 { border-left-width: var( --size-1 ); }
+ .xl\:border-l-2 { border-left-width: var( --size-2 ); }
+ .xl\:border-l-3 { border-left-width: var( --size-3 ); }
+ .xl\:border-l-4 { border-left-width: var( --size-4 ); }
  .xl\:border-x-0 { border-left-width: var( --size-0 ); border-right-width: var( --size-0 ); }
+ .xl\:border-x-px { border-left-width: var( --size-px ); border-right-width: var( --size-px ); }
+ .xl\:border-x-1 { border-left-width: var( --size-1 ); border-right-width: var( --size-1 ); }
+ .xl\:border-x-2 { border-left-width: var( --size-2 ); border-right-width: var( --size-2 ); }
+ .xl\:border-x-3 { border-left-width: var( --size-3 ); border-right-width: var( --size-3 ); }
+ .xl\:border-x-4 { border-left-width: var( --size-4 ); border-right-width: var( --size-4 ); }
  .xl\:border-y-0 { border-top-width: var( --size-0 ); border-bottom-width: var( --size-0 ); }
+ .xl\:border-y-px { border-top-width: var( --size-px ); border-bottom-width: var( --size-px ); }
+ .xl\:border-y-1 { border-top-width: var( --size-1 ); border-bottom-width: var( --size-1 ); }
+ .xl\:border-y-2 { border-top-width: var( --size-2 ); border-bottom-width: var( --size-2 ); }
+ .xl\:border-y-3 { border-top-width: var( --size-3 ); border-bottom-width: var( --size-3 ); }
+ .xl\:border-y-4 { border-top-width: var( --size-4 ); border-bottom-width: var( --size-4 ); }
  .xl\:divide-solid > * + * { border-style: solid; }
  .xl\:divide-dashed > * + * { border-style: dashed; }
  .xl\:divide-dotted > * + * { border-style: dotted; }
