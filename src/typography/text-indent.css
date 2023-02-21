@@ -1,0 +1,19 @@
+/* Text Indent */
+
+@responsive {
+  .indent-0 {
+    text-indent: var(--size-0);
+  }
+  .indent-1 {
+    text-indent: var(--size-1);
+  }
+  .indent-2 {
+    text-indent: var(--size-2);
+  }
+  .indent-3 {
+    text-indent: var(--size-3);
+  }
+  .indent-4 {
+    text-indent: var(--size-4);
+  }
+}
