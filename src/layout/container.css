@@ -1,0 +1,33 @@
+/* Container */
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--size-4);
+  padding-right: var(--size-4);
+  width: 100%;
+}
+
+@media (--sm) {
+  .container {
+    max-width: var(--content-xl);
+  }
+}
+
+@media (--md) {
+  .container {
+    max-width: var(--content-2xl);
+  }
+}
+
+@media (--lg) {
+  .container {
+    max-width: var(--content-4xl);
+  }
+}
+
+@media (--xl) {
+  .container {
+    max-width: var(--content-6xl);
+  }
+}

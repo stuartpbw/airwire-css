@@ -7,4 +7,35 @@
   --aspect-16x9: 16/9;
   --aspect-18x5: 18/5;
   --aspect-golden: 1.618/1;
+
+  --content-xs: 20rem;
+  --content-sm: 24rem;
+  --content-md: 28rem;
+  --content-lg: 32rem;
+  --content-xl: 40rem;
+  --content-2xl: 48rem;
+  --content-3xl: 56rem;
+  --content-4xl: 64rem;
+  --content-5xl: 72rem;
+  --content-6xl: 80rem;
+  --content-prose-sm: 24ch;
+  --content-prose-md: 32ch;
+  --content-prose-lg: 40ch;
+  --content-prose-xl: 48ch;
+  --content-prose-2xl: 56ch;
+
+  --size-0: 0;
+  --size-px: 1px;
+  --size-1: 0.125rem;
+  --size-2: 0.25rem;
+  --size-3: 0.5rem;
+  --size-4: 1rem;
+  --size-5: 1.5rem;
+  --size-6: 2rem;
+  --size-7: 3rem;
+  --size-8: 4rem;
+  --size-9: 5rem;
+  --size-10: 7.5rem;
+  --size-11: 10rem;
+  --size-12: 15rem;
 }
