@@ -88,6 +88,8 @@
 @import "background/background-repeat.css";
 @import "background/background-size.css";
 
+@import "border/border-collapse.css";
+
 @custom-media --sm (min-width: 40em);
 @custom-media --md (min-width: 48em);
 @custom-media --lg (min-width: 64em);
