@@ -1100,6 +1100,11 @@ img, video { max-width: 100%; height: auto; }
 .whitespace-pre { white-space: pre; }
 .whitespace-pre-line { white-space: pre-line; }
 .whitespace-pre-wrap { white-space: pre-wrap; }
+/* Word Break */
+.break-normal { word-wrap: normal; word-break: normal; }
+.break-words { word-wrap: break-word; }
+.break-all { word-break: break-all; }
+.break-keep { word-break: keep-all; }
 @media (min-width: 40em) {
  .sm\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .sm\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -2086,7 +2091,11 @@ img, video { max-width: 100%; height: auto; }
  .sm\:whitespace-nowrap { white-space: nowrap; }
  .sm\:whitespace-pre { white-space: pre; }
  .sm\:whitespace-pre-line { white-space: pre-line; }
- .sm\:whitespace-pre-wrap { white-space: pre-wrap; } }
+ .sm\:whitespace-pre-wrap { white-space: pre-wrap; }
+ .sm\:break-normal { word-wrap: normal; word-break: normal; }
+ .sm\:break-words { word-wrap: break-word; }
+ .sm\:break-all { word-break: break-all; }
+ .sm\:break-keep { word-break: keep-all; } }
 @media (min-width: 48em) {
  .md\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .md\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -3073,7 +3082,11 @@ img, video { max-width: 100%; height: auto; }
  .md\:whitespace-nowrap { white-space: nowrap; }
  .md\:whitespace-pre { white-space: pre; }
  .md\:whitespace-pre-line { white-space: pre-line; }
- .md\:whitespace-pre-wrap { white-space: pre-wrap; } }
+ .md\:whitespace-pre-wrap { white-space: pre-wrap; }
+ .md\:break-normal { word-wrap: normal; word-break: normal; }
+ .md\:break-words { word-wrap: break-word; }
+ .md\:break-all { word-break: break-all; }
+ .md\:break-keep { word-break: keep-all; } }
 @media (min-width: 64em) {
  .lg\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .lg\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -4060,7 +4073,11 @@ img, video { max-width: 100%; height: auto; }
  .lg\:whitespace-nowrap { white-space: nowrap; }
  .lg\:whitespace-pre { white-space: pre; }
  .lg\:whitespace-pre-line { white-space: pre-line; }
- .lg\:whitespace-pre-wrap { white-space: pre-wrap; } }
+ .lg\:whitespace-pre-wrap { white-space: pre-wrap; }
+ .lg\:break-normal { word-wrap: normal; word-break: normal; }
+ .lg\:break-words { word-wrap: break-word; }
+ .lg\:break-all { word-break: break-all; }
+ .lg\:break-keep { word-break: keep-all; } }
 @media (min-width: 80em) {
  .xl\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .xl\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -5047,4 +5064,8 @@ img, video { max-width: 100%; height: auto; }
  .xl\:whitespace-nowrap { white-space: nowrap; }
  .xl\:whitespace-pre { white-space: pre; }
  .xl\:whitespace-pre-line { white-space: pre-line; }
- .xl\:whitespace-pre-wrap { white-space: pre-wrap; } }
+ .xl\:whitespace-pre-wrap { white-space: pre-wrap; }
+ .xl\:break-normal { word-wrap: normal; word-break: normal; }
+ .xl\:break-words { word-wrap: break-word; }
+ .xl\:break-all { word-break: break-all; }
+ .xl\:break-keep { word-break: keep-all; } }
