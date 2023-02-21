@@ -86,6 +86,7 @@
 @import "background/background-origin.css";
 @import "background/background-position.css";
 @import "background/background-repeat.css";
+@import "background/background-size.css";
 
 @custom-media --sm (min-width: 40em);
 @custom-media --md (min-width: 48em);
