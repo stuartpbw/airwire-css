@@ -62,6 +62,7 @@
 
 @import "typography/font-family.css";
 @import "typography/font-size.css";
+@import "typography/font-style.css";
 
 @custom-media --sm (min-width: 40em);
 @custom-media --md (min-width: 48em);
