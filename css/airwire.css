@@ -102,6 +102,22 @@ img, video { max-width: 100%; height: auto; }
 .object-right-bottom { object-position: right bottom; }
 .object-right-top { object-position: right top; }
 .object-top { object-position: top; }
+/* Opacity */
+.opacity-0 { opacity: 0; }
+.opacity-5 { opacity: .05; }
+.opacity-10 { opacity: .1; }
+.opacity-20 { opacity: .2; }
+.opacity-25 { opacity: .25; }
+.opacity-30 { opacity: .3; }
+.opacity-40 { opacity: .4; }
+.opacity-50 { opacity: .5; }
+.opacity-60 { opacity: .6; }
+.opacity-70 { opacity: .7; }
+.opacity-75 { opacity: .75; }
+.opacity-80 { opacity: .8; }
+.opacity-90 { opacity: .9; }
+.opacity-95 { opacity: .95; }
+.opacity-100 { opacity: 1; }
 @media (min-width: 40em) {
  .sm\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .sm\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -150,7 +166,22 @@ img, video { max-width: 100%; height: auto; }
  .sm\:object-right { object-position: right; }
  .sm\:object-right-bottom { object-position: right bottom; }
  .sm\:object-right-top { object-position: right top; }
- .sm\:object-top { object-position: top; } }
+ .sm\:object-top { object-position: top; }
+ .sm\:opacity-0 { opacity: 0; }
+ .sm\:opacity-5 { opacity: .05; }
+ .sm\:opacity-10 { opacity: .1; }
+ .sm\:opacity-20 { opacity: .2; }
+ .sm\:opacity-25 { opacity: .25; }
+ .sm\:opacity-30 { opacity: .3; }
+ .sm\:opacity-40 { opacity: .4; }
+ .sm\:opacity-50 { opacity: .5; }
+ .sm\:opacity-60 { opacity: .6; }
+ .sm\:opacity-70 { opacity: .7; }
+ .sm\:opacity-75 { opacity: .75; }
+ .sm\:opacity-80 { opacity: .8; }
+ .sm\:opacity-90 { opacity: .9; }
+ .sm\:opacity-95 { opacity: .95; }
+ .sm\:opacity-100 { opacity: 1; } }
 @media (min-width: 48em) {
  .md\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .md\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -199,7 +230,22 @@ img, video { max-width: 100%; height: auto; }
  .md\:object-right { object-position: right; }
  .md\:object-right-bottom { object-position: right bottom; }
  .md\:object-right-top { object-position: right top; }
- .md\:object-top { object-position: top; } }
+ .md\:object-top { object-position: top; }
+ .md\:opacity-0 { opacity: 0; }
+ .md\:opacity-5 { opacity: .05; }
+ .md\:opacity-10 { opacity: .1; }
+ .md\:opacity-20 { opacity: .2; }
+ .md\:opacity-25 { opacity: .25; }
+ .md\:opacity-30 { opacity: .3; }
+ .md\:opacity-40 { opacity: .4; }
+ .md\:opacity-50 { opacity: .5; }
+ .md\:opacity-60 { opacity: .6; }
+ .md\:opacity-70 { opacity: .7; }
+ .md\:opacity-75 { opacity: .75; }
+ .md\:opacity-80 { opacity: .8; }
+ .md\:opacity-90 { opacity: .9; }
+ .md\:opacity-95 { opacity: .95; }
+ .md\:opacity-100 { opacity: 1; } }
 @media (min-width: 64em) {
  .lg\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .lg\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -248,7 +294,22 @@ img, video { max-width: 100%; height: auto; }
  .lg\:object-right { object-position: right; }
  .lg\:object-right-bottom { object-position: right bottom; }
  .lg\:object-right-top { object-position: right top; }
- .lg\:object-top { object-position: top; } }
+ .lg\:object-top { object-position: top; }
+ .lg\:opacity-0 { opacity: 0; }
+ .lg\:opacity-5 { opacity: .05; }
+ .lg\:opacity-10 { opacity: .1; }
+ .lg\:opacity-20 { opacity: .2; }
+ .lg\:opacity-25 { opacity: .25; }
+ .lg\:opacity-30 { opacity: .3; }
+ .lg\:opacity-40 { opacity: .4; }
+ .lg\:opacity-50 { opacity: .5; }
+ .lg\:opacity-60 { opacity: .6; }
+ .lg\:opacity-70 { opacity: .7; }
+ .lg\:opacity-75 { opacity: .75; }
+ .lg\:opacity-80 { opacity: .8; }
+ .lg\:opacity-90 { opacity: .9; }
+ .lg\:opacity-95 { opacity: .95; }
+ .lg\:opacity-100 { opacity: 1; } }
 @media (min-width: 80em) {
  .xl\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .xl\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -297,4 +358,19 @@ img, video { max-width: 100%; height: auto; }
  .xl\:object-right { object-position: right; }
  .xl\:object-right-bottom { object-position: right bottom; }
  .xl\:object-right-top { object-position: right top; }
- .xl\:object-top { object-position: top; } }
+ .xl\:object-top { object-position: top; }
+ .xl\:opacity-0 { opacity: 0; }
+ .xl\:opacity-5 { opacity: .05; }
+ .xl\:opacity-10 { opacity: .1; }
+ .xl\:opacity-20 { opacity: .2; }
+ .xl\:opacity-25 { opacity: .25; }
+ .xl\:opacity-30 { opacity: .3; }
+ .xl\:opacity-40 { opacity: .4; }
+ .xl\:opacity-50 { opacity: .5; }
+ .xl\:opacity-60 { opacity: .6; }
+ .xl\:opacity-70 { opacity: .7; }
+ .xl\:opacity-75 { opacity: .75; }
+ .xl\:opacity-80 { opacity: .8; }
+ .xl\:opacity-90 { opacity: .9; }
+ .xl\:opacity-95 { opacity: .95; }
+ .xl\:opacity-100 { opacity: 1; } }
