@@ -67,6 +67,7 @@
 @import "typography/letter-spacing.css";
 @import "typography/line-height.css";
 @import "typography/list-style-position.css";
+@import "typography/list-style-type.css";
 
 @custom-media --sm (min-width: 40em);
 @custom-media --md (min-width: 48em);
