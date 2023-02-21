@@ -1195,6 +1195,33 @@ img, video { max-width: 100%; height: auto; }
 .divide-y-2 > * + * { border-top-width: var( --size-2 ); border-bottom-width: var( --size-2 ); }
 .divide-y-3 > * + * { border-top-width: var( --size-3 ); border-bottom-width: var( --size-3 ); }
 .divide-y-4 > * + * { border-top-width: var( --size-4 ); border-bottom-width: var( --size-4 ); }
+/* Rotate */
+.rotate-0 { transform: rotate( 0deg ); }
+.rotate-1 { transform: rotate( 1deg ); }
+.rotate-2 { transform: rotate( 2deg ); }
+.rotate-3 { transform: rotate( 3deg ); }
+.rotate-6 { transform: rotate( 6deg ); }
+.rotate-12 { transform: rotate( 12deg ); }
+.rotate-45 { transform: rotate( 45deg ); }
+.rotate-90 { transform: rotate( 90deg ); }
+.rotate-135 { transform: rotate( 135deg ); }
+.rotate-180 { transform: rotate( 180deg ); }
+.rotate-225 { transform: rotate( 225deg ); }
+.rotate-270 { transform: rotate( 270deg ); }
+.rotate-315 { transform: rotate( 315deg ); }
+.-rotate-0 { transform: rotate( calc( 0deg * -1 ) ); }
+.-rotate-1 { transform: rotate( calc( 1deg * -1 ) ); }
+.-rotate-2 { transform: rotate( calc( 2deg * -1 ) ); }
+.-rotate-3 { transform: rotate( calc( 3deg * -1 ) ); }
+.-rotate-6 { transform: rotate( calc( 6deg * -1 ) ); }
+.-rotate-12 { transform: rotate( calc( 12deg * -1 ) ); }
+.-rotate-45 { transform: rotate( calc( 45deg * -1 ) ); }
+.-rotate-90 { transform: rotate( calc( 90deg * -1 ) ); }
+.-rotate-135 { transform: rotate( calc( 135deg * -1 ) ); }
+.-rotate-180 { transform: rotate( calc( 180deg * -1 ) ); }
+.-rotate-225 { transform: rotate( calc( 225deg * -1 ) ); }
+.-rotate-270 { transform: rotate( calc( 270deg * -1 ) ); }
+.-rotate-315 { transform: rotate( calc( 315deg * -1 ) ); }
 @media (min-width: 40em) {
  .sm\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .sm\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -2262,7 +2289,33 @@ img, video { max-width: 100%; height: auto; }
  .sm\:divide-y-1 > * + * { border-top-width: var( --size-1 ); border-bottom-width: var( --size-1 ); }
  .sm\:divide-y-2 > * + * { border-top-width: var( --size-2 ); border-bottom-width: var( --size-2 ); }
  .sm\:divide-y-3 > * + * { border-top-width: var( --size-3 ); border-bottom-width: var( --size-3 ); }
- .sm\:divide-y-4 > * + * { border-top-width: var( --size-4 ); border-bottom-width: var( --size-4 ); } }
+ .sm\:divide-y-4 > * + * { border-top-width: var( --size-4 ); border-bottom-width: var( --size-4 ); }
+ .sm\:rotate-0 { transform: rotate( 0deg ); }
+ .sm\:rotate-1 { transform: rotate( 1deg ); }
+ .sm\:rotate-2 { transform: rotate( 2deg ); }
+ .sm\:rotate-3 { transform: rotate( 3deg ); }
+ .sm\:rotate-6 { transform: rotate( 6deg ); }
+ .sm\:rotate-12 { transform: rotate( 12deg ); }
+ .sm\:rotate-45 { transform: rotate( 45deg ); }
+ .sm\:rotate-90 { transform: rotate( 90deg ); }
+ .sm\:rotate-135 { transform: rotate( 135deg ); }
+ .sm\:rotate-180 { transform: rotate( 180deg ); }
+ .sm\:rotate-225 { transform: rotate( 225deg ); }
+ .sm\:rotate-270 { transform: rotate( 270deg ); }
+ .sm\:rotate-315 { transform: rotate( 315deg ); }
+ .sm\:-rotate-0 { transform: rotate( calc( 0deg * -1 ) ); }
+ .sm\:-rotate-1 { transform: rotate( calc( 1deg * -1 ) ); }
+ .sm\:-rotate-2 { transform: rotate( calc( 2deg * -1 ) ); }
+ .sm\:-rotate-3 { transform: rotate( calc( 3deg * -1 ) ); }
+ .sm\:-rotate-6 { transform: rotate( calc( 6deg * -1 ) ); }
+ .sm\:-rotate-12 { transform: rotate( calc( 12deg * -1 ) ); }
+ .sm\:-rotate-45 { transform: rotate( calc( 45deg * -1 ) ); }
+ .sm\:-rotate-90 { transform: rotate( calc( 90deg * -1 ) ); }
+ .sm\:-rotate-135 { transform: rotate( calc( 135deg * -1 ) ); }
+ .sm\:-rotate-180 { transform: rotate( calc( 180deg * -1 ) ); }
+ .sm\:-rotate-225 { transform: rotate( calc( 225deg * -1 ) ); }
+ .sm\:-rotate-270 { transform: rotate( calc( 270deg * -1 ) ); }
+ .sm\:-rotate-315 { transform: rotate( calc( 315deg * -1 ) ); } }
 @media (min-width: 48em) {
  .md\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .md\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -3330,7 +3383,33 @@ img, video { max-width: 100%; height: auto; }
  .md\:divide-y-1 > * + * { border-top-width: var( --size-1 ); border-bottom-width: var( --size-1 ); }
  .md\:divide-y-2 > * + * { border-top-width: var( --size-2 ); border-bottom-width: var( --size-2 ); }
  .md\:divide-y-3 > * + * { border-top-width: var( --size-3 ); border-bottom-width: var( --size-3 ); }
- .md\:divide-y-4 > * + * { border-top-width: var( --size-4 ); border-bottom-width: var( --size-4 ); } }
+ .md\:divide-y-4 > * + * { border-top-width: var( --size-4 ); border-bottom-width: var( --size-4 ); }
+ .md\:rotate-0 { transform: rotate( 0deg ); }
+ .md\:rotate-1 { transform: rotate( 1deg ); }
+ .md\:rotate-2 { transform: rotate( 2deg ); }
+ .md\:rotate-3 { transform: rotate( 3deg ); }
+ .md\:rotate-6 { transform: rotate( 6deg ); }
+ .md\:rotate-12 { transform: rotate( 12deg ); }
+ .md\:rotate-45 { transform: rotate( 45deg ); }
+ .md\:rotate-90 { transform: rotate( 90deg ); }
+ .md\:rotate-135 { transform: rotate( 135deg ); }
+ .md\:rotate-180 { transform: rotate( 180deg ); }
+ .md\:rotate-225 { transform: rotate( 225deg ); }
+ .md\:rotate-270 { transform: rotate( 270deg ); }
+ .md\:rotate-315 { transform: rotate( 315deg ); }
+ .md\:-rotate-0 { transform: rotate( calc( 0deg * -1 ) ); }
+ .md\:-rotate-1 { transform: rotate( calc( 1deg * -1 ) ); }
+ .md\:-rotate-2 { transform: rotate( calc( 2deg * -1 ) ); }
+ .md\:-rotate-3 { transform: rotate( calc( 3deg * -1 ) ); }
+ .md\:-rotate-6 { transform: rotate( calc( 6deg * -1 ) ); }
+ .md\:-rotate-12 { transform: rotate( calc( 12deg * -1 ) ); }
+ .md\:-rotate-45 { transform: rotate( calc( 45deg * -1 ) ); }
+ .md\:-rotate-90 { transform: rotate( calc( 90deg * -1 ) ); }
+ .md\:-rotate-135 { transform: rotate( calc( 135deg * -1 ) ); }
+ .md\:-rotate-180 { transform: rotate( calc( 180deg * -1 ) ); }
+ .md\:-rotate-225 { transform: rotate( calc( 225deg * -1 ) ); }
+ .md\:-rotate-270 { transform: rotate( calc( 270deg * -1 ) ); }
+ .md\:-rotate-315 { transform: rotate( calc( 315deg * -1 ) ); } }
 @media (min-width: 64em) {
  .lg\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .lg\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -4398,7 +4477,33 @@ img, video { max-width: 100%; height: auto; }
  .lg\:divide-y-1 > * + * { border-top-width: var( --size-1 ); border-bottom-width: var( --size-1 ); }
  .lg\:divide-y-2 > * + * { border-top-width: var( --size-2 ); border-bottom-width: var( --size-2 ); }
  .lg\:divide-y-3 > * + * { border-top-width: var( --size-3 ); border-bottom-width: var( --size-3 ); }
- .lg\:divide-y-4 > * + * { border-top-width: var( --size-4 ); border-bottom-width: var( --size-4 ); } }
+ .lg\:divide-y-4 > * + * { border-top-width: var( --size-4 ); border-bottom-width: var( --size-4 ); }
+ .lg\:rotate-0 { transform: rotate( 0deg ); }
+ .lg\:rotate-1 { transform: rotate( 1deg ); }
+ .lg\:rotate-2 { transform: rotate( 2deg ); }
+ .lg\:rotate-3 { transform: rotate( 3deg ); }
+ .lg\:rotate-6 { transform: rotate( 6deg ); }
+ .lg\:rotate-12 { transform: rotate( 12deg ); }
+ .lg\:rotate-45 { transform: rotate( 45deg ); }
+ .lg\:rotate-90 { transform: rotate( 90deg ); }
+ .lg\:rotate-135 { transform: rotate( 135deg ); }
+ .lg\:rotate-180 { transform: rotate( 180deg ); }
+ .lg\:rotate-225 { transform: rotate( 225deg ); }
+ .lg\:rotate-270 { transform: rotate( 270deg ); }
+ .lg\:rotate-315 { transform: rotate( 315deg ); }
+ .lg\:-rotate-0 { transform: rotate( calc( 0deg * -1 ) ); }
+ .lg\:-rotate-1 { transform: rotate( calc( 1deg * -1 ) ); }
+ .lg\:-rotate-2 { transform: rotate( calc( 2deg * -1 ) ); }
+ .lg\:-rotate-3 { transform: rotate( calc( 3deg * -1 ) ); }
+ .lg\:-rotate-6 { transform: rotate( calc( 6deg * -1 ) ); }
+ .lg\:-rotate-12 { transform: rotate( calc( 12deg * -1 ) ); }
+ .lg\:-rotate-45 { transform: rotate( calc( 45deg * -1 ) ); }
+ .lg\:-rotate-90 { transform: rotate( calc( 90deg * -1 ) ); }
+ .lg\:-rotate-135 { transform: rotate( calc( 135deg * -1 ) ); }
+ .lg\:-rotate-180 { transform: rotate( calc( 180deg * -1 ) ); }
+ .lg\:-rotate-225 { transform: rotate( calc( 225deg * -1 ) ); }
+ .lg\:-rotate-270 { transform: rotate( calc( 270deg * -1 ) ); }
+ .lg\:-rotate-315 { transform: rotate( calc( 315deg * -1 ) ); } }
 @media (min-width: 80em) {
  .xl\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .xl\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -5466,4 +5571,30 @@ img, video { max-width: 100%; height: auto; }
  .xl\:divide-y-1 > * + * { border-top-width: var( --size-1 ); border-bottom-width: var( --size-1 ); }
  .xl\:divide-y-2 > * + * { border-top-width: var( --size-2 ); border-bottom-width: var( --size-2 ); }
  .xl\:divide-y-3 > * + * { border-top-width: var( --size-3 ); border-bottom-width: var( --size-3 ); }
- .xl\:divide-y-4 > * + * { border-top-width: var( --size-4 ); border-bottom-width: var( --size-4 ); } }
+ .xl\:divide-y-4 > * + * { border-top-width: var( --size-4 ); border-bottom-width: var( --size-4 ); }
+ .xl\:rotate-0 { transform: rotate( 0deg ); }
+ .xl\:rotate-1 { transform: rotate( 1deg ); }
+ .xl\:rotate-2 { transform: rotate( 2deg ); }
+ .xl\:rotate-3 { transform: rotate( 3deg ); }
+ .xl\:rotate-6 { transform: rotate( 6deg ); }
+ .xl\:rotate-12 { transform: rotate( 12deg ); }
+ .xl\:rotate-45 { transform: rotate( 45deg ); }
+ .xl\:rotate-90 { transform: rotate( 90deg ); }
+ .xl\:rotate-135 { transform: rotate( 135deg ); }
+ .xl\:rotate-180 { transform: rotate( 180deg ); }
+ .xl\:rotate-225 { transform: rotate( 225deg ); }
+ .xl\:rotate-270 { transform: rotate( 270deg ); }
+ .xl\:rotate-315 { transform: rotate( 315deg ); }
+ .xl\:-rotate-0 { transform: rotate( calc( 0deg * -1 ) ); }
+ .xl\:-rotate-1 { transform: rotate( calc( 1deg * -1 ) ); }
+ .xl\:-rotate-2 { transform: rotate( calc( 2deg * -1 ) ); }
+ .xl\:-rotate-3 { transform: rotate( calc( 3deg * -1 ) ); }
+ .xl\:-rotate-6 { transform: rotate( calc( 6deg * -1 ) ); }
+ .xl\:-rotate-12 { transform: rotate( calc( 12deg * -1 ) ); }
+ .xl\:-rotate-45 { transform: rotate( calc( 45deg * -1 ) ); }
+ .xl\:-rotate-90 { transform: rotate( calc( 90deg * -1 ) ); }
+ .xl\:-rotate-135 { transform: rotate( calc( 135deg * -1 ) ); }
+ .xl\:-rotate-180 { transform: rotate( calc( 180deg * -1 ) ); }
+ .xl\:-rotate-225 { transform: rotate( calc( 225deg * -1 ) ); }
+ .xl\:-rotate-270 { transform: rotate( calc( 270deg * -1 ) ); }
+ .xl\:-rotate-315 { transform: rotate( calc( 315deg * -1 ) ); } }
