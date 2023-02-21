@@ -118,6 +118,19 @@ img, video { max-width: 100%; height: auto; }
 .opacity-90 { opacity: .9; }
 .opacity-95 { opacity: .95; }
 .opacity-100 { opacity: 1; }
+/* Overflow */
+.overflow-visible { overflow: visible; }
+.overflow-hidden { overflow: hidden; }
+.overflow-scroll { overflow: scroll; }
+.overflow-auto { overflow: auto; }
+.overflow-x-visible { overflow-x: visible; }
+.overflow-x-hidden { overflow-x: hidden; }
+.overflow-x-scroll { overflow-x: scroll; }
+.overflow-x-auto { overflow-x: auto; }
+.overflow-y-visible { overflow-y: visible; }
+.overflow-y-hidden { overflow-y: hidden; }
+.overflow-y-scroll { overflow-y: scroll; }
+.overflow-y-auto { overflow-y: auto; }
 @media (min-width: 40em) {
  .sm\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .sm\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -181,7 +194,19 @@ img, video { max-width: 100%; height: auto; }
  .sm\:opacity-80 { opacity: .8; }
  .sm\:opacity-90 { opacity: .9; }
  .sm\:opacity-95 { opacity: .95; }
- .sm\:opacity-100 { opacity: 1; } }
+ .sm\:opacity-100 { opacity: 1; }
+ .sm\:overflow-visible { overflow: visible; }
+ .sm\:overflow-hidden { overflow: hidden; }
+ .sm\:overflow-scroll { overflow: scroll; }
+ .sm\:overflow-auto { overflow: auto; }
+ .sm\:overflow-x-visible { overflow-x: visible; }
+ .sm\:overflow-x-hidden { overflow-x: hidden; }
+ .sm\:overflow-x-scroll { overflow-x: scroll; }
+ .sm\:overflow-x-auto { overflow-x: auto; }
+ .sm\:overflow-y-visible { overflow-y: visible; }
+ .sm\:overflow-y-hidden { overflow-y: hidden; }
+ .sm\:overflow-y-scroll { overflow-y: scroll; }
+ .sm\:overflow-y-auto { overflow-y: auto; } }
 @media (min-width: 48em) {
  .md\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .md\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -245,7 +270,19 @@ img, video { max-width: 100%; height: auto; }
  .md\:opacity-80 { opacity: .8; }
  .md\:opacity-90 { opacity: .9; }
  .md\:opacity-95 { opacity: .95; }
- .md\:opacity-100 { opacity: 1; } }
+ .md\:opacity-100 { opacity: 1; }
+ .md\:overflow-visible { overflow: visible; }
+ .md\:overflow-hidden { overflow: hidden; }
+ .md\:overflow-scroll { overflow: scroll; }
+ .md\:overflow-auto { overflow: auto; }
+ .md\:overflow-x-visible { overflow-x: visible; }
+ .md\:overflow-x-hidden { overflow-x: hidden; }
+ .md\:overflow-x-scroll { overflow-x: scroll; }
+ .md\:overflow-x-auto { overflow-x: auto; }
+ .md\:overflow-y-visible { overflow-y: visible; }
+ .md\:overflow-y-hidden { overflow-y: hidden; }
+ .md\:overflow-y-scroll { overflow-y: scroll; }
+ .md\:overflow-y-auto { overflow-y: auto; } }
 @media (min-width: 64em) {
  .lg\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .lg\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -309,7 +346,19 @@ img, video { max-width: 100%; height: auto; }
  .lg\:opacity-80 { opacity: .8; }
  .lg\:opacity-90 { opacity: .9; }
  .lg\:opacity-95 { opacity: .95; }
- .lg\:opacity-100 { opacity: 1; } }
+ .lg\:opacity-100 { opacity: 1; }
+ .lg\:overflow-visible { overflow: visible; }
+ .lg\:overflow-hidden { overflow: hidden; }
+ .lg\:overflow-scroll { overflow: scroll; }
+ .lg\:overflow-auto { overflow: auto; }
+ .lg\:overflow-x-visible { overflow-x: visible; }
+ .lg\:overflow-x-hidden { overflow-x: hidden; }
+ .lg\:overflow-x-scroll { overflow-x: scroll; }
+ .lg\:overflow-x-auto { overflow-x: auto; }
+ .lg\:overflow-y-visible { overflow-y: visible; }
+ .lg\:overflow-y-hidden { overflow-y: hidden; }
+ .lg\:overflow-y-scroll { overflow-y: scroll; }
+ .lg\:overflow-y-auto { overflow-y: auto; } }
 @media (min-width: 80em) {
  .xl\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .xl\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -373,4 +422,16 @@ img, video { max-width: 100%; height: auto; }
  .xl\:opacity-80 { opacity: .8; }
  .xl\:opacity-90 { opacity: .9; }
  .xl\:opacity-95 { opacity: .95; }
- .xl\:opacity-100 { opacity: 1; } }
+ .xl\:opacity-100 { opacity: 1; }
+ .xl\:overflow-visible { overflow: visible; }
+ .xl\:overflow-hidden { overflow: hidden; }
+ .xl\:overflow-scroll { overflow: scroll; }
+ .xl\:overflow-auto { overflow: auto; }
+ .xl\:overflow-x-visible { overflow-x: visible; }
+ .xl\:overflow-x-hidden { overflow-x: hidden; }
+ .xl\:overflow-x-scroll { overflow-x: scroll; }
+ .xl\:overflow-x-auto { overflow-x: auto; }
+ .xl\:overflow-y-visible { overflow-y: visible; }
+ .xl\:overflow-y-hidden { overflow-y: hidden; }
+ .xl\:overflow-y-scroll { overflow-y: scroll; }
+ .xl\:overflow-y-auto { overflow-y: auto; } }
