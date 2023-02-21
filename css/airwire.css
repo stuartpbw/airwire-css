@@ -541,6 +541,12 @@ img, video { max-width: 100%; height: auto; }
 .place-items-center { align-items: center; justify-items: center; place-items: center; }
 .place-items-baseline { align-items: baseline; justify-items: baseline; place-items: baseline; }
 .place-items-stretch { align-items: stretch; justify-items: stretch; place-items: stretch; }
+/* Place Self */
+.place-self-auto { align-self: auto; justify-self: auto; place-self: auto; }
+.place-self-start { align-self: start; justify-self: start; place-self: start; }
+.place-self-end { align-self: end; justify-self: end; place-self: end; }
+.place-self-center { align-self: center; justify-self: center; place-self: center; }
+.place-self-stretch { align-self: stretch; justify-self: stretch; place-self: stretch; }
 @media (min-width: 40em) {
  .sm\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .sm\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -996,7 +1002,12 @@ img, video { max-width: 100%; height: auto; }
  .sm\:place-items-end { align-items: end; justify-items: end; place-items: end; }
  .sm\:place-items-center { align-items: center; justify-items: center; place-items: center; }
  .sm\:place-items-baseline { align-items: baseline; justify-items: baseline; place-items: baseline; }
- .sm\:place-items-stretch { align-items: stretch; justify-items: stretch; place-items: stretch; } }
+ .sm\:place-items-stretch { align-items: stretch; justify-items: stretch; place-items: stretch; }
+ .sm\:place-self-auto { align-self: auto; justify-self: auto; place-self: auto; }
+ .sm\:place-self-start { align-self: start; justify-self: start; place-self: start; }
+ .sm\:place-self-end { align-self: end; justify-self: end; place-self: end; }
+ .sm\:place-self-center { align-self: center; justify-self: center; place-self: center; }
+ .sm\:place-self-stretch { align-self: stretch; justify-self: stretch; place-self: stretch; } }
 @media (min-width: 48em) {
  .md\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .md\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -1452,7 +1463,12 @@ img, video { max-width: 100%; height: auto; }
  .md\:place-items-end { align-items: end; justify-items: end; place-items: end; }
  .md\:place-items-center { align-items: center; justify-items: center; place-items: center; }
  .md\:place-items-baseline { align-items: baseline; justify-items: baseline; place-items: baseline; }
- .md\:place-items-stretch { align-items: stretch; justify-items: stretch; place-items: stretch; } }
+ .md\:place-items-stretch { align-items: stretch; justify-items: stretch; place-items: stretch; }
+ .md\:place-self-auto { align-self: auto; justify-self: auto; place-self: auto; }
+ .md\:place-self-start { align-self: start; justify-self: start; place-self: start; }
+ .md\:place-self-end { align-self: end; justify-self: end; place-self: end; }
+ .md\:place-self-center { align-self: center; justify-self: center; place-self: center; }
+ .md\:place-self-stretch { align-self: stretch; justify-self: stretch; place-self: stretch; } }
 @media (min-width: 64em) {
  .lg\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .lg\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -1908,7 +1924,12 @@ img, video { max-width: 100%; height: auto; }
  .lg\:place-items-end { align-items: end; justify-items: end; place-items: end; }
  .lg\:place-items-center { align-items: center; justify-items: center; place-items: center; }
  .lg\:place-items-baseline { align-items: baseline; justify-items: baseline; place-items: baseline; }
- .lg\:place-items-stretch { align-items: stretch; justify-items: stretch; place-items: stretch; } }
+ .lg\:place-items-stretch { align-items: stretch; justify-items: stretch; place-items: stretch; }
+ .lg\:place-self-auto { align-self: auto; justify-self: auto; place-self: auto; }
+ .lg\:place-self-start { align-self: start; justify-self: start; place-self: start; }
+ .lg\:place-self-end { align-self: end; justify-self: end; place-self: end; }
+ .lg\:place-self-center { align-self: center; justify-self: center; place-self: center; }
+ .lg\:place-self-stretch { align-self: stretch; justify-self: stretch; place-self: stretch; } }
 @media (min-width: 80em) {
  .xl\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .xl\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -2364,4 +2385,9 @@ img, video { max-width: 100%; height: auto; }
  .xl\:place-items-end { align-items: end; justify-items: end; place-items: end; }
  .xl\:place-items-center { align-items: center; justify-items: center; place-items: center; }
  .xl\:place-items-baseline { align-items: baseline; justify-items: baseline; place-items: baseline; }
- .xl\:place-items-stretch { align-items: stretch; justify-items: stretch; place-items: stretch; } }
+ .xl\:place-items-stretch { align-items: stretch; justify-items: stretch; place-items: stretch; }
+ .xl\:place-self-auto { align-self: auto; justify-self: auto; place-self: auto; }
+ .xl\:place-self-start { align-self: start; justify-self: start; place-self: start; }
+ .xl\:place-self-end { align-self: end; justify-self: end; place-self: end; }
+ .xl\:place-self-center { align-self: center; justify-self: center; place-self: center; }
+ .xl\:place-self-stretch { align-self: stretch; justify-self: stretch; place-self: stretch; } }
