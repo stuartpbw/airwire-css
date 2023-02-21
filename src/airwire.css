@@ -99,6 +99,7 @@
 @import "transform/scale.css";
 @import "transform/skew.css";
 @import "transform/transform-origin.css";
+@import "transform/translate.css";
 
 @custom-media --sm (min-width: 40em);
 @custom-media --md (min-width: 48em);
