@@ -1,0 +1,7 @@
+/* Background Image */
+
+@responsive {
+  .bg-none {
+    background-image: none !important;
+  }
+}
