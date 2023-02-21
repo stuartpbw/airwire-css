@@ -1,0 +1,26 @@
+{
+  "name": "airwire-css",
+  "version": "0.9.2",
+  "description": "A CSS library for designing in the browser.",
+  "author": "Stuart Blanton Williams",
+  "license": "MIT",
+  "repository": "github:stuartpbw/airwire-css",
+  "main": "css/airwire.css",
+  "scripts": {
+    "clean": "rm -rf css",
+    "process": "postcss src/airwire.css --no-map -o css/airwire.css",
+    "minify": "postcss src/airwire.css --no-map -o css/airwire.min.css --env production",
+    "build": "npm run clean && npm run process && npm run minify",
+    "start": "npm run clean && npm run process -- --verbose -w"
+  },
+  "devDependencies": {
+    "cssnano": "^5.1.14",
+    "perfectionist": "^2.4.0",
+    "postcss": "^8.4.21",
+    "postcss-cli": "^10.1.0",
+    "postcss-import": "^15.1.0",
+    "postcss-preset-env": "^8.0.1",
+    "postcss-responsive-classes": "^0.0.2",
+    "postcss-sort-media-queries": "^4.3.0"
+  }
+}
