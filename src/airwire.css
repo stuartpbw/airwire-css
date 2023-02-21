@@ -30,6 +30,7 @@
 @import "grid/align-self.css";
 @import "grid/flex.css";
 @import "grid/flex-direction.css";
+@import "grid/flex-grow.css";
 
 @custom-media --sm (min-width: 40em);
 @custom-media --md (min-width: 48em);
