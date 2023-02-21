@@ -1032,6 +1032,10 @@ img, video { max-width: 100%; height: auto; }
 /* List Style Position */
 .list-inside { list-style-position: inside; }
 .list-outside { list-style-position: outside; }
+/* List Style Type */
+.list-disc { list-style-type: disc; }
+.list-decimal { list-style-type: decimal; }
+.list-none { list-style-type: none; }
 @media (min-width: 40em) {
  .sm\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .sm\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -1961,7 +1965,10 @@ img, video { max-width: 100%; height: auto; }
  .sm\:leading-relaxed { line-height: var( --line-height-relaxed ); }
  .sm\:leading-loose { line-height: var( --line-height-loose ); }
  .sm\:list-inside { list-style-position: inside; }
- .sm\:list-outside { list-style-position: outside; } }
+ .sm\:list-outside { list-style-position: outside; }
+ .sm\:list-disc { list-style-type: disc; }
+ .sm\:list-decimal { list-style-type: decimal; }
+ .sm\:list-none { list-style-type: none; } }
 @media (min-width: 48em) {
  .md\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .md\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -2891,7 +2898,10 @@ img, video { max-width: 100%; height: auto; }
  .md\:leading-relaxed { line-height: var( --line-height-relaxed ); }
  .md\:leading-loose { line-height: var( --line-height-loose ); }
  .md\:list-inside { list-style-position: inside; }
- .md\:list-outside { list-style-position: outside; } }
+ .md\:list-outside { list-style-position: outside; }
+ .md\:list-disc { list-style-type: disc; }
+ .md\:list-decimal { list-style-type: decimal; }
+ .md\:list-none { list-style-type: none; } }
 @media (min-width: 64em) {
  .lg\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .lg\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -3821,7 +3831,10 @@ img, video { max-width: 100%; height: auto; }
  .lg\:leading-relaxed { line-height: var( --line-height-relaxed ); }
  .lg\:leading-loose { line-height: var( --line-height-loose ); }
  .lg\:list-inside { list-style-position: inside; }
- .lg\:list-outside { list-style-position: outside; } }
+ .lg\:list-outside { list-style-position: outside; }
+ .lg\:list-disc { list-style-type: disc; }
+ .lg\:list-decimal { list-style-type: decimal; }
+ .lg\:list-none { list-style-type: none; } }
 @media (min-width: 80em) {
  .xl\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .xl\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -4751,4 +4764,7 @@ img, video { max-width: 100%; height: auto; }
  .xl\:leading-relaxed { line-height: var( --line-height-relaxed ); }
  .xl\:leading-loose { line-height: var( --line-height-loose ); }
  .xl\:list-inside { list-style-position: inside; }
- .xl\:list-outside { list-style-position: outside; } }
+ .xl\:list-outside { list-style-position: outside; }
+ .xl\:list-disc { list-style-type: disc; }
+ .xl\:list-decimal { list-style-type: decimal; }
+ .xl\:list-none { list-style-type: none; } }
