@@ -49,8 +49,8 @@
 @import "grid/place-items.css";
 @import "grid/place-self.css";
 
-@import "sizing/margin.css";
-@import "sizing/padding.css";
+@import "spacing/margin.css";
+@import "spacing/padding.css";
 
 @custom-media --sm (min-width: 40em);
 @custom-media --md (min-width: 48em);
