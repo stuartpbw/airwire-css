@@ -310,6 +310,13 @@ img, video { max-width: 100%; height: auto; }
 .content-around { align-content: space-around; }
 .content-evenly { align-content: space-evenly; }
 .content-baseline { align-content: baseline; }
+/* Align Self */
+.self-auto { align-self: auto; }
+.self-start { align-self: flex-start; }
+.self-end { align-self: flex-end; }
+.self-center { align-self: center; }
+.self-stretch { align-self: stretch; }
+.self-baseline { align-self: baseline; }
 @media (min-width: 40em) {
  .sm\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .sm\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -555,7 +562,13 @@ img, video { max-width: 100%; height: auto; }
  .sm\:content-between { align-content: space-between; }
  .sm\:content-around { align-content: space-around; }
  .sm\:content-evenly { align-content: space-evenly; }
- .sm\:content-baseline { align-content: baseline; } }
+ .sm\:content-baseline { align-content: baseline; }
+ .sm\:self-auto { align-self: auto; }
+ .sm\:self-start { align-self: flex-start; }
+ .sm\:self-end { align-self: flex-end; }
+ .sm\:self-center { align-self: center; }
+ .sm\:self-stretch { align-self: stretch; }
+ .sm\:self-baseline { align-self: baseline; } }
 @media (min-width: 48em) {
  .md\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .md\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -801,7 +814,13 @@ img, video { max-width: 100%; height: auto; }
  .md\:content-between { align-content: space-between; }
  .md\:content-around { align-content: space-around; }
  .md\:content-evenly { align-content: space-evenly; }
- .md\:content-baseline { align-content: baseline; } }
+ .md\:content-baseline { align-content: baseline; }
+ .md\:self-auto { align-self: auto; }
+ .md\:self-start { align-self: flex-start; }
+ .md\:self-end { align-self: flex-end; }
+ .md\:self-center { align-self: center; }
+ .md\:self-stretch { align-self: stretch; }
+ .md\:self-baseline { align-self: baseline; } }
 @media (min-width: 64em) {
  .lg\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .lg\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -1047,7 +1066,13 @@ img, video { max-width: 100%; height: auto; }
  .lg\:content-between { align-content: space-between; }
  .lg\:content-around { align-content: space-around; }
  .lg\:content-evenly { align-content: space-evenly; }
- .lg\:content-baseline { align-content: baseline; } }
+ .lg\:content-baseline { align-content: baseline; }
+ .lg\:self-auto { align-self: auto; }
+ .lg\:self-start { align-self: flex-start; }
+ .lg\:self-end { align-self: flex-end; }
+ .lg\:self-center { align-self: center; }
+ .lg\:self-stretch { align-self: stretch; }
+ .lg\:self-baseline { align-self: baseline; } }
 @media (min-width: 80em) {
  .xl\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .xl\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -1293,4 +1318,10 @@ img, video { max-width: 100%; height: auto; }
  .xl\:content-between { align-content: space-between; }
  .xl\:content-around { align-content: space-around; }
  .xl\:content-evenly { align-content: space-evenly; }
- .xl\:content-baseline { align-content: baseline; } }
+ .xl\:content-baseline { align-content: baseline; }
+ .xl\:self-auto { align-self: auto; }
+ .xl\:self-start { align-self: flex-start; }
+ .xl\:self-end { align-self: flex-end; }
+ .xl\:self-center { align-self: center; }
+ .xl\:self-stretch { align-self: stretch; }
+ .xl\:self-baseline { align-self: baseline; } }

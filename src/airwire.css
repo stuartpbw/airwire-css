@@ -26,6 +26,7 @@
 @import "layout/z-index.css";
 
 @import "grid/align-content.css";
+@import "grid/align-self.css";
 
 @custom-media --sm (min-width: 40em);
 @custom-media --md (min-width: 48em);
