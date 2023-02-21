@@ -8,6 +8,10 @@
   --aspect-18x5: 18/5;
   --aspect-golden: 1.618/1;
 
+  --font-sans: system-ui, sans-serif;
+  --font-serif: ui-serif, serif;
+  --font-mono: ui-monospace, monospace;
+
   --content-xs: 20rem;
   --content-sm: 24rem;
   --content-md: 28rem;
