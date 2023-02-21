@@ -1,0 +1,42 @@
+/* Border Width */
+
+@responsive {
+  .border-0 {
+    border-width: var(--size-0);
+  }
+  .border-px {
+    border-width: var(--size-px);
+  }
+  .border-1 {
+    border-width: var(--size-1);
+  }
+  .border-2 {
+    border-width: var(--size-2);
+  }
+  .border-3 {
+    border-width: var(--size-3);
+  }
+  .border-4 {
+    border-width: var(--size-4);
+  }
+  .border-t-0 {
+    border-top-width: var(--size-0);
+  }
+  .border-r-0 {
+    border-right-width: var(--size-0);
+  }
+  .border-b-0 {
+    border-bottom-width: var(--size-0);
+  }
+  .border-l-0 {
+    border-left-width: var(--size-0);
+  }
+  .border-x-0 {
+    border-left-width: var(--size-0);
+    border-right-width: var(--size-0);
+  }
+  .border-y-0 {
+    border-top-width: var(--size-0);
+    border-bottom-width: var(--size-0);
+  }
+}
