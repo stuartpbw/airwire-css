@@ -78,6 +78,7 @@
 @import "typography/text-underline-offset.css";
 @import "typography/vertical-align.css";
 @import "typography/whitespace.css";
+@import "typography/word-break.css";
 
 @custom-media --sm (min-width: 40em);
 @custom-media --md (min-width: 48em);
