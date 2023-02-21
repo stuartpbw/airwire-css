@@ -1094,6 +1094,12 @@ img, video { max-width: 100%; height: auto; }
 .align-text-bottom { vertical-align: text-bottom; }
 .align-sub { vertical-align: sub; }
 .align-super { vertical-align: super; }
+/* Whitespace */
+.whitespace-normal { white-space: normal; }
+.whitespace-nowrap { white-space: nowrap; }
+.whitespace-pre { white-space: pre; }
+.whitespace-pre-line { white-space: pre-line; }
+.whitespace-pre-wrap { white-space: pre-wrap; }
 @media (min-width: 40em) {
  .sm\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .sm\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -2075,7 +2081,12 @@ img, video { max-width: 100%; height: auto; }
  .sm\:align-text-top { vertical-align: text-top; }
  .sm\:align-text-bottom { vertical-align: text-bottom; }
  .sm\:align-sub { vertical-align: sub; }
- .sm\:align-super { vertical-align: super; } }
+ .sm\:align-super { vertical-align: super; }
+ .sm\:whitespace-normal { white-space: normal; }
+ .sm\:whitespace-nowrap { white-space: nowrap; }
+ .sm\:whitespace-pre { white-space: pre; }
+ .sm\:whitespace-pre-line { white-space: pre-line; }
+ .sm\:whitespace-pre-wrap { white-space: pre-wrap; } }
 @media (min-width: 48em) {
  .md\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .md\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -3057,7 +3068,12 @@ img, video { max-width: 100%; height: auto; }
  .md\:align-text-top { vertical-align: text-top; }
  .md\:align-text-bottom { vertical-align: text-bottom; }
  .md\:align-sub { vertical-align: sub; }
- .md\:align-super { vertical-align: super; } }
+ .md\:align-super { vertical-align: super; }
+ .md\:whitespace-normal { white-space: normal; }
+ .md\:whitespace-nowrap { white-space: nowrap; }
+ .md\:whitespace-pre { white-space: pre; }
+ .md\:whitespace-pre-line { white-space: pre-line; }
+ .md\:whitespace-pre-wrap { white-space: pre-wrap; } }
 @media (min-width: 64em) {
  .lg\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .lg\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -4039,7 +4055,12 @@ img, video { max-width: 100%; height: auto; }
  .lg\:align-text-top { vertical-align: text-top; }
  .lg\:align-text-bottom { vertical-align: text-bottom; }
  .lg\:align-sub { vertical-align: sub; }
- .lg\:align-super { vertical-align: super; } }
+ .lg\:align-super { vertical-align: super; }
+ .lg\:whitespace-normal { white-space: normal; }
+ .lg\:whitespace-nowrap { white-space: nowrap; }
+ .lg\:whitespace-pre { white-space: pre; }
+ .lg\:whitespace-pre-line { white-space: pre-line; }
+ .lg\:whitespace-pre-wrap { white-space: pre-wrap; } }
 @media (min-width: 80em) {
  .xl\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .xl\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -5021,4 +5042,9 @@ img, video { max-width: 100%; height: auto; }
  .xl\:align-text-top { vertical-align: text-top; }
  .xl\:align-text-bottom { vertical-align: text-bottom; }
  .xl\:align-sub { vertical-align: sub; }
- .xl\:align-super { vertical-align: super; } }
+ .xl\:align-super { vertical-align: super; }
+ .xl\:whitespace-normal { white-space: normal; }
+ .xl\:whitespace-nowrap { white-space: nowrap; }
+ .xl\:whitespace-pre { white-space: pre; }
+ .xl\:whitespace-pre-line { white-space: pre-line; }
+ .xl\:whitespace-pre-wrap { white-space: pre-wrap; } }
