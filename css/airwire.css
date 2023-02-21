@@ -1120,6 +1120,16 @@ img, video { max-width: 100%; height: auto; }
 .bg-origin-border { background-origin: border-box; }
 .bg-origin-padding { background-origin: padding-box; }
 .bg-origin-content { background-origin: content-box; }
+/* Background Position */
+.bg-bottom { background-position: bottom; }
+.bg-center { background-position: center; }
+.bg-left { background-position: left; }
+.bg-left-bottom { background-position: left bottom; }
+.bg-left-top { background-position: left top; }
+.bg-right { background-position: right; }
+.bg-right-bottom { background-position: right bottom; }
+.bg-right-top { background-position: right top; }
+.bg-top { background-position: top; }
 @media (min-width: 40em) {
  .sm\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .sm\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -2121,7 +2131,16 @@ img, video { max-width: 100%; height: auto; }
  .sm\:bg-none { background-image: none !important; }
  .sm\:bg-origin-border { background-origin: border-box; }
  .sm\:bg-origin-padding { background-origin: padding-box; }
- .sm\:bg-origin-content { background-origin: content-box; } }
+ .sm\:bg-origin-content { background-origin: content-box; }
+ .sm\:bg-bottom { background-position: bottom; }
+ .sm\:bg-center { background-position: center; }
+ .sm\:bg-left { background-position: left; }
+ .sm\:bg-left-bottom { background-position: left bottom; }
+ .sm\:bg-left-top { background-position: left top; }
+ .sm\:bg-right { background-position: right; }
+ .sm\:bg-right-bottom { background-position: right bottom; }
+ .sm\:bg-right-top { background-position: right top; }
+ .sm\:bg-top { background-position: top; } }
 @media (min-width: 48em) {
  .md\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .md\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -3123,7 +3142,16 @@ img, video { max-width: 100%; height: auto; }
  .md\:bg-none { background-image: none !important; }
  .md\:bg-origin-border { background-origin: border-box; }
  .md\:bg-origin-padding { background-origin: padding-box; }
- .md\:bg-origin-content { background-origin: content-box; } }
+ .md\:bg-origin-content { background-origin: content-box; }
+ .md\:bg-bottom { background-position: bottom; }
+ .md\:bg-center { background-position: center; }
+ .md\:bg-left { background-position: left; }
+ .md\:bg-left-bottom { background-position: left bottom; }
+ .md\:bg-left-top { background-position: left top; }
+ .md\:bg-right { background-position: right; }
+ .md\:bg-right-bottom { background-position: right bottom; }
+ .md\:bg-right-top { background-position: right top; }
+ .md\:bg-top { background-position: top; } }
 @media (min-width: 64em) {
  .lg\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .lg\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -4125,7 +4153,16 @@ img, video { max-width: 100%; height: auto; }
  .lg\:bg-none { background-image: none !important; }
  .lg\:bg-origin-border { background-origin: border-box; }
  .lg\:bg-origin-padding { background-origin: padding-box; }
- .lg\:bg-origin-content { background-origin: content-box; } }
+ .lg\:bg-origin-content { background-origin: content-box; }
+ .lg\:bg-bottom { background-position: bottom; }
+ .lg\:bg-center { background-position: center; }
+ .lg\:bg-left { background-position: left; }
+ .lg\:bg-left-bottom { background-position: left bottom; }
+ .lg\:bg-left-top { background-position: left top; }
+ .lg\:bg-right { background-position: right; }
+ .lg\:bg-right-bottom { background-position: right bottom; }
+ .lg\:bg-right-top { background-position: right top; }
+ .lg\:bg-top { background-position: top; } }
 @media (min-width: 80em) {
  .xl\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .xl\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -5127,4 +5164,13 @@ img, video { max-width: 100%; height: auto; }
  .xl\:bg-none { background-image: none !important; }
  .xl\:bg-origin-border { background-origin: border-box; }
  .xl\:bg-origin-padding { background-origin: padding-box; }
- .xl\:bg-origin-content { background-origin: content-box; } }
+ .xl\:bg-origin-content { background-origin: content-box; }
+ .xl\:bg-bottom { background-position: bottom; }
+ .xl\:bg-center { background-position: center; }
+ .xl\:bg-left { background-position: left; }
+ .xl\:bg-left-bottom { background-position: left bottom; }
+ .xl\:bg-left-top { background-position: left top; }
+ .xl\:bg-right { background-position: right; }
+ .xl\:bg-right-bottom { background-position: right bottom; }
+ .xl\:bg-right-top { background-position: right top; }
+ .xl\:bg-top { background-position: top; } }
