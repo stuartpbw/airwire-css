@@ -1,0 +1,10 @@
+/* Isolation */
+
+@responsive {
+  .isolate {
+    isolation: isolate;
+  }
+  .isolation-auto {
+    isolation: auto;
+  }
+}

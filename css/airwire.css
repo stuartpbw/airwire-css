@@ -83,6 +83,9 @@ img, video { max-width: 100%; height: auto; }
 .float-right { float: right; }
 .float-left { float: left; }
 .float-none { float: none; }
+/* Isolation */
+.isolate { isolation: isolate; }
+.isolation-auto { isolation: auto; }
 @media (min-width: 40em) {
  .sm\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .sm\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -115,7 +118,9 @@ img, video { max-width: 100%; height: auto; }
  .sm\:hidden { display: none; }
  .sm\:float-right { float: right; }
  .sm\:float-left { float: left; }
- .sm\:float-none { float: none; } }
+ .sm\:float-none { float: none; }
+ .sm\:isolate { isolation: isolate; }
+ .sm\:isolation-auto { isolation: auto; } }
 @media (min-width: 48em) {
  .md\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .md\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -148,7 +153,9 @@ img, video { max-width: 100%; height: auto; }
  .md\:hidden { display: none; }
  .md\:float-right { float: right; }
  .md\:float-left { float: left; }
- .md\:float-none { float: none; } }
+ .md\:float-none { float: none; }
+ .md\:isolate { isolation: isolate; }
+ .md\:isolation-auto { isolation: auto; } }
 @media (min-width: 64em) {
  .lg\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .lg\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -181,7 +188,9 @@ img, video { max-width: 100%; height: auto; }
  .lg\:hidden { display: none; }
  .lg\:float-right { float: right; }
  .lg\:float-left { float: left; }
- .lg\:float-none { float: none; } }
+ .lg\:float-none { float: none; }
+ .lg\:isolate { isolation: isolate; }
+ .lg\:isolation-auto { isolation: auto; } }
 @media (min-width: 80em) {
  .xl\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .xl\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -214,4 +223,6 @@ img, video { max-width: 100%; height: auto; }
  .xl\:hidden { display: none; }
  .xl\:float-right { float: right; }
  .xl\:float-left { float: left; }
- .xl\:float-none { float: none; } }
+ .xl\:float-none { float: none; }
+ .xl\:isolate { isolation: isolate; }
+ .xl\:isolation-auto { isolation: auto; } }
