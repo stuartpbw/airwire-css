@@ -101,6 +101,8 @@
 @import "transform/transform-origin.css";
 @import "transform/translate.css";
 
+@import "theme/background-colors.css";
+
 @custom-media --sm (min-width: 40em);
 @custom-media --md (min-width: 48em);
 @custom-media --lg (min-width: 64em);
