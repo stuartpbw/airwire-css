@@ -1004,6 +1004,17 @@ img, video { max-width: 100%; height: auto; }
 /* Font Style */
 .italic { font-style: italic; }
 .not-italic { font-style: normal; }
+/* Font Weight */
+.font-100 { font-weight: 100; }
+.font-200 { font-weight: 200; }
+.font-300 { font-weight: 300; }
+.font-400 { font-weight: 400; }
+.font-500 { font-weight: 500; }
+.font-600 { font-weight: 600; }
+.font-700 { font-weight: 700; }
+.font-800 { font-weight: 800; }
+.font-900 { font-weight: 900; }
+.font-normal { font-weight: normal; }
 @media (min-width: 40em) {
  .sm\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .sm\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -1909,7 +1920,17 @@ img, video { max-width: 100%; height: auto; }
  .sm\:text-7xl { font-size: var( --text-7xl ); line-height: var( --line-height-none ); }
  .sm\:text-8xl { font-size: var( --text-8xl ); line-height: var( --line-height-none ); }
  .sm\:italic { font-style: italic; }
- .sm\:not-italic { font-style: normal; } }
+ .sm\:not-italic { font-style: normal; }
+ .sm\:font-100 { font-weight: 100; }
+ .sm\:font-200 { font-weight: 200; }
+ .sm\:font-300 { font-weight: 300; }
+ .sm\:font-400 { font-weight: 400; }
+ .sm\:font-500 { font-weight: 500; }
+ .sm\:font-600 { font-weight: 600; }
+ .sm\:font-700 { font-weight: 700; }
+ .sm\:font-800 { font-weight: 800; }
+ .sm\:font-900 { font-weight: 900; }
+ .sm\:font-normal { font-weight: normal; } }
 @media (min-width: 48em) {
  .md\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .md\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -2815,7 +2836,17 @@ img, video { max-width: 100%; height: auto; }
  .md\:text-7xl { font-size: var( --text-7xl ); line-height: var( --line-height-none ); }
  .md\:text-8xl { font-size: var( --text-8xl ); line-height: var( --line-height-none ); }
  .md\:italic { font-style: italic; }
- .md\:not-italic { font-style: normal; } }
+ .md\:not-italic { font-style: normal; }
+ .md\:font-100 { font-weight: 100; }
+ .md\:font-200 { font-weight: 200; }
+ .md\:font-300 { font-weight: 300; }
+ .md\:font-400 { font-weight: 400; }
+ .md\:font-500 { font-weight: 500; }
+ .md\:font-600 { font-weight: 600; }
+ .md\:font-700 { font-weight: 700; }
+ .md\:font-800 { font-weight: 800; }
+ .md\:font-900 { font-weight: 900; }
+ .md\:font-normal { font-weight: normal; } }
 @media (min-width: 64em) {
  .lg\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .lg\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -3721,7 +3752,17 @@ img, video { max-width: 100%; height: auto; }
  .lg\:text-7xl { font-size: var( --text-7xl ); line-height: var( --line-height-none ); }
  .lg\:text-8xl { font-size: var( --text-8xl ); line-height: var( --line-height-none ); }
  .lg\:italic { font-style: italic; }
- .lg\:not-italic { font-style: normal; } }
+ .lg\:not-italic { font-style: normal; }
+ .lg\:font-100 { font-weight: 100; }
+ .lg\:font-200 { font-weight: 200; }
+ .lg\:font-300 { font-weight: 300; }
+ .lg\:font-400 { font-weight: 400; }
+ .lg\:font-500 { font-weight: 500; }
+ .lg\:font-600 { font-weight: 600; }
+ .lg\:font-700 { font-weight: 700; }
+ .lg\:font-800 { font-weight: 800; }
+ .lg\:font-900 { font-weight: 900; }
+ .lg\:font-normal { font-weight: normal; } }
 @media (min-width: 80em) {
  .xl\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .xl\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -4627,4 +4668,14 @@ img, video { max-width: 100%; height: auto; }
  .xl\:text-7xl { font-size: var( --text-7xl ); line-height: var( --line-height-none ); }
  .xl\:text-8xl { font-size: var( --text-8xl ); line-height: var( --line-height-none ); }
  .xl\:italic { font-style: italic; }
- .xl\:not-italic { font-style: normal; } }
+ .xl\:not-italic { font-style: normal; }
+ .xl\:font-100 { font-weight: 100; }
+ .xl\:font-200 { font-weight: 200; }
+ .xl\:font-300 { font-weight: 300; }
+ .xl\:font-400 { font-weight: 400; }
+ .xl\:font-500 { font-weight: 500; }
+ .xl\:font-600 { font-weight: 600; }
+ .xl\:font-700 { font-weight: 700; }
+ .xl\:font-800 { font-weight: 800; }
+ .xl\:font-900 { font-weight: 900; }
+ .xl\:font-normal { font-weight: normal; } }
