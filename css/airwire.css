@@ -1139,6 +1139,9 @@ img, video { max-width: 100%; height: auto; }
 .bg-auto { background-size: auto; }
 .bg-cover { background-size: cover; }
 .bg-contain { background-size: contain; }
+/* Border Collapse */
+.border-collapse { border-collapse: collapse; }
+.border-separate { border-collapse: separate; }
 @media (min-width: 40em) {
  .sm\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .sm\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -2156,7 +2159,9 @@ img, video { max-width: 100%; height: auto; }
  .sm\:bg-repeat-y { background-repeat: repeat-y; }
  .sm\:bg-auto { background-size: auto; }
  .sm\:bg-cover { background-size: cover; }
- .sm\:bg-contain { background-size: contain; } }
+ .sm\:bg-contain { background-size: contain; }
+ .sm\:border-collapse { border-collapse: collapse; }
+ .sm\:border-separate { border-collapse: separate; } }
 @media (min-width: 48em) {
  .md\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .md\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -3174,7 +3179,9 @@ img, video { max-width: 100%; height: auto; }
  .md\:bg-repeat-y { background-repeat: repeat-y; }
  .md\:bg-auto { background-size: auto; }
  .md\:bg-cover { background-size: cover; }
- .md\:bg-contain { background-size: contain; } }
+ .md\:bg-contain { background-size: contain; }
+ .md\:border-collapse { border-collapse: collapse; }
+ .md\:border-separate { border-collapse: separate; } }
 @media (min-width: 64em) {
  .lg\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .lg\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -4192,7 +4199,9 @@ img, video { max-width: 100%; height: auto; }
  .lg\:bg-repeat-y { background-repeat: repeat-y; }
  .lg\:bg-auto { background-size: auto; }
  .lg\:bg-cover { background-size: cover; }
- .lg\:bg-contain { background-size: contain; } }
+ .lg\:bg-contain { background-size: contain; }
+ .lg\:border-collapse { border-collapse: collapse; }
+ .lg\:border-separate { border-collapse: separate; } }
 @media (min-width: 80em) {
  .xl\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .xl\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -5210,4 +5219,6 @@ img, video { max-width: 100%; height: auto; }
  .xl\:bg-repeat-y { background-repeat: repeat-y; }
  .xl\:bg-auto { background-size: auto; }
  .xl\:bg-cover { background-size: cover; }
- .xl\:bg-contain { background-size: contain; } }
+ .xl\:bg-contain { background-size: contain; }
+ .xl\:border-collapse { border-collapse: collapse; }
+ .xl\:border-separate { border-collapse: separate; } }
