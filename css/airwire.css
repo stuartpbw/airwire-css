@@ -1114,6 +1114,8 @@ img, video { max-width: 100%; height: auto; }
 .bg-clip-padding { background-clip: padding-box; }
 .bg-clip-content { background-clip: content-box; }
 .bg-clip-text { -webkit-background-clip: text; background-clip: text; }
+/* Background Image */
+.bg-none { background-image: none !important; }
 @media (min-width: 40em) {
  .sm\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .sm\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -2111,7 +2113,8 @@ img, video { max-width: 100%; height: auto; }
  .sm\:bg-clip-border { background-clip: border-box; }
  .sm\:bg-clip-padding { background-clip: padding-box; }
  .sm\:bg-clip-content { background-clip: content-box; }
- .sm\:bg-clip-text { -webkit-background-clip: text; background-clip: text; } }
+ .sm\:bg-clip-text { -webkit-background-clip: text; background-clip: text; }
+ .sm\:bg-none { background-image: none !important; } }
 @media (min-width: 48em) {
  .md\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .md\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -3109,7 +3112,8 @@ img, video { max-width: 100%; height: auto; }
  .md\:bg-clip-border { background-clip: border-box; }
  .md\:bg-clip-padding { background-clip: padding-box; }
  .md\:bg-clip-content { background-clip: content-box; }
- .md\:bg-clip-text { -webkit-background-clip: text; background-clip: text; } }
+ .md\:bg-clip-text { -webkit-background-clip: text; background-clip: text; }
+ .md\:bg-none { background-image: none !important; } }
 @media (min-width: 64em) {
  .lg\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .lg\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -4107,7 +4111,8 @@ img, video { max-width: 100%; height: auto; }
  .lg\:bg-clip-border { background-clip: border-box; }
  .lg\:bg-clip-padding { background-clip: padding-box; }
  .lg\:bg-clip-content { background-clip: content-box; }
- .lg\:bg-clip-text { -webkit-background-clip: text; background-clip: text; } }
+ .lg\:bg-clip-text { -webkit-background-clip: text; background-clip: text; }
+ .lg\:bg-none { background-image: none !important; } }
 @media (min-width: 80em) {
  .xl\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .xl\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -5105,4 +5110,5 @@ img, video { max-width: 100%; height: auto; }
  .xl\:bg-clip-border { background-clip: border-box; }
  .xl\:bg-clip-padding { background-clip: padding-box; }
  .xl\:bg-clip-content { background-clip: content-box; }
- .xl\:bg-clip-text { -webkit-background-clip: text; background-clip: text; } }
+ .xl\:bg-clip-text { -webkit-background-clip: text; background-clip: text; }
+ .xl\:bg-none { background-image: none !important; } }
