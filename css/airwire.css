@@ -310,6 +310,12 @@ img, video { max-width: 100%; height: auto; }
 .content-around { align-content: space-around; }
 .content-evenly { align-content: space-evenly; }
 .content-baseline { align-content: baseline; }
+/* Align Items */
+.items-start { align-items: flex-start; }
+.items-end { align-items: flex-end; }
+.items-center { align-items: center; }
+.items-baseline { align-items: baseline; }
+.items-stretch { align-items: stretch; }
 /* Align Self */
 .self-auto { align-self: auto; }
 .self-start { align-self: flex-start; }
@@ -563,6 +569,11 @@ img, video { max-width: 100%; height: auto; }
  .sm\:content-around { align-content: space-around; }
  .sm\:content-evenly { align-content: space-evenly; }
  .sm\:content-baseline { align-content: baseline; }
+ .sm\:items-start { align-items: flex-start; }
+ .sm\:items-end { align-items: flex-end; }
+ .sm\:items-center { align-items: center; }
+ .sm\:items-baseline { align-items: baseline; }
+ .sm\:items-stretch { align-items: stretch; }
  .sm\:self-auto { align-self: auto; }
  .sm\:self-start { align-self: flex-start; }
  .sm\:self-end { align-self: flex-end; }
@@ -815,6 +826,11 @@ img, video { max-width: 100%; height: auto; }
  .md\:content-around { align-content: space-around; }
  .md\:content-evenly { align-content: space-evenly; }
  .md\:content-baseline { align-content: baseline; }
+ .md\:items-start { align-items: flex-start; }
+ .md\:items-end { align-items: flex-end; }
+ .md\:items-center { align-items: center; }
+ .md\:items-baseline { align-items: baseline; }
+ .md\:items-stretch { align-items: stretch; }
  .md\:self-auto { align-self: auto; }
  .md\:self-start { align-self: flex-start; }
  .md\:self-end { align-self: flex-end; }
@@ -1067,6 +1083,11 @@ img, video { max-width: 100%; height: auto; }
  .lg\:content-around { align-content: space-around; }
  .lg\:content-evenly { align-content: space-evenly; }
  .lg\:content-baseline { align-content: baseline; }
+ .lg\:items-start { align-items: flex-start; }
+ .lg\:items-end { align-items: flex-end; }
+ .lg\:items-center { align-items: center; }
+ .lg\:items-baseline { align-items: baseline; }
+ .lg\:items-stretch { align-items: stretch; }
  .lg\:self-auto { align-self: auto; }
  .lg\:self-start { align-self: flex-start; }
  .lg\:self-end { align-self: flex-end; }
@@ -1319,6 +1340,11 @@ img, video { max-width: 100%; height: auto; }
  .xl\:content-around { align-content: space-around; }
  .xl\:content-evenly { align-content: space-evenly; }
  .xl\:content-baseline { align-content: baseline; }
+ .xl\:items-start { align-items: flex-start; }
+ .xl\:items-end { align-items: flex-end; }
+ .xl\:items-center { align-items: center; }
+ .xl\:items-baseline { align-items: baseline; }
+ .xl\:items-stretch { align-items: stretch; }
  .xl\:self-auto { align-self: auto; }
  .xl\:self-start { align-self: flex-start; }
  .xl\:self-end { align-self: flex-end; }
