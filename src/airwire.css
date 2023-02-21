@@ -104,6 +104,7 @@
 @import "theme/background-colors.css";
 @import "theme/border-colors.css";
 @import "theme/box-shadow.css";
+@import "theme/text-colors.css";
 @import "theme/text-decoration-colors.css";
 
 @custom-media --sm (min-width: 40em);
