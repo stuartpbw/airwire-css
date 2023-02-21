@@ -1130,6 +1130,11 @@ img, video { max-width: 100%; height: auto; }
 .bg-right-bottom { background-position: right bottom; }
 .bg-right-top { background-position: right top; }
 .bg-top { background-position: top; }
+/* Background Repeat */
+.bg-repeat { background-repeat: repeat; }
+.bg-no-repeat { background-repeat: no-repeat; }
+.bg-repeat-x { background-repeat: repeat-x; }
+.bg-repeat-y { background-repeat: repeat-y; }
 @media (min-width: 40em) {
  .sm\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .sm\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -2140,7 +2145,11 @@ img, video { max-width: 100%; height: auto; }
  .sm\:bg-right { background-position: right; }
  .sm\:bg-right-bottom { background-position: right bottom; }
  .sm\:bg-right-top { background-position: right top; }
- .sm\:bg-top { background-position: top; } }
+ .sm\:bg-top { background-position: top; }
+ .sm\:bg-repeat { background-repeat: repeat; }
+ .sm\:bg-no-repeat { background-repeat: no-repeat; }
+ .sm\:bg-repeat-x { background-repeat: repeat-x; }
+ .sm\:bg-repeat-y { background-repeat: repeat-y; } }
 @media (min-width: 48em) {
  .md\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .md\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -3151,7 +3160,11 @@ img, video { max-width: 100%; height: auto; }
  .md\:bg-right { background-position: right; }
  .md\:bg-right-bottom { background-position: right bottom; }
  .md\:bg-right-top { background-position: right top; }
- .md\:bg-top { background-position: top; } }
+ .md\:bg-top { background-position: top; }
+ .md\:bg-repeat { background-repeat: repeat; }
+ .md\:bg-no-repeat { background-repeat: no-repeat; }
+ .md\:bg-repeat-x { background-repeat: repeat-x; }
+ .md\:bg-repeat-y { background-repeat: repeat-y; } }
 @media (min-width: 64em) {
  .lg\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .lg\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -4162,7 +4175,11 @@ img, video { max-width: 100%; height: auto; }
  .lg\:bg-right { background-position: right; }
  .lg\:bg-right-bottom { background-position: right bottom; }
  .lg\:bg-right-top { background-position: right top; }
- .lg\:bg-top { background-position: top; } }
+ .lg\:bg-top { background-position: top; }
+ .lg\:bg-repeat { background-repeat: repeat; }
+ .lg\:bg-no-repeat { background-repeat: no-repeat; }
+ .lg\:bg-repeat-x { background-repeat: repeat-x; }
+ .lg\:bg-repeat-y { background-repeat: repeat-y; } }
 @media (min-width: 80em) {
  .xl\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .xl\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -5173,4 +5190,8 @@ img, video { max-width: 100%; height: auto; }
  .xl\:bg-right { background-position: right; }
  .xl\:bg-right-bottom { background-position: right bottom; }
  .xl\:bg-right-top { background-position: right top; }
- .xl\:bg-top { background-position: top; } }
+ .xl\:bg-top { background-position: top; }
+ .xl\:bg-repeat { background-repeat: repeat; }
+ .xl\:bg-no-repeat { background-repeat: no-repeat; }
+ .xl\:bg-repeat-x { background-repeat: repeat-x; }
+ .xl\:bg-repeat-y { background-repeat: repeat-y; } }
