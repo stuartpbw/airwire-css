@@ -8,9 +8,15 @@
   --aspect-18x5: 18/5;
   --aspect-golden: 1.618/1;
 
-  --font-sans: system-ui, sans-serif;
-  --font-serif: ui-serif, serif;
-  --font-mono: ui-monospace, monospace;
+  --border-radius-none: 0;
+  --border-radius-sm: 0.125rem;
+  --border-radius-md: 0.25rem;
+  --border-radius-lg: 0.375rem;
+  --border-radius-xl: 0.5rem;
+  --border-radius-2xl: 0.75rem;
+  --border-radius-3xl: 1rem;
+  --border-radius-4xl: 1.5rem;
+  --border-radius-full: 9999px;
 
   --content-xs: 20rem;
   --content-sm: 24rem;
@@ -27,6 +33,10 @@
   --content-prose-lg: 40ch;
   --content-prose-xl: 48ch;
   --content-prose-2xl: 56ch;
+
+  --font-sans: system-ui, sans-serif;
+  --font-serif: ui-serif, serif;
+  --font-mono: ui-monospace, monospace;
 
   --letter-spacing-tighter: -0.05em;
   --letter-spacing-tight: -0.025em;
