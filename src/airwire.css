@@ -84,6 +84,7 @@
 @import "background/background-clip.css";
 @import "background/background-image.css";
 @import "background/background-origin.css";
+@import "background/background-position.css";
 
 @custom-media --sm (min-width: 40em);
 @custom-media --md (min-width: 48em);
