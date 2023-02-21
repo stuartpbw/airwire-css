@@ -323,6 +323,11 @@ img, video { max-width: 100%; height: auto; }
 .self-center { align-self: center; }
 .self-stretch { align-self: stretch; }
 .self-baseline { align-self: baseline; }
+/* Flex */
+.flex-1 { flex: 1 1 0%; }
+.flex-auto { flex: 1 1 auto; }
+.flex-initial { flex: 0 1 auto; }
+.flex-none { flex: none; }
 @media (min-width: 40em) {
  .sm\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .sm\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -579,7 +584,11 @@ img, video { max-width: 100%; height: auto; }
  .sm\:self-end { align-self: flex-end; }
  .sm\:self-center { align-self: center; }
  .sm\:self-stretch { align-self: stretch; }
- .sm\:self-baseline { align-self: baseline; } }
+ .sm\:self-baseline { align-self: baseline; }
+ .sm\:flex-1 { flex: 1 1 0%; }
+ .sm\:flex-auto { flex: 1 1 auto; }
+ .sm\:flex-initial { flex: 0 1 auto; }
+ .sm\:flex-none { flex: none; } }
 @media (min-width: 48em) {
  .md\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .md\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -836,7 +845,11 @@ img, video { max-width: 100%; height: auto; }
  .md\:self-end { align-self: flex-end; }
  .md\:self-center { align-self: center; }
  .md\:self-stretch { align-self: stretch; }
- .md\:self-baseline { align-self: baseline; } }
+ .md\:self-baseline { align-self: baseline; }
+ .md\:flex-1 { flex: 1 1 0%; }
+ .md\:flex-auto { flex: 1 1 auto; }
+ .md\:flex-initial { flex: 0 1 auto; }
+ .md\:flex-none { flex: none; } }
 @media (min-width: 64em) {
  .lg\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .lg\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -1093,7 +1106,11 @@ img, video { max-width: 100%; height: auto; }
  .lg\:self-end { align-self: flex-end; }
  .lg\:self-center { align-self: center; }
  .lg\:self-stretch { align-self: stretch; }
- .lg\:self-baseline { align-self: baseline; } }
+ .lg\:self-baseline { align-self: baseline; }
+ .lg\:flex-1 { flex: 1 1 0%; }
+ .lg\:flex-auto { flex: 1 1 auto; }
+ .lg\:flex-initial { flex: 0 1 auto; }
+ .lg\:flex-none { flex: none; } }
 @media (min-width: 80em) {
  .xl\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .xl\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -1350,4 +1367,8 @@ img, video { max-width: 100%; height: auto; }
  .xl\:self-end { align-self: flex-end; }
  .xl\:self-center { align-self: center; }
  .xl\:self-stretch { align-self: stretch; }
- .xl\:self-baseline { align-self: baseline; } }
+ .xl\:self-baseline { align-self: baseline; }
+ .xl\:flex-1 { flex: 1 1 0%; }
+ .xl\:flex-auto { flex: 1 1 auto; }
+ .xl\:flex-initial { flex: 0 1 auto; }
+ .xl\:flex-none { flex: none; } }
