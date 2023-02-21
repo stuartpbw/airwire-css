@@ -1105,6 +1105,10 @@ img, video { max-width: 100%; height: auto; }
 .break-words { word-wrap: break-word; }
 .break-all { word-break: break-all; }
 .break-keep { word-break: keep-all; }
+/* Background Attachment */
+.bg-fixed { background-attachment: fixed; }
+.bg-local { background-attachment: local; }
+.bg-scroll { background-attachment: scroll; }
 @media (min-width: 40em) {
  .sm\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .sm\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -2095,7 +2099,10 @@ img, video { max-width: 100%; height: auto; }
  .sm\:break-normal { word-wrap: normal; word-break: normal; }
  .sm\:break-words { word-wrap: break-word; }
  .sm\:break-all { word-break: break-all; }
- .sm\:break-keep { word-break: keep-all; } }
+ .sm\:break-keep { word-break: keep-all; }
+ .sm\:bg-fixed { background-attachment: fixed; }
+ .sm\:bg-local { background-attachment: local; }
+ .sm\:bg-scroll { background-attachment: scroll; } }
 @media (min-width: 48em) {
  .md\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .md\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -3086,7 +3093,10 @@ img, video { max-width: 100%; height: auto; }
  .md\:break-normal { word-wrap: normal; word-break: normal; }
  .md\:break-words { word-wrap: break-word; }
  .md\:break-all { word-break: break-all; }
- .md\:break-keep { word-break: keep-all; } }
+ .md\:break-keep { word-break: keep-all; }
+ .md\:bg-fixed { background-attachment: fixed; }
+ .md\:bg-local { background-attachment: local; }
+ .md\:bg-scroll { background-attachment: scroll; } }
 @media (min-width: 64em) {
  .lg\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .lg\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -4077,7 +4087,10 @@ img, video { max-width: 100%; height: auto; }
  .lg\:break-normal { word-wrap: normal; word-break: normal; }
  .lg\:break-words { word-wrap: break-word; }
  .lg\:break-all { word-break: break-all; }
- .lg\:break-keep { word-break: keep-all; } }
+ .lg\:break-keep { word-break: keep-all; }
+ .lg\:bg-fixed { background-attachment: fixed; }
+ .lg\:bg-local { background-attachment: local; }
+ .lg\:bg-scroll { background-attachment: scroll; } }
 @media (min-width: 80em) {
  .xl\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .xl\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -5068,4 +5081,7 @@ img, video { max-width: 100%; height: auto; }
  .xl\:break-normal { word-wrap: normal; word-break: normal; }
  .xl\:break-words { word-wrap: break-word; }
  .xl\:break-all { word-break: break-all; }
- .xl\:break-keep { word-break: keep-all; } }
+ .xl\:break-keep { word-break: keep-all; }
+ .xl\:bg-fixed { background-attachment: fixed; }
+ .xl\:bg-local { background-attachment: local; }
+ .xl\:bg-scroll { background-attachment: scroll; } }
