@@ -1,0 +1,22 @@
+/* Line Height */
+
+@responsive {
+  .leading-none {
+    line-height: var(--line-height-none);
+  }
+  .leading-tight {
+    line-height: var(--line-height-tight);
+  }
+  .leading-snug {
+    line-height: var(--line-height-snug);
+  }
+  .leading-normal {
+    line-height: var(--line-height-normal);
+  }
+  .leading-relaxed {
+    line-height: var(--line-height-relaxed);
+  }
+  .leading-loose {
+    line-height: var(--line-height-loose);
+  }
+}
