@@ -5,6 +5,7 @@
 
 @import "layout/aspect-ratio.css";
 @import "layout/box-decoration-break.css";
+@import "layout/box-sizing.css";
 
 @custom-media --sm (min-width: 40em);
 @custom-media --md (min-width: 48em);
