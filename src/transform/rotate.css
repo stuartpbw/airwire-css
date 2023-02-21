@@ -1,0 +1,82 @@
+/* Rotate */
+
+@responsive {
+  .rotate-0 {
+    transform: rotate(0deg);
+  }
+  .rotate-1 {
+    transform: rotate(1deg);
+  }
+  .rotate-2 {
+    transform: rotate(2deg);
+  }
+  .rotate-3 {
+    transform: rotate(3deg);
+  }
+  .rotate-6 {
+    transform: rotate(6deg);
+  }
+  .rotate-12 {
+    transform: rotate(12deg);
+  }
+  .rotate-45 {
+    transform: rotate(45deg);
+  }
+  .rotate-90 {
+    transform: rotate(90deg);
+  }
+  .rotate-135 {
+    transform: rotate(135deg);
+  }
+  .rotate-180 {
+    transform: rotate(180deg);
+  }
+  .rotate-225 {
+    transform: rotate(225deg);
+  }
+  .rotate-270 {
+    transform: rotate(270deg);
+  }
+  .rotate-315 {
+    transform: rotate(315deg);
+  }
+  .-rotate-0 {
+    transform: rotate(calc(0deg * -1));
+  }
+  .-rotate-1 {
+    transform: rotate(calc(1deg * -1));
+  }
+  .-rotate-2 {
+    transform: rotate(calc(2deg * -1));
+  }
+  .-rotate-3 {
+    transform: rotate(calc(3deg * -1));
+  }
+  .-rotate-6 {
+    transform: rotate(calc(6deg * -1));
+  }
+  .-rotate-12 {
+    transform: rotate(calc(12deg * -1));
+  }
+  .-rotate-45 {
+    transform: rotate(calc(45deg * -1));
+  }
+  .-rotate-90 {
+    transform: rotate(calc(90deg * -1));
+  }
+  .-rotate-135 {
+    transform: rotate(calc(135deg * -1));
+  }
+  .-rotate-180 {
+    transform: rotate(calc(180deg * -1));
+  }
+  .-rotate-225 {
+    transform: rotate(calc(225deg * -1));
+  }
+  .-rotate-270 {
+    transform: rotate(calc(270deg * -1));
+  }
+  .-rotate-315 {
+    transform: rotate(calc(315deg * -1));
+  }
+}
