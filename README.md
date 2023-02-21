@@ -122,3 +122,11 @@ A CSS library for designing in the browser.
    - Skew
    - Transform Origin
    - Translate
+
+10. **Theme**
+
+    - Background Color
+    - Border Color
+    - Box Shadow
+    - Text Color
+    - Text Decoration Color
