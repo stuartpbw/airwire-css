@@ -40,6 +40,7 @@
 @import "grid/grid-column-start-end.css";
 @import "grid/grid-row-start-end.css";
 @import "grid/grid-template-columns.css";
+@import "grid/grid-template-rows.css";
 
 @custom-media --sm (min-width: 40em);
 @custom-media --md (min-width: 48em);
