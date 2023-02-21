@@ -1048,6 +1048,12 @@ img, video { max-width: 100%; height: auto; }
 .overline { text-decoration-line: overline; }
 .line-through { text-decoration-line: line-through; }
 .no-underline { text-decoration-line: none; }
+/* Text Decoration Style */
+.decoration-solid { text-decoration-style: solid; }
+.decoration-double { text-decoration-style: double; }
+.decoration-dotted { text-decoration-style: dotted; }
+.decoration-dashed { text-decoration-style: dashed; }
+.decoration-wavy { text-decoration-style: wavy; }
 @media (min-width: 40em) {
  .sm\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .sm\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -1990,7 +1996,12 @@ img, video { max-width: 100%; height: auto; }
  .sm\:underline { text-decoration-line: underline; }
  .sm\:overline { text-decoration-line: overline; }
  .sm\:line-through { text-decoration-line: line-through; }
- .sm\:no-underline { text-decoration-line: none; } }
+ .sm\:no-underline { text-decoration-line: none; }
+ .sm\:decoration-solid { text-decoration-style: solid; }
+ .sm\:decoration-double { text-decoration-style: double; }
+ .sm\:decoration-dotted { text-decoration-style: dotted; }
+ .sm\:decoration-dashed { text-decoration-style: dashed; }
+ .sm\:decoration-wavy { text-decoration-style: wavy; } }
 @media (min-width: 48em) {
  .md\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .md\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -2933,7 +2944,12 @@ img, video { max-width: 100%; height: auto; }
  .md\:underline { text-decoration-line: underline; }
  .md\:overline { text-decoration-line: overline; }
  .md\:line-through { text-decoration-line: line-through; }
- .md\:no-underline { text-decoration-line: none; } }
+ .md\:no-underline { text-decoration-line: none; }
+ .md\:decoration-solid { text-decoration-style: solid; }
+ .md\:decoration-double { text-decoration-style: double; }
+ .md\:decoration-dotted { text-decoration-style: dotted; }
+ .md\:decoration-dashed { text-decoration-style: dashed; }
+ .md\:decoration-wavy { text-decoration-style: wavy; } }
 @media (min-width: 64em) {
  .lg\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .lg\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -3876,7 +3892,12 @@ img, video { max-width: 100%; height: auto; }
  .lg\:underline { text-decoration-line: underline; }
  .lg\:overline { text-decoration-line: overline; }
  .lg\:line-through { text-decoration-line: line-through; }
- .lg\:no-underline { text-decoration-line: none; } }
+ .lg\:no-underline { text-decoration-line: none; }
+ .lg\:decoration-solid { text-decoration-style: solid; }
+ .lg\:decoration-double { text-decoration-style: double; }
+ .lg\:decoration-dotted { text-decoration-style: dotted; }
+ .lg\:decoration-dashed { text-decoration-style: dashed; }
+ .lg\:decoration-wavy { text-decoration-style: wavy; } }
 @media (min-width: 80em) {
  .xl\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .xl\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -4819,4 +4840,9 @@ img, video { max-width: 100%; height: auto; }
  .xl\:underline { text-decoration-line: underline; }
  .xl\:overline { text-decoration-line: overline; }
  .xl\:line-through { text-decoration-line: line-through; }
- .xl\:no-underline { text-decoration-line: none; } }
+ .xl\:no-underline { text-decoration-line: none; }
+ .xl\:decoration-solid { text-decoration-style: solid; }
+ .xl\:decoration-double { text-decoration-style: double; }
+ .xl\:decoration-dotted { text-decoration-style: dotted; }
+ .xl\:decoration-dashed { text-decoration-style: dashed; }
+ .xl\:decoration-wavy { text-decoration-style: wavy; } }
