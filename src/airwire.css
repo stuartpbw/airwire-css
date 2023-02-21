@@ -91,6 +91,7 @@
 @import "border/border-collapse.css";
 @import "border/border-radius.css";
 @import "border/border-style.css";
+@import "border/border-width.css";
 
 @custom-media --sm (min-width: 40em);
 @custom-media --md (min-width: 48em);
