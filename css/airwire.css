@@ -1069,6 +1069,10 @@ img, video { max-width: 100%; height: auto; }
 .indent-2 { text-indent: var( --size-2 ); }
 .indent-3 { text-indent: var( --size-3 ); }
 .indent-4 { text-indent: var( --size-4 ); }
+/* Text Overflow */
+.truncate { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.text-ellipsis { text-overflow: ellipsis; }
+.text-clip { text-overflow: clip; }
 @media (min-width: 40em) {
  .sm\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .sm\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -2029,7 +2033,10 @@ img, video { max-width: 100%; height: auto; }
  .sm\:indent-1 { text-indent: var( --size-1 ); }
  .sm\:indent-2 { text-indent: var( --size-2 ); }
  .sm\:indent-3 { text-indent: var( --size-3 ); }
- .sm\:indent-4 { text-indent: var( --size-4 ); } }
+ .sm\:indent-4 { text-indent: var( --size-4 ); }
+ .sm\:truncate { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+ .sm\:text-ellipsis { text-overflow: ellipsis; }
+ .sm\:text-clip { text-overflow: clip; } }
 @media (min-width: 48em) {
  .md\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .md\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -2990,7 +2997,10 @@ img, video { max-width: 100%; height: auto; }
  .md\:indent-1 { text-indent: var( --size-1 ); }
  .md\:indent-2 { text-indent: var( --size-2 ); }
  .md\:indent-3 { text-indent: var( --size-3 ); }
- .md\:indent-4 { text-indent: var( --size-4 ); } }
+ .md\:indent-4 { text-indent: var( --size-4 ); }
+ .md\:truncate { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+ .md\:text-ellipsis { text-overflow: ellipsis; }
+ .md\:text-clip { text-overflow: clip; } }
 @media (min-width: 64em) {
  .lg\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .lg\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -3951,7 +3961,10 @@ img, video { max-width: 100%; height: auto; }
  .lg\:indent-1 { text-indent: var( --size-1 ); }
  .lg\:indent-2 { text-indent: var( --size-2 ); }
  .lg\:indent-3 { text-indent: var( --size-3 ); }
- .lg\:indent-4 { text-indent: var( --size-4 ); } }
+ .lg\:indent-4 { text-indent: var( --size-4 ); }
+ .lg\:truncate { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+ .lg\:text-ellipsis { text-overflow: ellipsis; }
+ .lg\:text-clip { text-overflow: clip; } }
 @media (min-width: 80em) {
  .xl\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .xl\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -4912,4 +4925,7 @@ img, video { max-width: 100%; height: auto; }
  .xl\:indent-1 { text-indent: var( --size-1 ); }
  .xl\:indent-2 { text-indent: var( --size-2 ); }
  .xl\:indent-3 { text-indent: var( --size-3 ); }
- .xl\:indent-4 { text-indent: var( --size-4 ); } }
+ .xl\:indent-4 { text-indent: var( --size-4 ); }
+ .xl\:truncate { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+ .xl\:text-ellipsis { text-overflow: ellipsis; }
+ .xl\:text-clip { text-overflow: clip; } }
