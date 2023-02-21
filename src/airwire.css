@@ -20,6 +20,7 @@
 @import "layout/overscroll.css";
 @import "layout/position.css";
 @import "layout/positioning.css";
+@import "layout/screen-readers.css";
 
 @custom-media --sm (min-width: 40em);
 @custom-media --md (min-width: 48em);
