@@ -1,0 +1,22 @@
+/* Aspect Ratio */
+
+@responsive {
+  .aspect-1x1 {
+    aspect-ratio: var(--aspect-1x1);
+  }
+  .aspect-4x3 {
+    aspect-ratio: var(--aspect-4x3);
+  }
+  .aspect-3x4 {
+    aspect-ratio: var(--aspect-3x4);
+  }
+  .aspect-16x9 {
+    aspect-ratio: var(--aspect-16x9);
+  }
+  .aspect-18x5 {
+    aspect-ratio: var(--aspect-18x5);
+  }
+  .aspect-golden {
+    aspect-ratio: var(--aspect-golden);
+  }
+}

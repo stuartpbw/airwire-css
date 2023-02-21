@@ -37,3 +37,40 @@ button, [role="button"] { cursor: pointer; }
 img, svg, video, canvas, audio, iframe, embed, object { display: block; vertical-align: middle; }
 img, video { max-width: 100%; height: auto; }
 [hidden] { display: none; }
+/* Variables */
+:where(html) { --aspect-1x1: 1; --aspect-4x3: 4/3; --aspect-3x4: 3/4; --aspect-16x9: 16/9; --aspect-18x5: 18/5; --aspect-golden: 1.618/1; }
+/* Aspect Ratio */
+.aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
+.aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
+.aspect-3x4 { aspect-ratio: var( --aspect-3x4 ); }
+.aspect-16x9 { aspect-ratio: var( --aspect-16x9 ); }
+.aspect-18x5 { aspect-ratio: var( --aspect-18x5 ); }
+.aspect-golden { aspect-ratio: var( --aspect-golden ); }
+@media (min-width: 40em) {
+ .sm\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
+ .sm\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
+ .sm\:aspect-3x4 { aspect-ratio: var( --aspect-3x4 ); }
+ .sm\:aspect-16x9 { aspect-ratio: var( --aspect-16x9 ); }
+ .sm\:aspect-18x5 { aspect-ratio: var( --aspect-18x5 ); }
+ .sm\:aspect-golden { aspect-ratio: var( --aspect-golden ); } }
+@media (min-width: 48em) {
+ .md\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
+ .md\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
+ .md\:aspect-3x4 { aspect-ratio: var( --aspect-3x4 ); }
+ .md\:aspect-16x9 { aspect-ratio: var( --aspect-16x9 ); }
+ .md\:aspect-18x5 { aspect-ratio: var( --aspect-18x5 ); }
+ .md\:aspect-golden { aspect-ratio: var( --aspect-golden ); } }
+@media (min-width: 64em) {
+ .lg\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
+ .lg\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
+ .lg\:aspect-3x4 { aspect-ratio: var( --aspect-3x4 ); }
+ .lg\:aspect-16x9 { aspect-ratio: var( --aspect-16x9 ); }
+ .lg\:aspect-18x5 { aspect-ratio: var( --aspect-18x5 ); }
+ .lg\:aspect-golden { aspect-ratio: var( --aspect-golden ); } }
+@media (min-width: 80em) {
+ .xl\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
+ .xl\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
+ .xl\:aspect-3x4 { aspect-ratio: var( --aspect-3x4 ); }
+ .xl\:aspect-16x9 { aspect-ratio: var( --aspect-16x9 ); }
+ .xl\:aspect-18x5 { aspect-ratio: var( --aspect-18x5 ); }
+ .xl\:aspect-golden { aspect-ratio: var( --aspect-golden ); } }
