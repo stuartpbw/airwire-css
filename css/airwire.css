@@ -1085,6 +1085,15 @@ img, video { max-width: 100%; height: auto; }
 .underline-2 { text-underline-offset: var( --size-2 ); }
 .underline-3 { text-underline-offset: var( --size-3 ); }
 .underline-4 { text-underline-offset: var( --size-4 ); }
+/* Vertical Align */
+.align-baseline { vertical-align: baseline; }
+.align-top { vertical-align: top; }
+.align-middle { vertical-align: middle; }
+.align-bottom { vertical-align: bottom; }
+.align-text-top { vertical-align: text-top; }
+.align-text-bottom { vertical-align: text-bottom; }
+.align-sub { vertical-align: sub; }
+.align-super { vertical-align: super; }
 @media (min-width: 40em) {
  .sm\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .sm\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -2058,7 +2067,15 @@ img, video { max-width: 100%; height: auto; }
  .sm\:underline-1 { text-underline-offset: var( --size-1 ); }
  .sm\:underline-2 { text-underline-offset: var( --size-2 ); }
  .sm\:underline-3 { text-underline-offset: var( --size-3 ); }
- .sm\:underline-4 { text-underline-offset: var( --size-4 ); } }
+ .sm\:underline-4 { text-underline-offset: var( --size-4 ); }
+ .sm\:align-baseline { vertical-align: baseline; }
+ .sm\:align-top { vertical-align: top; }
+ .sm\:align-middle { vertical-align: middle; }
+ .sm\:align-bottom { vertical-align: bottom; }
+ .sm\:align-text-top { vertical-align: text-top; }
+ .sm\:align-text-bottom { vertical-align: text-bottom; }
+ .sm\:align-sub { vertical-align: sub; }
+ .sm\:align-super { vertical-align: super; } }
 @media (min-width: 48em) {
  .md\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .md\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -3032,7 +3049,15 @@ img, video { max-width: 100%; height: auto; }
  .md\:underline-1 { text-underline-offset: var( --size-1 ); }
  .md\:underline-2 { text-underline-offset: var( --size-2 ); }
  .md\:underline-3 { text-underline-offset: var( --size-3 ); }
- .md\:underline-4 { text-underline-offset: var( --size-4 ); } }
+ .md\:underline-4 { text-underline-offset: var( --size-4 ); }
+ .md\:align-baseline { vertical-align: baseline; }
+ .md\:align-top { vertical-align: top; }
+ .md\:align-middle { vertical-align: middle; }
+ .md\:align-bottom { vertical-align: bottom; }
+ .md\:align-text-top { vertical-align: text-top; }
+ .md\:align-text-bottom { vertical-align: text-bottom; }
+ .md\:align-sub { vertical-align: sub; }
+ .md\:align-super { vertical-align: super; } }
 @media (min-width: 64em) {
  .lg\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .lg\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -4006,7 +4031,15 @@ img, video { max-width: 100%; height: auto; }
  .lg\:underline-1 { text-underline-offset: var( --size-1 ); }
  .lg\:underline-2 { text-underline-offset: var( --size-2 ); }
  .lg\:underline-3 { text-underline-offset: var( --size-3 ); }
- .lg\:underline-4 { text-underline-offset: var( --size-4 ); } }
+ .lg\:underline-4 { text-underline-offset: var( --size-4 ); }
+ .lg\:align-baseline { vertical-align: baseline; }
+ .lg\:align-top { vertical-align: top; }
+ .lg\:align-middle { vertical-align: middle; }
+ .lg\:align-bottom { vertical-align: bottom; }
+ .lg\:align-text-top { vertical-align: text-top; }
+ .lg\:align-text-bottom { vertical-align: text-bottom; }
+ .lg\:align-sub { vertical-align: sub; }
+ .lg\:align-super { vertical-align: super; } }
 @media (min-width: 80em) {
  .xl\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .xl\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -4980,4 +5013,12 @@ img, video { max-width: 100%; height: auto; }
  .xl\:underline-1 { text-underline-offset: var( --size-1 ); }
  .xl\:underline-2 { text-underline-offset: var( --size-2 ); }
  .xl\:underline-3 { text-underline-offset: var( --size-3 ); }
- .xl\:underline-4 { text-underline-offset: var( --size-4 ); } }
+ .xl\:underline-4 { text-underline-offset: var( --size-4 ); }
+ .xl\:align-baseline { vertical-align: baseline; }
+ .xl\:align-top { vertical-align: top; }
+ .xl\:align-middle { vertical-align: middle; }
+ .xl\:align-bottom { vertical-align: bottom; }
+ .xl\:align-text-top { vertical-align: text-top; }
+ .xl\:align-text-bottom { vertical-align: text-bottom; }
+ .xl\:align-sub { vertical-align: sub; }
+ .xl\:align-super { vertical-align: super; } }

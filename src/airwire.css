@@ -76,6 +76,7 @@
 @import "typography/text-overflow.css";
 @import "typography/text-transform.css";
 @import "typography/text-underline-offset.css";
+@import "typography/vertical-align.css";
 
 @custom-media --sm (min-width: 40em);
 @custom-media --md (min-width: 48em);
