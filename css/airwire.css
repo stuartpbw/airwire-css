@@ -872,7 +872,7 @@ img, video { max-width: 100%; height: auto; }
 .space-y-10 > * + * { margin-top: var( --size-10 ); }
 .space-y-11 > * + * { margin-top: var( --size-11 ); }
 .space-y-12 > * + * { margin-top: var( --size-12 ); }
-/* HEIGHT */
+/* Height */
 .h-0 { height: var( --size-0 ); }
 .h-px { height: var( --size-px ); }
 .h-1 { height: var( --size-1 ); }
