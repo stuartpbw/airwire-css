@@ -535,6 +535,12 @@ img, video { max-width: 100%; height: auto; }
 .place-content-evenly { align-content: space-evenly; justify-content: space-evenly; place-content: space-evenly; }
 .place-content-baseline { align-content: baseline; justify-content: baseline; place-content: baseline; }
 .place-content-stretch { align-content: stretch; justify-content: stretch; place-content: stretch; }
+/* Place Items */
+.place-items-start { align-items: start; justify-items: start; place-items: start; }
+.place-items-end { align-items: end; justify-items: end; place-items: end; }
+.place-items-center { align-items: center; justify-items: center; place-items: center; }
+.place-items-baseline { align-items: baseline; justify-items: baseline; place-items: baseline; }
+.place-items-stretch { align-items: stretch; justify-items: stretch; place-items: stretch; }
 @media (min-width: 40em) {
  .sm\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .sm\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -985,7 +991,12 @@ img, video { max-width: 100%; height: auto; }
  .sm\:place-content-around { align-content: space-around; justify-content: space-around; place-content: space-around; }
  .sm\:place-content-evenly { align-content: space-evenly; justify-content: space-evenly; place-content: space-evenly; }
  .sm\:place-content-baseline { align-content: baseline; justify-content: baseline; place-content: baseline; }
- .sm\:place-content-stretch { align-content: stretch; justify-content: stretch; place-content: stretch; } }
+ .sm\:place-content-stretch { align-content: stretch; justify-content: stretch; place-content: stretch; }
+ .sm\:place-items-start { align-items: start; justify-items: start; place-items: start; }
+ .sm\:place-items-end { align-items: end; justify-items: end; place-items: end; }
+ .sm\:place-items-center { align-items: center; justify-items: center; place-items: center; }
+ .sm\:place-items-baseline { align-items: baseline; justify-items: baseline; place-items: baseline; }
+ .sm\:place-items-stretch { align-items: stretch; justify-items: stretch; place-items: stretch; } }
 @media (min-width: 48em) {
  .md\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .md\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -1436,7 +1447,12 @@ img, video { max-width: 100%; height: auto; }
  .md\:place-content-around { align-content: space-around; justify-content: space-around; place-content: space-around; }
  .md\:place-content-evenly { align-content: space-evenly; justify-content: space-evenly; place-content: space-evenly; }
  .md\:place-content-baseline { align-content: baseline; justify-content: baseline; place-content: baseline; }
- .md\:place-content-stretch { align-content: stretch; justify-content: stretch; place-content: stretch; } }
+ .md\:place-content-stretch { align-content: stretch; justify-content: stretch; place-content: stretch; }
+ .md\:place-items-start { align-items: start; justify-items: start; place-items: start; }
+ .md\:place-items-end { align-items: end; justify-items: end; place-items: end; }
+ .md\:place-items-center { align-items: center; justify-items: center; place-items: center; }
+ .md\:place-items-baseline { align-items: baseline; justify-items: baseline; place-items: baseline; }
+ .md\:place-items-stretch { align-items: stretch; justify-items: stretch; place-items: stretch; } }
 @media (min-width: 64em) {
  .lg\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .lg\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -1887,7 +1903,12 @@ img, video { max-width: 100%; height: auto; }
  .lg\:place-content-around { align-content: space-around; justify-content: space-around; place-content: space-around; }
  .lg\:place-content-evenly { align-content: space-evenly; justify-content: space-evenly; place-content: space-evenly; }
  .lg\:place-content-baseline { align-content: baseline; justify-content: baseline; place-content: baseline; }
- .lg\:place-content-stretch { align-content: stretch; justify-content: stretch; place-content: stretch; } }
+ .lg\:place-content-stretch { align-content: stretch; justify-content: stretch; place-content: stretch; }
+ .lg\:place-items-start { align-items: start; justify-items: start; place-items: start; }
+ .lg\:place-items-end { align-items: end; justify-items: end; place-items: end; }
+ .lg\:place-items-center { align-items: center; justify-items: center; place-items: center; }
+ .lg\:place-items-baseline { align-items: baseline; justify-items: baseline; place-items: baseline; }
+ .lg\:place-items-stretch { align-items: stretch; justify-items: stretch; place-items: stretch; } }
 @media (min-width: 80em) {
  .xl\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .xl\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -2338,4 +2359,9 @@ img, video { max-width: 100%; height: auto; }
  .xl\:place-content-around { align-content: space-around; justify-content: space-around; place-content: space-around; }
  .xl\:place-content-evenly { align-content: space-evenly; justify-content: space-evenly; place-content: space-evenly; }
  .xl\:place-content-baseline { align-content: baseline; justify-content: baseline; place-content: baseline; }
- .xl\:place-content-stretch { align-content: stretch; justify-content: stretch; place-content: stretch; } }
+ .xl\:place-content-stretch { align-content: stretch; justify-content: stretch; place-content: stretch; }
+ .xl\:place-items-start { align-items: start; justify-items: start; place-items: start; }
+ .xl\:place-items-end { align-items: end; justify-items: end; place-items: end; }
+ .xl\:place-items-center { align-items: center; justify-items: center; place-items: center; }
+ .xl\:place-items-baseline { align-items: baseline; justify-items: baseline; place-items: baseline; }
+ .xl\:place-items-stretch { align-items: stretch; justify-items: stretch; place-items: stretch; } }
