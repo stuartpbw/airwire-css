@@ -246,3 +246,12 @@
 .bg-violet-9 {
   background-color: var(--violet-9);
 }
+.bg-inherit {
+  background-color: inherit;
+}
+.bg-current {
+  background-color: currentColor;
+}
+.bg-transparent {
+  background-color: transparent;
+}

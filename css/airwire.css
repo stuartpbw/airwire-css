@@ -1410,6 +1410,9 @@ img, video { max-width: 100%; height: auto; }
 .bg-violet-7 { background-color: var( --violet-7 ); }
 .bg-violet-8 { background-color: var( --violet-8 ); }
 .bg-violet-9 { background-color: var( --violet-9 ); }
+.bg-inherit { background-color: inherit; }
+.bg-current { background-color: currentColor; }
+.bg-transparent { background-color: transparent; }
 /* Border Colors */
 .border-white { border-color: var( --white ); }
 .border-black { border-color: var( --black ); }
