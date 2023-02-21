@@ -1015,13 +1015,20 @@ img, video { max-width: 100%; height: auto; }
 .font-800 { font-weight: 800; }
 .font-900 { font-weight: 900; }
 .font-normal { font-weight: normal; }
-/* LETTER SPACING */
+/* Letter Spacing */
 .tracking-tighter { letter-spacing: var( --letter-spacing-tighter ); }
 .tracking-tight { letter-spacing: var( --letter-spacing-tight ); }
 .tracking-normal { letter-spacing: var( --letter-spacing-normal ); }
 .tracking-wide { letter-spacing: var( --letter-spacing-wide ); }
 .tracking-wider { letter-spacing: var( --letter-spacing-wider ); }
 .tracking-widest { letter-spacing: var( --letter-spacing-widest ); }
+/* Line Height */
+.leading-none { line-height: var( --line-height-none ); }
+.leading-tight { line-height: var( --line-height-tight ); }
+.leading-snug { line-height: var( --line-height-snug ); }
+.leading-normal { line-height: var( --line-height-normal ); }
+.leading-relaxed { line-height: var( --line-height-relaxed ); }
+.leading-loose { line-height: var( --line-height-loose ); }
 @media (min-width: 40em) {
  .sm\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .sm\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -1943,7 +1950,13 @@ img, video { max-width: 100%; height: auto; }
  .sm\:tracking-normal { letter-spacing: var( --letter-spacing-normal ); }
  .sm\:tracking-wide { letter-spacing: var( --letter-spacing-wide ); }
  .sm\:tracking-wider { letter-spacing: var( --letter-spacing-wider ); }
- .sm\:tracking-widest { letter-spacing: var( --letter-spacing-widest ); } }
+ .sm\:tracking-widest { letter-spacing: var( --letter-spacing-widest ); }
+ .sm\:leading-none { line-height: var( --line-height-none ); }
+ .sm\:leading-tight { line-height: var( --line-height-tight ); }
+ .sm\:leading-snug { line-height: var( --line-height-snug ); }
+ .sm\:leading-normal { line-height: var( --line-height-normal ); }
+ .sm\:leading-relaxed { line-height: var( --line-height-relaxed ); }
+ .sm\:leading-loose { line-height: var( --line-height-loose ); } }
 @media (min-width: 48em) {
  .md\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .md\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -2865,7 +2878,13 @@ img, video { max-width: 100%; height: auto; }
  .md\:tracking-normal { letter-spacing: var( --letter-spacing-normal ); }
  .md\:tracking-wide { letter-spacing: var( --letter-spacing-wide ); }
  .md\:tracking-wider { letter-spacing: var( --letter-spacing-wider ); }
- .md\:tracking-widest { letter-spacing: var( --letter-spacing-widest ); } }
+ .md\:tracking-widest { letter-spacing: var( --letter-spacing-widest ); }
+ .md\:leading-none { line-height: var( --line-height-none ); }
+ .md\:leading-tight { line-height: var( --line-height-tight ); }
+ .md\:leading-snug { line-height: var( --line-height-snug ); }
+ .md\:leading-normal { line-height: var( --line-height-normal ); }
+ .md\:leading-relaxed { line-height: var( --line-height-relaxed ); }
+ .md\:leading-loose { line-height: var( --line-height-loose ); } }
 @media (min-width: 64em) {
  .lg\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .lg\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -3787,7 +3806,13 @@ img, video { max-width: 100%; height: auto; }
  .lg\:tracking-normal { letter-spacing: var( --letter-spacing-normal ); }
  .lg\:tracking-wide { letter-spacing: var( --letter-spacing-wide ); }
  .lg\:tracking-wider { letter-spacing: var( --letter-spacing-wider ); }
- .lg\:tracking-widest { letter-spacing: var( --letter-spacing-widest ); } }
+ .lg\:tracking-widest { letter-spacing: var( --letter-spacing-widest ); }
+ .lg\:leading-none { line-height: var( --line-height-none ); }
+ .lg\:leading-tight { line-height: var( --line-height-tight ); }
+ .lg\:leading-snug { line-height: var( --line-height-snug ); }
+ .lg\:leading-normal { line-height: var( --line-height-normal ); }
+ .lg\:leading-relaxed { line-height: var( --line-height-relaxed ); }
+ .lg\:leading-loose { line-height: var( --line-height-loose ); } }
 @media (min-width: 80em) {
  .xl\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .xl\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -4709,4 +4734,10 @@ img, video { max-width: 100%; height: auto; }
  .xl\:tracking-normal { letter-spacing: var( --letter-spacing-normal ); }
  .xl\:tracking-wide { letter-spacing: var( --letter-spacing-wide ); }
  .xl\:tracking-wider { letter-spacing: var( --letter-spacing-wider ); }
- .xl\:tracking-widest { letter-spacing: var( --letter-spacing-widest ); } }
+ .xl\:tracking-widest { letter-spacing: var( --letter-spacing-widest ); }
+ .xl\:leading-none { line-height: var( --line-height-none ); }
+ .xl\:leading-tight { line-height: var( --line-height-tight ); }
+ .xl\:leading-snug { line-height: var( --line-height-snug ); }
+ .xl\:leading-normal { line-height: var( --line-height-normal ); }
+ .xl\:leading-relaxed { line-height: var( --line-height-relaxed ); }
+ .xl\:leading-loose { line-height: var( --line-height-loose ); } }
