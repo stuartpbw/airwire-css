@@ -1,0 +1,22 @@
+/* Text Underline Offset */
+
+@responsive {
+  .underline-0 {
+    text-underline-offset: var(--size-0);
+  }
+  .underline-px {
+    text-underline-offset: var(--size-px);
+  }
+  .underline-1 {
+    text-underline-offset: var(--size-1);
+  }
+  .underline-2 {
+    text-underline-offset: var(--size-2);
+  }
+  .underline-3 {
+    text-underline-offset: var(--size-3);
+  }
+  .underline-4 {
+    text-underline-offset: var(--size-4);
+  }
+}
