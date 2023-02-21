@@ -79,6 +79,10 @@ img, video { max-width: 100%; height: auto; }
 .inline-flex { display: inline-flex; }
 .inline-grid { display: inline-grid; }
 .hidden { display: none; }
+/* Float */
+.float-right { float: right; }
+.float-left { float: left; }
+.float-none { float: none; }
 @media (min-width: 40em) {
  .sm\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .sm\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -108,7 +112,10 @@ img, video { max-width: 100%; height: auto; }
  .sm\:inline-block { display: inline-block; }
  .sm\:inline-flex { display: inline-flex; }
  .sm\:inline-grid { display: inline-grid; }
- .sm\:hidden { display: none; } }
+ .sm\:hidden { display: none; }
+ .sm\:float-right { float: right; }
+ .sm\:float-left { float: left; }
+ .sm\:float-none { float: none; } }
 @media (min-width: 48em) {
  .md\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .md\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -138,7 +145,10 @@ img, video { max-width: 100%; height: auto; }
  .md\:inline-block { display: inline-block; }
  .md\:inline-flex { display: inline-flex; }
  .md\:inline-grid { display: inline-grid; }
- .md\:hidden { display: none; } }
+ .md\:hidden { display: none; }
+ .md\:float-right { float: right; }
+ .md\:float-left { float: left; }
+ .md\:float-none { float: none; } }
 @media (min-width: 64em) {
  .lg\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .lg\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -168,7 +178,10 @@ img, video { max-width: 100%; height: auto; }
  .lg\:inline-block { display: inline-block; }
  .lg\:inline-flex { display: inline-flex; }
  .lg\:inline-grid { display: inline-grid; }
- .lg\:hidden { display: none; } }
+ .lg\:hidden { display: none; }
+ .lg\:float-right { float: right; }
+ .lg\:float-left { float: left; }
+ .lg\:float-none { float: none; } }
 @media (min-width: 80em) {
  .xl\:aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
  .xl\:aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
@@ -198,4 +211,7 @@ img, video { max-width: 100%; height: auto; }
  .xl\:inline-block { display: inline-block; }
  .xl\:inline-flex { display: inline-flex; }
  .xl\:inline-grid { display: inline-grid; }
- .xl\:hidden { display: none; } }
+ .xl\:hidden { display: none; }
+ .xl\:float-right { float: right; }
+ .xl\:float-left { float: left; }
+ .xl\:float-none { float: none; } }
