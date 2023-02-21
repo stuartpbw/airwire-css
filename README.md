@@ -96,7 +96,7 @@ A CSS library for designing in the browser.
    - Whitespace
    - Word Break
 
-7. **Backgrounds**
+7. **Background**
 
    - Background Attachment
    - Background Clip
@@ -106,7 +106,7 @@ A CSS library for designing in the browser.
    - Background Repeat
    - Background Size
 
-8. **Borders**
+8. **Border**
 
    - Border Collapse
    - Border Radius
@@ -115,7 +115,7 @@ A CSS library for designing in the browser.
    - Divide Style
    - Divide Width
 
-9. **Transforms**
+9. **Transform**
 
    - Rotate
    - Scale
