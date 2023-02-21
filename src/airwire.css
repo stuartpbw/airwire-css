@@ -101,11 +101,11 @@
 @import "transform/transform-origin.css";
 @import "transform/translate.css";
 
-@import "theme/background-colors.css";
-@import "theme/border-colors.css";
+@import "theme/background-color.css";
+@import "theme/border-color.css";
 @import "theme/box-shadow.css";
-@import "theme/text-colors.css";
-@import "theme/text-decoration-colors.css";
+@import "theme/text-color.css";
+@import "theme/text-decoration-color.css";
 
 @custom-media --sm (min-width: 40em);
 @custom-media --md (min-width: 48em);
