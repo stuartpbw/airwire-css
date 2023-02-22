@@ -107,7 +107,6 @@
 @import "theme/box-shadow.css";
 @import "theme/cursor.css";
 @import "theme/text-color.css";
-@import "theme/text-decoration-color.css";
 
 @custom-media --sm (min-width: 40em);
 @custom-media --md (min-width: 48em);

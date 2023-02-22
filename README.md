@@ -130,4 +130,3 @@ A CSS library for designing in the browser.
     - Border Color
     - Box Shadow
     - Text Color
-    - Text Decoration Color
