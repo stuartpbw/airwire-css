@@ -6,8 +6,9 @@ A CSS library for designing in the browser.
 
 1. **Base**
 
-   - Reset
    - Variables
+   - Reset
+   - Forms
    - Debug
 
 2. **Layout**
