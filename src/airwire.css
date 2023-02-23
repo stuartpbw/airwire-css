@@ -4,6 +4,7 @@
 @import "base/reset.css";
 @import "base/forms.css";
 @import "base/debug.css";
+@import "base/user-select.css";
 
 @import "layout/aspect-ratio.css";
 @import "layout/box-decoration-break.css";
