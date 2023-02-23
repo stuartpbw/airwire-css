@@ -104,10 +104,15 @@
 @import "transform/transform-origin.css";
 @import "transform/translate.css";
 
+@import "theme/animation.css";
 @import "theme/background-color.css";
 @import "theme/border-color.css";
 @import "theme/box-shadow.css";
 @import "theme/text-color.css";
+@import "theme/transition.css";
+@import "theme/transition-delay.css";
+@import "theme/transition-duration.css";
+@import "theme/transition-timing.css";
 
 @custom-media --sm (min-width: 40em);
 @custom-media --md (min-width: 48em);
