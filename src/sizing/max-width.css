@@ -1,9 +1,6 @@
 /* Max-Width */
 
 @responsive {
-  .max-w-0 {
-    max-width: var(--size-0);
-  }
   .max-w-xs {
     max-width: var(--content-xs);
   }
@@ -28,26 +25,17 @@
   .max-w-4xl {
     max-width: var(--content-4xl);
   }
-  .max-w-5xl {
-    max-width: var(--content-5xl);
+  .max-w-prose-xs {
+    max-width: var(--content-prose-xs);
   }
-  .max-w-6xl {
-    max-width: var(--content-6xl);
-  }
-  .max-prose-sm {
+  .max-w-prose-sm {
     max-width: var(--content-prose-sm);
   }
-  .max-prose-md {
+  .max-w-prose-md {
     max-width: var(--content-prose-md);
   }
-  .max-prose-lg {
+  .max-w-prose-lg {
     max-width: var(--content-prose-lg);
-  }
-  .max-prose-xl {
-    max-width: var(--content-prose-xl);
-  }
-  .max-prose-2xl {
-    max-width: var(--content-prose-2xl);
   }
   .max-w-full {
     max-width: 100%;

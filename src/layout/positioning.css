@@ -43,14 +43,20 @@
   .top-12 {
     top: var(--size-12);
   }
-  .top-25p {
-    top: 25%;
+  .top-25 {
+    top: calc(100% / 4);
   }
-  .top-50p {
-    top: 50%;
+  .top-33 {
+    top: calc(100% / 3);
   }
-  .top-75p {
-    top: 75%;
+  .top-50 {
+    top: calc(100% / 2);
+  }
+  .top-67 {
+    top: calc(100% / 1.5);
+  }
+  .top-75 {
+    top: calc(100% / 1.333333333);
   }
   .top-full {
     top: 100%;
@@ -100,14 +106,20 @@
   .right-12 {
     right: var(--size-12);
   }
-  .right-25p {
-    right: 25%;
+  .right-25 {
+    right: calc(100% / 4);
   }
-  .right-50p {
-    right: 50%;
+  .right-33 {
+    right: calc(100% / 3);
   }
-  .right-75p {
-    right: 75%;
+  .right-50 {
+    right: calc(100% / 2);
+  }
+  .right-67 {
+    right: calc(100% / 1.5);
+  }
+  .right-75 {
+    right: calc(100% / 1.333333333);
   }
   .right-full {
     right: 100%;
@@ -157,14 +169,20 @@
   .bottom-12 {
     bottom: var(--size-12);
   }
-  .bottom-25p {
-    bottom: 25%;
+  .bottom-25 {
+    bottom: calc(100% / 4);
   }
-  .bottom-50p {
-    bottom: 50%;
+  .bottom-33 {
+    bottom: calc(100% / 3);
   }
-  .bottom-75p {
-    bottom: 75%;
+  .bottom-50 {
+    bottom: calc(100% / 2);
+  }
+  .bottom-67 {
+    bottom: calc(100% / 1.5);
+  }
+  .bottom-75 {
+    bottom: calc(100% / 1.333333333);
   }
   .bottom-full {
     bottom: 100%;
@@ -214,286 +232,26 @@
   .left-12 {
     left: var(--size-12);
   }
-  .left-25p {
-    left: 25%;
+  .left-25 {
+    left: calc(100% / 4);
   }
-  .left-50p {
-    left: 50%;
+  .left-33 {
+    left: calc(100% / 3);
   }
-  .left-75p {
-    left: 75%;
+  .left-50 {
+    left: calc(100% / 2);
+  }
+  .left-67 {
+    left: calc(100% / 1.5);
+  }
+  .left-75 {
+    left: calc(100% / 1.333333333);
   }
   .left-full {
     left: 100%;
   }
   .left-auto {
     left: auto;
-  }
-  .inset-0 {
-    top: var(--size-0);
-    right: var(--size-0);
-    bottom: var(--size-0);
-    left: var(--size-0);
-  }
-  .inset-px {
-    top: var(--size-px);
-    right: var(--size-px);
-    bottom: var(--size-px);
-    left: var(--size-px);
-  }
-  .inset-1 {
-    top: var(--size-1);
-    right: var(--size-1);
-    bottom: var(--size-1);
-    left: var(--size-1);
-  }
-  .inset-2 {
-    top: var(--size-2);
-    right: var(--size-2);
-    bottom: var(--size-2);
-    left: var(--size-2);
-  }
-  .inset-3 {
-    top: var(--size-3);
-    right: var(--size-3);
-    bottom: var(--size-3);
-    left: var(--size-3);
-  }
-  .inset-4 {
-    top: var(--size-4);
-    right: var(--size-4);
-    bottom: var(--size-4);
-    left: var(--size-4);
-  }
-  .inset-5 {
-    top: var(--size-5);
-    right: var(--size-5);
-    bottom: var(--size-5);
-    left: var(--size-5);
-  }
-  .inset-6 {
-    top: var(--size-6);
-    right: var(--size-6);
-    bottom: var(--size-6);
-    left: var(--size-6);
-  }
-  .inset-7 {
-    top: var(--size-7);
-    right: var(--size-7);
-    bottom: var(--size-7);
-    left: var(--size-7);
-  }
-  .inset-8 {
-    top: var(--size-8);
-    right: var(--size-8);
-    bottom: var(--size-8);
-    left: var(--size-8);
-  }
-  .inset-9 {
-    top: var(--size-9);
-    right: var(--size-9);
-    bottom: var(--size-9);
-    left: var(--size-9);
-  }
-  .inset-10 {
-    top: var(--size-10);
-    right: var(--size-10);
-    bottom: var(--size-10);
-    left: var(--size-10);
-  }
-  .inset-11 {
-    top: var(--size-11);
-    right: var(--size-11);
-    bottom: var(--size-11);
-    left: var(--size-11);
-  }
-  .inset-12 {
-    top: var(--size-12);
-    right: var(--size-12);
-    bottom: var(--size-12);
-    left: var(--size-12);
-  }
-  .inset-25p {
-    top: 25%;
-    right: 25%;
-    bottom: 25%;
-    left: 25%;
-  }
-  .inset-50p {
-    top: 50%;
-    right: 50%;
-    bottom: 50%;
-    left: 50%;
-  }
-  .inset-75p {
-    top: 75%;
-    right: 75%;
-    bottom: 75%;
-    left: 75%;
-  }
-  .inset-full {
-    top: 100%;
-    right: 100%;
-    bottom: 100%;
-    left: 100%;
-  }
-  .inset-auto {
-    top: auto;
-    right: auto;
-    bottom: auto;
-    left: auto;
-  }
-  .inset-x-0 {
-    left: var(--size-0);
-    right: var(--size-0);
-  }
-  .inset-x-px {
-    left: var(--size-px);
-    right: var(--size-px);
-  }
-  .inset-x-1 {
-    left: var(--size-1);
-    right: var(--size-1);
-  }
-  .inset-x-2 {
-    left: var(--size-2);
-    right: var(--size-2);
-  }
-  .inset-x-3 {
-    left: var(--size-3);
-    right: var(--size-3);
-  }
-  .inset-x-4 {
-    left: var(--size-4);
-    right: var(--size-4);
-  }
-  .inset-x-5 {
-    left: var(--size-5);
-    right: var(--size-5);
-  }
-  .inset-x-6 {
-    left: var(--size-6);
-    right: var(--size-6);
-  }
-  .inset-x-7 {
-    left: var(--size-7);
-    right: var(--size-7);
-  }
-  .inset-x-8 {
-    left: var(--size-8);
-    right: var(--size-8);
-  }
-  .inset-x-9 {
-    left: var(--size-9);
-    right: var(--size-9);
-  }
-  .inset-x-10 {
-    left: var(--size-10);
-    right: var(--size-10);
-  }
-  .inset-x-11 {
-    left: var(--size-11);
-    right: var(--size-11);
-  }
-  .inset-x-12 {
-    left: var(--size-12);
-    right: var(--size-12);
-  }
-  .inset-x-25p {
-    left: 25%;
-    right: 25%;
-  }
-  .inset-x-50p {
-    left: 50%;
-    right: 50%;
-  }
-  .inset-x-75p {
-    left: 75%;
-    right: 75%;
-  }
-  .inset-x-full {
-    left: 100%;
-    right: 100%;
-  }
-  .inset-x-auto {
-    left: auto;
-    right: auto;
-  }
-  .inset-y-0 {
-    top: var(--size-0);
-    bottom: var(--size-0);
-  }
-  .inset-y-px {
-    top: var(--size-px);
-    bottom: var(--size-px);
-  }
-  .inset-y-1 {
-    top: var(--size-1);
-    bottom: var(--size-1);
-  }
-  .inset-y-2 {
-    top: var(--size-2);
-    bottom: var(--size-2);
-  }
-  .inset-y-3 {
-    top: var(--size-3);
-    bottom: var(--size-3);
-  }
-  .inset-y-4 {
-    top: var(--size-4);
-    bottom: var(--size-4);
-  }
-  .inset-y-5 {
-    top: var(--size-5);
-    bottom: var(--size-5);
-  }
-  .inset-y-6 {
-    top: var(--size-6);
-    bottom: var(--size-6);
-  }
-  .inset-y-7 {
-    top: var(--size-7);
-    bottom: var(--size-7);
-  }
-  .inset-y-8 {
-    top: var(--size-8);
-    bottom: var(--size-8);
-  }
-  .inset-y-9 {
-    top: var(--size-9);
-    bottom: var(--size-9);
-  }
-  .inset-y-10 {
-    top: var(--size-10);
-    bottom: var(--size-10);
-  }
-  .inset-y-11 {
-    top: var(--size-11);
-    bottom: var(--size-11);
-  }
-  .inset-y-12 {
-    top: var(--size-12);
-    bottom: var(--size-12);
-  }
-  .inset-y-25p {
-    top: 25%;
-    bottom: 25%;
-  }
-  .inset-y-50p {
-    top: 50%;
-    bottom: 50%;
-  }
-  .inset-y-75p {
-    top: 75%;
-    bottom: 75%;
-  }
-  .inset-y-full {
-    top: 100%;
-    bottom: 100%;
-  }
-  .inset-y-auto {
-    top: auto;
-    bottom: auto;
   }
   .-top-px {
     top: calc(var(--size-px) * -1);
@@ -534,17 +292,23 @@
   .-top-12 {
     top: calc(var(--size-12) * -1);
   }
-  .-top-25p {
-    top: -25%;
+  .-top-25 {
+    top: calc((100% / 4) * -1);
   }
-  .-top-50p {
-    top: -50%;
+  .-top-33 {
+    top: calc((100% / 3) * -1);
   }
-  .-top-75p {
-    top: -75%;
+  .-top-50 {
+    top: calc((100% / 2) * -1);
+  }
+  .-top-67 {
+    top: calc((100% / 1.5) * -1);
+  }
+  .-top-75 {
+    top: calc((100% / 1.333333333) * -1);
   }
   .-top-full {
-    top: -100%;
+    top: calc(100% * -1);
   }
   .-right-px {
     right: calc(var(--size-px) * -1);
@@ -585,17 +349,23 @@
   .-right-12 {
     right: calc(var(--size-12) * -1);
   }
-  .-right-25p {
-    right: -25%;
+  .-right-25 {
+    right: calc((100% / 4) * -1);
   }
-  .-right-50p {
-    right: -50%;
+  .-right-33 {
+    right: calc((100% / 3) * -1);
   }
-  .-right-75p {
-    right: -75%;
+  .-right-50 {
+    right: calc((100% / 2) * -1);
+  }
+  .-right-67 {
+    right: calc((100% / 1.5) * -1);
+  }
+  .-right-75 {
+    right: calc((100% / 1.333333333) * -1);
   }
   .-right-full {
-    right: -100%;
+    right: calc(100% * -1);
   }
   .-bottom-px {
     bottom: calc(var(--size-px) * -1);
@@ -636,17 +406,23 @@
   .-bottom-12 {
     bottom: calc(var(--size-12) * -1);
   }
-  .-bottom-25p {
-    bottom: -25%;
+  .-bottom-25 {
+    bottom: calc((100% / 4) * -1);
   }
-  .-bottom-50p {
-    bottom: -50%;
+  .-bottom-33 {
+    bottom: calc((100% / 3) * -1);
   }
-  .-bottom-75p {
-    bottom: -75%;
+  .-bottom-50 {
+    bottom: calc((100% / 2) * -1);
+  }
+  .-bottom-67 {
+    bottom: calc((100% / 1.5) * -1);
+  }
+  .-bottom-75 {
+    bottom: calc((100% / 1.333333333) * -1);
   }
   .-bottom-full {
-    bottom: -100%;
+    bottom: calc(100% * -1);
   }
   .-left-px {
     left: calc(var(--size-px) * -1);
@@ -687,254 +463,22 @@
   .-left-12 {
     left: calc(var(--size-12) * -1);
   }
-  .-left-25p {
-    left: -25%;
+  .-left-25 {
+    left: calc((100% / 4) * -1);
   }
-  .-left-50p {
-    left: -50%;
+  .-left-33 {
+    left: calc((100% / 3) * -1);
   }
-  .-left-75p {
-    left: -75%;
+  .-left-50 {
+    left: calc((100% / 2) * -1);
+  }
+  .-left-67 {
+    left: calc((100% / 1.5) * -1);
+  }
+  .-left-75 {
+    left: calc((100% / 1.333333333) * -1);
   }
   .-left-full {
-    left: -100%;
-  }
-  .-inset-px {
-    top: calc(var(--size-px) * -1);
-    right: calc(var(--size-px) * -1);
-    bottom: calc(var(--size-px) * -1);
-    left: calc(var(--size-px) * -1);
-  }
-  .-inset-1 {
-    top: calc(var(--size-1) * -1);
-    right: calc(var(--size-1) * -1);
-    bottom: calc(var(--size-1) * -1);
-    left: calc(var(--size-1) * -1);
-  }
-  .-inset-2 {
-    top: calc(var(--size-2) * -1);
-    right: calc(var(--size-2) * -1);
-    bottom: calc(var(--size-2) * -1);
-    left: calc(var(--size-2) * -1);
-  }
-  .-inset-3 {
-    top: calc(var(--size-3) * -1);
-    right: calc(var(--size-3) * -1);
-    bottom: calc(var(--size-3) * -1);
-    left: calc(var(--size-3) * -1);
-  }
-  .-inset-4 {
-    top: calc(var(--size-4) * -1);
-    right: calc(var(--size-4) * -1);
-    bottom: calc(var(--size-4) * -1);
-    left: calc(var(--size-4) * -1);
-  }
-  .-inset-5 {
-    top: calc(var(--size-5) * -1);
-    right: calc(var(--size-5) * -1);
-    bottom: calc(var(--size-5) * -1);
-    left: calc(var(--size-5) * -1);
-  }
-  .-inset-6 {
-    top: calc(var(--size-6) * -1);
-    right: calc(var(--size-6) * -1);
-    bottom: calc(var(--size-6) * -1);
-    left: calc(var(--size-6) * -1);
-  }
-  .-inset-7 {
-    top: calc(var(--size-7) * -1);
-    right: calc(var(--size-7) * -1);
-    bottom: calc(var(--size-7) * -1);
-    left: calc(var(--size-7) * -1);
-  }
-  .-inset-8 {
-    top: calc(var(--size-8) * -1);
-    right: calc(var(--size-8) * -1);
-    bottom: calc(var(--size-8) * -1);
-    left: calc(var(--size-8) * -1);
-  }
-  .-inset-9 {
-    top: calc(var(--size-9) * -1);
-    right: calc(var(--size-9) * -1);
-    bottom: calc(var(--size-9) * -1);
-    left: calc(var(--size-9) * -1);
-  }
-  .-inset-10 {
-    top: calc(var(--size-10) * -1);
-    right: calc(var(--size-10) * -1);
-    bottom: calc(var(--size-10) * -1);
-    left: calc(var(--size-10) * -1);
-  }
-  .-inset-11 {
-    top: calc(var(--size-11) * -1);
-    right: calc(var(--size-11) * -1);
-    bottom: calc(var(--size-11) * -1);
-    left: calc(var(--size-11) * -1);
-  }
-  .-inset-12 {
-    top: calc(var(--size-12) * -1);
-    right: calc(var(--size-12) * -1);
-    bottom: calc(var(--size-12) * -1);
-    left: calc(var(--size-12) * -1);
-  }
-  .-inset-25p {
-    top: -25%;
-    right: -25%;
-    bottom: -25%;
-    left: -25%;
-  }
-  .-inset-50p {
-    top: -50%;
-    right: -50%;
-    bottom: -50%;
-    left: -50%;
-  }
-  .-inset-75p {
-    top: -75%;
-    right: -75%;
-    bottom: -75%;
-    left: -75%;
-  }
-  .-inset-full {
-    top: -100%;
-    right: -100%;
-    bottom: -100%;
-    left: -100%;
-  }
-  .-inset-x-px {
-    left: calc(var(--size-px) * -1);
-    right: calc(var(--size-px) * -1);
-  }
-  .-inset-x-1 {
-    left: calc(var(--size-1) * -1);
-    right: calc(var(--size-1) * -1);
-  }
-  .-inset-x-2 {
-    left: calc(var(--size-2) * -1);
-    right: calc(var(--size-2) * -1);
-  }
-  .-inset-x-3 {
-    left: calc(var(--size-3) * -1);
-    right: calc(var(--size-3) * -1);
-  }
-  .-inset-x-4 {
-    left: calc(var(--size-4) * -1);
-    right: calc(var(--size-4) * -1);
-  }
-  .-inset-x-5 {
-    left: calc(var(--size-5) * -1);
-    right: calc(var(--size-5) * -1);
-  }
-  .-inset-x-6 {
-    left: calc(var(--size-6) * -1);
-    right: calc(var(--size-6) * -1);
-  }
-  .-inset-x-7 {
-    left: calc(var(--size-7) * -1);
-    right: calc(var(--size-7) * -1);
-  }
-  .-inset-x-8 {
-    left: calc(var(--size-8) * -1);
-    right: calc(var(--size-8) * -1);
-  }
-  .-inset-x-9 {
-    left: calc(var(--size-9) * -1);
-    right: calc(var(--size-9) * -1);
-  }
-  .-inset-x-10 {
-    left: calc(var(--size-10) * -1);
-    right: calc(var(--size-10) * -1);
-  }
-  .-inset-x-11 {
-    left: calc(var(--size-11) * -1);
-    right: calc(var(--size-11) * -1);
-  }
-  .-inset-x-12 {
-    left: calc(var(--size-12) * -1);
-    right: calc(var(--size-12) * -1);
-  }
-  .-inset-x-25p {
-    left: -25%;
-    right: -25%;
-  }
-  .-inset-x-50p {
-    left: -50%;
-    right: -50%;
-  }
-  .-inset-x-75p {
-    left: -75%;
-    right: -75%;
-  }
-  .-inset-x-full {
-    left: -100%;
-    right: -100%;
-  }
-  .-inset-y-px {
-    top: calc(var(--size-px) * -1);
-    bottom: calc(var(--size-px) * -1);
-  }
-  .-inset-y-1 {
-    top: calc(var(--size-1) * -1);
-    bottom: calc(var(--size-1) * -1);
-  }
-  .-inset-y-2 {
-    top: calc(var(--size-2) * -1);
-    bottom: calc(var(--size-2) * -1);
-  }
-  .-inset-y-3 {
-    top: calc(var(--size-3) * -1);
-    bottom: calc(var(--size-3) * -1);
-  }
-  .-inset-y-4 {
-    top: calc(var(--size-4) * -1);
-    bottom: calc(var(--size-4) * -1);
-  }
-  .-inset-y-5 {
-    top: calc(var(--size-5) * -1);
-    bottom: calc(var(--size-5) * -1);
-  }
-  .-inset-y-6 {
-    top: calc(var(--size-6) * -1);
-    bottom: calc(var(--size-6) * -1);
-  }
-  .-inset-y-7 {
-    top: calc(var(--size-7) * -1);
-    bottom: calc(var(--size-7) * -1);
-  }
-  .-inset-y-8 {
-    top: calc(var(--size-8) * -1);
-    bottom: calc(var(--size-8) * -1);
-  }
-  .-inset-y-9 {
-    top: calc(var(--size-9) * -1);
-    bottom: calc(var(--size-9) * -1);
-  }
-  .-inset-y-10 {
-    top: calc(var(--size-10) * -1);
-    bottom: calc(var(--size-10) * -1);
-  }
-  .-inset-y-11 {
-    top: calc(var(--size-11) * -1);
-    bottom: calc(var(--size-11) * -1);
-  }
-  .-inset-y-12 {
-    top: calc(var(--size-12) * -1);
-    bottom: calc(var(--size-12) * -1);
-  }
-  .-inset-y-25p {
-    top: -25%;
-    bottom: -25%;
-  }
-  .-inset-y-50p {
-    top: -50%;
-    bottom: -50%;
-  }
-  .-inset-y-75p {
-    top: -75%;
-    bottom: -75%;
-  }
-  .-inset-y-full {
-    top: -100%;
-    bottom: -100%;
+    left: calc(100% * -1);
   }
 }
