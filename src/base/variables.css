@@ -31,20 +31,17 @@
   --box-shadow-none: 0 0 #0000;
 
   --content-xs: 20rem;
-  --content-sm: 24rem;
-  --content-md: 28rem;
-  --content-lg: 32rem;
-  --content-xl: 40rem;
-  --content-2xl: 48rem;
-  --content-3xl: 56rem;
-  --content-4xl: 64rem;
-  --content-5xl: 72rem;
-  --content-6xl: 80rem;
-  --content-prose-sm: 24ch;
-  --content-prose-md: 32ch;
-  --content-prose-lg: 40ch;
-  --content-prose-xl: 48ch;
-  --content-prose-2xl: 56ch;
+  --content-sm: 28rem;
+  --content-md: 36rem;
+  --content-lg: 48rem;
+  --content-xl: 56rem;
+  --content-2xl: 64rem;
+  --content-3xl: 72rem;
+  --content-4xl: 80rem;
+  --content-prose-xs: 25ch;
+  --content-prose-sm: 35ch;
+  --content-prose-md: 45ch;
+  --content-prose-lg: 55ch;
 
   --font-sans: system-ui, sans-serif;
   --font-serif: ui-serif, serif;
