@@ -8,6 +8,7 @@ A CSS library for designing in the browser.
 
    - Variables
    - Reset
+   - Cursor
    - Forms
    - Debug
    - User Select
