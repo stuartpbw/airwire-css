@@ -128,7 +128,12 @@ A CSS library for designing in the browser.
 
 10. **Theme**
 
+    - Animation
     - Background Color
     - Border Color
     - Box Shadow
     - Text Color
+    - Transition
+    - Transition Delay
+    - Transition Duration
+    - Transition Timing
