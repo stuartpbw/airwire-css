@@ -10,24 +10,24 @@
 
 @media (--sm) {
   .container {
-    max-width: var(--content-xl);
+    max-width: 40rem;
   }
 }
 
 @media (--md) {
   .container {
-    max-width: var(--content-2xl);
+    max-width: 48rem;
   }
 }
 
 @media (--lg) {
   .container {
-    max-width: var(--content-4xl);
+    max-width: 64rem;
   }
 }
 
 @media (--xl) {
   .container {
-    max-width: var(--content-6xl);
+    max-width: 80rem;
   }
 }
