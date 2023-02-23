@@ -43,50 +43,23 @@
   .h-12 {
     height: var(--size-12);
   }
-  .h-10p {
-    height: calc(100% / 10);
-  }
-  .h-20p {
-    height: calc(100% / 5);
-  }
-  .h-25p {
+  .h-25 {
     height: calc(100% / 4);
   }
-  .h-30p {
-    height: calc(100% / 3.333333333);
-  }
-  .h-33p {
+  .h-33 {
     height: calc(100% / 3);
   }
-  .h-40p {
-    height: calc(100% / 2.5);
-  }
-  .h-50p {
+  .h-50 {
     height: calc(100% / 2);
   }
-  .h-60p {
-    height: calc(100% / 1.666666667);
-  }
-  .h-67p {
+  .h-67 {
     height: calc(100% / 1.5);
   }
-  .h-70p {
-    height: calc(100% / 1.428571429);
-  }
-  .h-75p {
+  .h-75 {
     height: calc(100% / 1.333333333);
-  }
-  .h-80p {
-    height: calc(100% / 1.25);
-  }
-  .h-90p {
-    height: calc(100% / 1.111111111);
   }
   .h-full {
     height: 100%;
-  }
-  .h-auto {
-    height: auto;
   }
   .h-min {
     height: min-content;
@@ -97,16 +70,25 @@
   .h-fit {
     height: fit-content;
   }
+  .h-auto {
+    height: auto;
+  }
   .vh-25 {
-    height: 25vh;
+    height: calc(100vh / 4);
+  }
+  .vh-33 {
+    height: calc(100vh / 3);
   }
   .vh-50 {
-    height: 50vh;
+    height: calc(100vh / 2);
+  }
+  .vh-67 {
+    height: calc(100vh / 1.5);
   }
   .vh-75 {
-    height: 75vh;
+    height: calc(100vh / 1.333333333);
   }
-  .vh-100 {
+  .vh-full {
     height: 100vh;
   }
 }

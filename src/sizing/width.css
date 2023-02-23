@@ -43,50 +43,23 @@
   .w-12 {
     width: var(--size-12);
   }
-  .w-10p {
-    width: calc(100% / 10);
-  }
-  .w-20p {
-    width: calc(100% / 5);
-  }
-  .w-25p {
+  .w-25 {
     width: calc(100% / 4);
   }
-  .w-30p {
-    width: calc(100% / 3.333333333);
-  }
-  .w-33p {
+  .w-33 {
     width: calc(100% / 3);
   }
-  .w-40p {
-    width: calc(100% / 2.5);
-  }
-  .w-50p {
+  .w-50 {
     width: calc(100% / 2);
   }
-  .w-60p {
-    width: calc(100% / 1.666666667);
-  }
-  .w-67p {
+  .w-67 {
     width: calc(100% / 1.5);
   }
-  .w-70p {
-    width: calc(100% / 1.428571429);
-  }
-  .w-75p {
+  .w-75 {
     width: calc(100% / 1.333333333);
-  }
-  .w-80p {
-    width: calc(100% / 1.25);
-  }
-  .w-90p {
-    width: calc(100% / 1.111111111);
   }
   .w-full {
     width: 100%;
-  }
-  .w-auto {
-    width: auto;
   }
   .w-min {
     width: min-content;
@@ -96,5 +69,8 @@
   }
   .w-fit {
     width: fit-content;
+  }
+  .w-auto {
+    width: auto;
   }
 }
