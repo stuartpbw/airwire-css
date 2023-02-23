@@ -10,6 +10,7 @@ A CSS library for designing in the browser.
    - Reset
    - Forms
    - Debug
+   - User Select
 
 2. **Layout**
 

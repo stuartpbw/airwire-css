@@ -76,6 +76,11 @@ select { background-image: url( "data:image/svg+xml,%3csvg xmlns='http://www.w3.
 .debug * { outline: 1px solid gold; }
 .debug-silver * { outline: 1px solid silver; }
 .debug-grid { background: transparent url( data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAMklEQVR4AWOgCLz/b0epAa6UGuBOqQHOQHLUgFEDnAbcBZ4UGwDOkiCnkIhdgNgNxAYAiYlD+8sEuo8AAAAASUVORK5CYII= ) repeat top left; }
+/* User Select */
+.select-none { -webkit-user-select: none; -moz-user-select: none; user-select: none; }
+.select-text { -webkit-user-select: text; -moz-user-select: text; user-select: text; }
+.select-all { -webkit-user-select: all; -moz-user-select: all; user-select: all; }
+.select-auto { -webkit-user-select: auto; -moz-user-select: auto; user-select: auto; }
 /* Aspect Ratio */
 .aspect-1x1 { aspect-ratio: var( --aspect-1x1 ); }
 .aspect-4x3 { aspect-ratio: var( --aspect-4x3 ); }
