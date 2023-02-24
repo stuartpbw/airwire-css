@@ -156,36 +156,6 @@
 .text-green-900 {
   color: var(--green-900);
 }
-.text-teal-50 {
-  color: var(--teal-50);
-}
-.text-teal-100 {
-  color: var(--teal-100);
-}
-.text-teal-200 {
-  color: var(--teal-200);
-}
-.text-teal-300 {
-  color: var(--teal-300);
-}
-.text-teal-400 {
-  color: var(--teal-400);
-}
-.text-teal-500 {
-  color: var(--teal-500);
-}
-.text-teal-600 {
-  color: var(--teal-600);
-}
-.text-teal-700 {
-  color: var(--teal-700);
-}
-.text-teal-800 {
-  color: var(--teal-800);
-}
-.text-teal-900 {
-  color: var(--teal-900);
-}
 .text-cyan-50 {
   color: var(--cyan-50);
 }
