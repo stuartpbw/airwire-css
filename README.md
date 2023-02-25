@@ -87,6 +87,7 @@ A CSS library for designing in the browser.
    - Line Height
    - List Style Position
    - List Style Type
+   - Prose
    - Text Align
    - Text Decoration
    - Text Decoration Style

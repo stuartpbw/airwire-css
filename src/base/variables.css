@@ -69,6 +69,23 @@
   --line-height-relaxed: 1.625;
   --line-height-loose: 2;
 
+  --prose-body: var(--gray-700);
+  --prose-headings: var(--gray-900);
+  --prose-lead: var(--gray-600);
+  --prose-links: var(--gray-900);
+  --prose-bold: var(--gray-900);
+  --prose-counters: var(--gray-500);
+  --prose-bullets: var(--gray-300);
+  --prose-hr: var(--gray-200);
+  --prose-quotes: var(--gray-900);
+  --prose-quote-borders: var(--gray-200);
+  --prose-captions: var(--gray-500);
+  --prose-code: var(--gray-900);
+  --prose-pre-code: var(--gray-200);
+  --prose-pre-bg: var(--gray-800);
+  --prose-th-borders: var(--gray-300);
+  --prose-td-borders: var(--gray-200);
+
   --size-0: 0;
   --size-px: 1px;
   --size-1: 0.125rem;
